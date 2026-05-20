@@ -89,3 +89,24 @@ Codex 앱 자체의 내부 데이터 폴더는:
 - `E:\Study\Codex` 폴더에 대화 기록용 Markdown 파일을 저장합니다.
 - 해당 폴더에서 Git 저장소를 초기화합니다.
 - 원격 저장소 `https://github.com/dumaclub/codex.git`에 커밋 후 push합니다.
+
+---
+
+## Assistant 작업 결과
+
+`E:\Study\Codex` 폴더에 대화 기록 저장소를 만들고 GitHub로 업로드했습니다.
+
+생성된 파일:
+
+- `README.md`
+- `conversation.md`
+
+Git 처리 결과:
+
+- `git init` 완료
+- 기본 브랜치 `main` 설정 완료
+- 원격 저장소 `https://github.com/dumaclub/codex.git` 연결 완료
+- 커밋 생성 완료
+- `origin/main`으로 push 완료
+
+다른 PC에서는 GitHub 저장소를 열거나 clone해서 `conversation.md`를 확인하면 됩니다.
