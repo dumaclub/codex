@@ -7,7 +7,7 @@
 - Updated: 2026-04-28T00:52:32.7106328Z
 - Messages exported: 26
 
-> Export note: Codex ?? ???/??? ???, ?? ?? ??, base64 ??? ??? ???? ???/assistant ??? ??????.
+> Export note: internal system/developer instructions, tool execution logs, and base64 image payloads are omitted. Only user/assistant messages are archived.
 
 ## Conversation
 
@@ -101,7 +101,7 @@ The operation has timed out.
 
 라이브에서 활성화 되어 있는 서버 목록입니다. type 값이 5인 서버들 모두 위에 전달드린 Exception 이 발생되었습니다. 공통원인으로 찾아볼 수 있는게 있나요?
 
-[??? ??: ?? base64 ???? ???? ??]
+[Image attached: base64 payload omitted]
 
 ### Assistant
 
@@ -172,7 +172,7 @@ Test-NetConnection 10.0.1.83 -Port 3306
 
 databaseinfo 정보입니다. writeIp와 readIp 모두 동일하고 같은 포트를 사용하고 있습니다. 현재 서비스 중인데 금일 오전에 갑자기 모든 database node 들에게서 동일한 오류가 발생되었습니다. 계정과 패스워도드 모두 동일하며 라이브 서비스 중이였기 때문에 전혀 문제가 없었습니다. aws 를 사용하다 tencent cloud 로 넘어오고 처음 발생되는 현상입니다. aws 에서는 2년동안 한번도 발생된적이 없는 오류였습니다.
 
-[??? ??: ?? base64 ???? ???? ??]
+[Image attached: base64 payload omitted]
 
 ### Assistant
 
@@ -245,9 +245,9 @@ Tencent Console에서는 장애 발생 시간 기준으로 다음을 보시면 �
 
 이게 좀 의심스러운 점은 dbnode 서버에 dbnode 하나의 프로세스만 떠 있는것이 아니라 game 서버, community 서버, trade 서버도 있습니다. 다른 서버들도 db 커넥션이 있는데 dbnode 만 발생하였다는게 조금 이상한 점입니다.
 
-[??? ??: ?? base64 ???? ???? ??]
+[Image attached: base64 payload omitted]
 
-[??? ??: ?? base64 ???? ???? ??]
+[Image attached: base64 payload omitted]
 
 ### User
 
@@ -279,9 +279,9 @@ max_connections	16500
 
 이게 좀 의심스러운 점은 dbnode 서버에 dbnode 하나의 프로세스만 떠 있는것이 아니라 game 서버, community 서버, trade 서버도 있습니다. 다른 서버들도 db 커넥션이 있는데 dbnode 만 발생하였다는게 조금 이상한 점입니다.
 
-[??? ??: ?? base64 ???? ???? ??]
+[Image attached: base64 payload omitted]
 
-[??? ??: ?? base64 ???? ???? ??]
+[Image attached: base64 payload omitted]
 
 ### Assistant
 
