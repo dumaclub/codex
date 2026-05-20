@@ -1,0 +1,335 @@
+{
+  "exportedAt": "2026-05-20T02:32:26.254Z",
+  "source": {
+    "sessionIndex": "C:\\Users\\dumaclub\\.codex\\session_index.jsonl",
+    "sessionsDir": "C:\\Users\\dumaclub\\.codex\\sessions"
+  },
+  "projects": {
+    "Rasalas": [
+      {
+        "id": "019d8fe3-b0ce-7183-84e8-638522bca6d7",
+        "title": "함수·변수명 위치 찾기 } }}**",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-04-15T06:46:04.8147447Z",
+        "messages": 2,
+        "file": "projects/Rasalas/2026-04-15_0646_함수·변수명 위치 찾기 } }}_019d8fe3.md"
+      },
+      {
+        "id": "019d93ca-aa73-73f0-944b-871e0566421b",
+        "title": "Context: - 개발환경: Windows 11 / Visual Studio 2022 - 라이브 환경 : aws linux - Language",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-04-16T00:57:08.926Z",
+        "messages": 10,
+        "file": "projects/Rasalas/2026-04-16_0057_Context - 개발환경 Windows 11 Visual Studio 2022 - 라이브 환경 aws linux - Language_019d93ca.md"
+      },
+      {
+        "id": "019dae9c-f1c2-7ff2-b47c-9f5e0474775c",
+        "title": "보물 레벨 총합 스킬 이식 설계 검토",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-04-21T05:57:05.2340914Z",
+        "messages": 86,
+        "file": "projects/Rasalas/2026-04-21_0557_보물 레벨 총합 스킬 이식 설계 검토_019dae9c.md"
+      },
+      {
+        "id": "019dbdf7-1de1-71a2-bb25-2264f643316d",
+        "title": "EventType 11→7 변경 영향 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-04-24T05:29:50.4978546Z",
+        "messages": 30,
+        "file": "projects/Rasalas/2026-04-24_0529_EventType 11→7 변경 영향 확인_019dbdf7.md"
+      },
+      {
+        "id": "019dbee7-458f-7a21-ae13-97d02f41c9a8",
+        "title": "server_group 키 누락 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-04-24T09:52:13.1194217Z",
+        "messages": 9,
+        "file": "projects/Rasalas/2026-04-24_0952_server_group 키 누락 확인_019dbee7.md"
+      },
+      {
+        "id": "019dd192-b533-7f93-9055-6b030be1e591",
+        "title": "Fix MySQL connect timeout",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-04-28T00:52:32.7106328Z",
+        "messages": 26,
+        "file": "projects/Rasalas/2026-04-28_0052_Fix MySQL connect timeout_019dd192.md"
+      },
+      {
+        "id": "019dfb1c-ad98-79d0-8b9e-caffc14477c5",
+        "title": "수정 이벤트 2119 보상 전달",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-06T02:27:39.6834376Z",
+        "messages": 14,
+        "file": "projects/Rasalas/2026-05-06_0227_수정 이벤트 2119 보상 전달_019dfb1c.md"
+      },
+      {
+        "id": "019e06a9-9afa-73f3-b75b-767be9e1122a",
+        "title": "CheatPrivilegeUse 구현",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-08T08:17:33.6160833Z",
+        "messages": 14,
+        "file": "projects/Rasalas/2026-05-08_0817_CheatPrivilegeUse 구현_019e06a9.md"
+      },
+      {
+        "id": "019e15d3-64f0-73f2-a0d0-e495958a480c",
+        "title": "ResetDailyQuest minLevel 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-11T06:58:22.2219345Z",
+        "messages": 10,
+        "file": "projects/Rasalas/2026-05-11_0658_ResetDailyQuest minLevel 확인_019e15d3.md"
+      },
+      {
+        "id": "019e1627-06e2-7e11-af94-5204959fc362",
+        "title": "추가 더블 쓰로우 설계",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-11T08:28:44.8747788Z",
+        "messages": 82,
+        "file": "projects/Rasalas/2026-05-11_0828_추가 더블 쓰로우 설계_019e1627.md"
+      },
+      {
+        "id": "019e1acd-234c-7531-9114-7f95933e0626",
+        "title": "newEndDate 미적용 원인 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-12T06:08:50.4251668Z",
+        "messages": 12,
+        "file": "projects/Rasalas/2026-05-12_0608_newEndDate 미적용 원인 확인_019e1acd.md"
+      },
+      {
+        "id": "019e39c7-2355-71e2-819b-9d062f37675b",
+        "title": "특권 아이템 구매 추가",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-18T06:30:23.8310334Z",
+        "messages": 16,
+        "file": "projects/Rasalas/2026-05-18_0630_특권 아이템 구매 추가_019e39c7.md"
+      },
+      {
+        "id": "019e3f4d-7766-7b41-9990-be23ef3fa8f8",
+        "title": "신규 컬럼 필요 여부 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-19T08:15:08.7170903Z",
+        "messages": 27,
+        "file": "projects/Rasalas/2026-05-19_0815_신규 컬럼 필요 여부 확인_019e3f4d.md"
+      },
+      {
+        "id": "019e3f8b-e6f6-7820-9996-d81f3e8fc5bd",
+        "title": "슬래이어 7번 매핑 수정",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-19T09:23:29.0432579Z",
+        "messages": 10,
+        "file": "projects/Rasalas/2026-05-19_0923_슬래이어 7번 매핑 수정_019e3f8b.md"
+      }
+    ],
+    "Tetris": [
+      {
+        "id": "019d9613-1ef8-7660-96c1-f52454f34f26",
+        "title": "Unity 6000 싱글 게임 생성",
+        "cwd": "D:\\TestProject\\Tetris",
+        "updatedAt": "2026-04-16T11:42:03.1236582Z",
+        "messages": 36,
+        "file": "projects/Tetris/2026-04-16_1142_Unity 6000 싱글 게임 생성_019d9613.md"
+      },
+      {
+        "id": "019d9911-9d6d-7b20-ab22-3a362bcba0d7",
+        "title": "서버 언어 성능 유지보수 비교 سوال",
+        "cwd": "D:\\TestProject\\Tetris",
+        "updatedAt": "2026-04-17T01:34:08.7611808Z",
+        "messages": 5,
+        "file": "projects/Tetris/2026-04-17_0134_서버 언어 성능 유지보수 비교 سوال_019d9911.md"
+      },
+      {
+        "id": "019e3ec6-2cad-7322-886e-4ec1dd3c9086",
+        "title": "싱글·멀티 UI 개편",
+        "cwd": "D:\\TestProject\\Tetris",
+        "updatedAt": "2026-05-19T05:47:47.3156211Z",
+        "messages": 28,
+        "file": "projects/Tetris/2026-05-19_0547_싱글·멀티 UI 개편_019e3ec6.md"
+      }
+    ],
+    "Astellia": [
+      {
+        "id": "019d93d5-9ae5-7a51-a1c1-9ae04d53f912",
+        "title": "Fix 리라 보호막 무한발동 버그",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-16T01:09:10.7257823Z",
+        "messages": 23,
+        "file": "projects/Astellia/2026-04-16_0109_Fix 리라 보호막 무한발동 버그_019d93d5.md"
+      },
+      {
+        "id": "019d9918-5a62-7ad1-b389-4de899e31db9",
+        "title": "서버 코드 기반 현재 구성도 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-17T01:40:21.0921802Z",
+        "messages": 23,
+        "file": "projects/Astellia/2026-04-17_0140_서버 코드 기반 현재 구성도 확인_019d9918.md"
+      },
+      {
+        "id": "019d99c0-43aa-7a22-92a7-5f4cde6532db",
+        "title": "MySQL DB별 크기 확인법'}",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-17T04:43:53.774913Z",
+        "messages": 41,
+        "file": "projects/Astellia/2026-04-17_0443_MySQL DB별 크기 확인법'}_019d99c0.md"
+      },
+      {
+        "id": "019d99e8-f167-7bb0-a3a7-58b631f0c883",
+        "title": "리턴유저 판정 기준 확인 করুন",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-17T05:28:01.8192061Z",
+        "messages": 7,
+        "file": "projects/Astellia/2026-04-17_0528_리턴유저 판정 기준 확인 করুন_019d99e8.md"
+      },
+      {
+        "id": "019d9a91-2724-76b2-9f61-b25acdb707e7",
+        "title": "수정 보스 스킬 전방 피격범위 오류",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-17T08:31:56.3196582Z",
+        "messages": 39,
+        "file": "projects/Astellia/2026-04-17_0831_수정 보스 스킬 전방 피격범위 오류_019d9a91.md"
+      },
+      {
+        "id": "019da892-4484-7b11-aabd-e103c40b09ab",
+        "title": "FailUpdateDB 발생 코드 찾기",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-20T01:47:38.7300713Z",
+        "messages": 7,
+        "file": "projects/Astellia/2026-04-20_0147_FailUpdateDB 발생 코드 찾기_019da892.md"
+      },
+      {
+        "id": "019daa0d-7407-7203-936f-6b9dd56683ab",
+        "title": "튜토리얼 스킵 오류 원인 분석}】",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-20T08:41:51.71005Z",
+        "messages": 30,
+        "file": "projects/Astellia/2026-04-20_0841_튜토리얼 스킵 오류 원인 분석}】_019daa0d.md"
+      },
+      {
+        "id": "019dadea-9126-7451-bbf7-cce89bafb18b",
+        "title": "보물 레벨 합 번개 스킬 처리 로직 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-21T02:42:14.2417556Z",
+        "messages": 11,
+        "file": "projects/Astellia/2026-04-21_0242_보물 레벨 합 번개 스킬 처리 로직 확인_019dadea.md"
+      },
+      {
+        "id": "019daeaf-e29e-7051-8177-26456adcd357",
+        "title": "확인 헤이트리드 버프 제거 원인 분석",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-21T06:18:23.8015203Z",
+        "messages": 9,
+        "file": "projects/Astellia/2026-04-21_0618_확인 헤이트리드 버프 제거 원인 분석_019daeaf.md"
+      },
+      {
+        "id": "019db832-057e-7470-9ebd-b20ebfefa642",
+        "title": "확인 보물 레벨제한 합산 오류 원인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-23T02:38:40.9709205Z",
+        "messages": 16,
+        "file": "projects/Astellia/2026-04-23_0238_확인 보물 레벨제한 합산 오류 원인_019db832.md"
+      },
+      {
+        "id": "019dbd72-cdb1-79a2-bca0-9e535c9e3082",
+        "title": "드랍 아이템 획득 불가 원인 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-24T03:05:19.9096523Z",
+        "messages": 38,
+        "file": "projects/Astellia/2026-04-24_0305_드랍 아이템 획득 불가 원인 확인_019dbd72.md"
+      },
+      {
+        "id": "019dbd8b-8d70-7773-a21d-f1ac95c43cdf",
+        "title": "검토 글로벌 서버 기능 적용 가능성",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-24T03:32:26.4019022Z",
+        "messages": 2,
+        "file": "projects/Astellia/2026-04-24_0332_검토 글로벌 서버 기능 적용 가능성_019dbd8b.md"
+      },
+      {
+        "id": "019dbe99-95ec-77a1-971e-19ce212b25af",
+        "title": "아스텔 로그 중에 사용자 IP를 출력하는 로그를 종류를 알려주세요. HiveVerify = 1001, //하이브 인증 LobyEnter = 10",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-24T08:27:13.093Z",
+        "messages": 8,
+        "file": "projects/Astellia/2026-04-24_0827_아스텔 로그 중에 사용자 IP를 출력하는 로그를 종류를 알려주세요. HiveVerify = 1001, 하이브 인증 LobyEnter = 10_019dbe99.md"
+      },
+      {
+        "id": "019dccad-532e-7180-9d1e-cff74ed9f41e",
+        "title": "복구쿠폰 SQL 검증",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-27T02:03:45.6593091Z",
+        "messages": 13,
+        "file": "projects/Astellia/2026-04-27_0203_복구쿠폰 SQL 검증_019dccad.md"
+      },
+      {
+        "id": "019dce3b-acc9-7563-adb6-a76a8359ad90",
+        "title": "유물 버프 하락 적용 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-27T09:18:36.1903454Z",
+        "messages": 58,
+        "file": "projects/Astellia/2026-04-27_0918_유물 버프 하락 적용 확인_019dce3b.md"
+      },
+      {
+        "id": "019dd3cd-81e4-7692-9382-8f7826f41fd4",
+        "title": "판테온 합성 신화 즉시 확정 수정",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-28T11:16:02.6986091Z",
+        "messages": 9,
+        "file": "projects/Astellia/2026-04-28_1116_판테온 합성 신화 즉시 확정 수정_019dd3cd.md"
+      },
+      {
+        "id": "019dd72e-ca2e-71d3-9129-7536be17dbd1",
+        "title": "randValue 상위 랭크 조건 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-29T03:01:16.366935Z",
+        "messages": 8,
+        "file": "projects/Astellia/2026-04-29_0301_randValue 상위 랭크 조건 확인_019dd72e.md"
+      },
+      {
+        "id": "019ddd16-a07a-7af3-a8d7-18b0ea08db41",
+        "title": "주간 이벤트 리셋 추가",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-04-30T06:32:28.7411644Z",
+        "messages": 10,
+        "file": "projects/Astellia/2026-04-30_0632_주간 이벤트 리셋 추가_019ddd16.md"
+      },
+      {
+        "id": "019dfbd0-2b3b-7800-9461-a681d3144bec",
+        "title": "서버-클라 hp/mp 차이 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-05-06T05:47:31.1025261Z",
+        "messages": 32,
+        "file": "projects/Astellia/2026-05-06_0547_서버-클라 hp mp 차이 확인_019dfbd0.md"
+      },
+      {
+        "id": "019e0637-a476-77b2-aa74-03ea801a9322",
+        "title": "observation 테이블 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-05-08T06:12:56.6837437Z",
+        "messages": 12,
+        "file": "projects/Astellia/2026-05-08_0612_observation 테이블 확인_019e0637.md"
+      },
+      {
+        "id": "019e20bf-c59b-7732-84a1-6ed9969f341b",
+        "title": "petAwakenLv 0 전달 원인 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-05-13T09:51:47.7945567Z",
+        "messages": 38,
+        "file": "projects/Astellia/2026-05-13_0951_petAwakenLv 0 전달 원인 확인_019e20bf.md"
+      },
+      {
+        "id": "019e2466-c8c5-74b0-9b08-9c6c12bd8a87",
+        "title": "독 폭발 대미지 계산 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-05-14T02:53:10.6519659Z",
+        "messages": 47,
+        "file": "projects/Astellia/2026-05-14_0253_독 폭발 대미지 계산 확인_019e2466.md"
+      },
+      {
+        "id": "019e38b7-f9fb-7bb2-a550-57e0b2cd3b7b",
+        "title": "동접 1000 기준 검토",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-05-18T01:35:58.2717202Z",
+        "messages": 25,
+        "file": "projects/Astellia/2026-05-18_0135_동접 1000 기준 검토_019e38b7.md"
+      }
+    ]
+  }
+}
