@@ -1,8 +1,36 @@
 {
-  "exportedAt": "2026-05-20T02:34:45.272Z",
+  "exportedAt": "2026-05-22T00:07:38.158Z",
   "source": {
     "sessionIndex": "C:\\Users\\dumaclub\\.codex\\session_index.jsonl",
+    "globalState": "C:\\Users\\dumaclub\\.codex\\.codex-global-state.json",
     "sessionsDir": "C:\\Users\\dumaclub\\.codex\\sessions"
+  },
+  "savedWorkspaces": [
+    {
+      "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+      "project": "Zzz",
+      "labelSource": "electron-workspace-root-labels"
+    },
+    {
+      "cwd": "D:\\TestProject\\Tetris",
+      "project": "Tetris",
+      "labelSource": "workspace basename"
+    },
+    {
+      "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+      "project": "Astellia",
+      "labelSource": "electron-workspace-root-labels"
+    },
+    {
+      "cwd": "E:\\Rasalas\\Trunk\\qa",
+      "project": "Rasalas",
+      "labelSource": "electron-workspace-root-labels"
+    }
+  ],
+  "totals": {
+    "projects": 4,
+    "threads": 46,
+    "messages": 1061
   },
   "projects": {
     "Rasalas": [
@@ -117,32 +145,38 @@
         "updatedAt": "2026-05-19T09:23:29.0432579Z",
         "messages": 10,
         "file": "projects/Rasalas/2026-05-19_0923_슬래이어 7번 매핑 수정_019e3f8b.md"
-      }
-    ],
-    "Tetris": [
-      {
-        "id": "019d9613-1ef8-7660-96c1-f52454f34f26",
-        "title": "Unity 6000 싱글 게임 생성",
-        "cwd": "D:\\TestProject\\Tetris",
-        "updatedAt": "2026-04-16T11:42:03.1236582Z",
-        "messages": 36,
-        "file": "projects/Tetris/2026-04-16_1142_Unity 6000 싱글 게임 생성_019d9613.md"
       },
       {
-        "id": "019d9911-9d6d-7b20-ab22-3a362bcba0d7",
-        "title": "서버 언어 성능 유지보수 비교 سوال",
-        "cwd": "D:\\TestProject\\Tetris",
-        "updatedAt": "2026-04-17T01:34:08.7611808Z",
-        "messages": 5,
-        "file": "projects/Tetris/2026-04-17_0134_서버 언어 성능 유지보수 비교 سوال_019d9911.md"
+        "id": "019e43f5-1109-70e0-854f-8c9c22dcdd46",
+        "title": "EffectiveDate 처리 위치 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-20T05:56:43.9040584Z",
+        "messages": 51,
+        "file": "projects/Rasalas/2026-05-20_0556_EffectiveDate 처리 위치 확인_019e43f5.md"
       },
       {
-        "id": "019e3ec6-2cad-7322-886e-4ec1dd3c9086",
-        "title": "싱글·멀티 UI 개편",
-        "cwd": "D:\\TestProject\\Tetris",
-        "updatedAt": "2026-05-19T05:47:47.3156211Z",
-        "messages": 28,
-        "file": "projects/Tetris/2026-05-19_0547_싱글·멀티 UI 개편_019e3ec6.md"
+        "id": "019e48fc-8e73-7ab1-8af0-5fef8afcf742",
+        "title": "BMStoreData 초기화 위치 찾기",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-21T05:23:13.2949977Z",
+        "messages": 6,
+        "file": "projects/Rasalas/2026-05-21_0523_BMStoreData 초기화 위치 찾기_019e48fc.md"
+      },
+      {
+        "id": "019e4a30-f0fc-7041-8eda-79ee6491dfa1",
+        "title": "SpawnMonster 코드 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-21T10:59:59.4939816Z",
+        "messages": 9,
+        "file": "projects/Rasalas/2026-05-21_1059_SpawnMonster 코드 확인_019e4a30.md"
+      },
+      {
+        "id": "019e4a5f-56cb-7753-8477-2293d9887999",
+        "title": "클래스체인지 서약 비용 수정",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-21T11:50:54.5692168Z",
+        "messages": 30,
+        "file": "projects/Rasalas/2026-05-21_1150_클래스체인지 서약 비용 수정_019e4a5f.md"
       }
     ],
     "Astellia": [
@@ -287,7 +321,7 @@
         "title": "주간 이벤트 리셋 추가",
         "cwd": "E:\\ProjectA02\\Trunk\\Dev",
         "updatedAt": "2026-04-30T06:32:28.7411644Z",
-        "messages": 10,
+        "messages": 14,
         "file": "projects/Astellia/2026-04-30_0632_주간 이벤트 리셋 추가_019ddd16.md"
       },
       {
@@ -329,6 +363,50 @@
         "updatedAt": "2026-05-18T01:35:58.2717202Z",
         "messages": 25,
         "file": "projects/Astellia/2026-05-18_0135_동접 1000 기준 검토_019e38b7.md"
+      }
+    ],
+    "Tetris": [
+      {
+        "id": "019d9613-1ef8-7660-96c1-f52454f34f26",
+        "title": "Unity 6000 싱글 게임 생성",
+        "cwd": "D:\\TestProject\\Tetris",
+        "updatedAt": "2026-04-16T11:42:03.1236582Z",
+        "messages": 36,
+        "file": "projects/Tetris/2026-04-16_1142_Unity 6000 싱글 게임 생성_019d9613.md"
+      },
+      {
+        "id": "019d9911-9d6d-7b20-ab22-3a362bcba0d7",
+        "title": "서버 언어 성능 유지보수 비교 سوال",
+        "cwd": "D:\\TestProject\\Tetris",
+        "updatedAt": "2026-04-17T01:34:08.7611808Z",
+        "messages": 5,
+        "file": "projects/Tetris/2026-04-17_0134_서버 언어 성능 유지보수 비교 سوال_019d9911.md"
+      },
+      {
+        "id": "019e3ec6-2cad-7322-886e-4ec1dd3c9086",
+        "title": "싱글·멀티 UI 개편",
+        "cwd": "D:\\TestProject\\Tetris",
+        "updatedAt": "2026-05-19T05:47:47.3156211Z",
+        "messages": 28,
+        "file": "projects/Tetris/2026-05-19_0547_싱글·멀티 UI 개편_019e3ec6.md"
+      }
+    ],
+    "Zzz": [
+      {
+        "id": "019dd2b8-8435-7b50-95c5-5107bb4e793b",
+        "title": "Codex 내용 백업 및 이동",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "updatedAt": "2026-04-28T06:13:43.2919882Z",
+        "messages": 3,
+        "file": "projects/Zzz/2026-04-28_0613_Codex 내용 백업 및 이동_019dd2b8.md"
+      },
+      {
+        "id": "019e42e6-c624-7a03-89b3-3f564cab6f7d",
+        "title": "Git 업로드 가능 여부 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "updatedAt": "2026-05-20T01:01:37.9507928Z",
+        "messages": 35,
+        "file": "projects/Zzz/2026-05-20_0101_Git 업로드 가능 여부 확인_019e42e6.md"
       }
     ]
   }

@@ -1,21 +1,23 @@
 # Codex Conversation Archive
 
-Exported: 2026-05-20T02:34:45.272Z
+Exported: 2026-05-22T00:07:38.158Z
 
 This repository stores project conversation archives from Codex as Markdown files. It does not include source projects or the raw `.codex` folder.
 
 ## Scope
 
-- Rasalas: 14 threads, 348 user/assistant messages
+- Rasalas: 18 threads, 444 user/assistant messages
+- Astellia: 23 threads, 510 user/assistant messages
 - Tetris: 3 threads, 69 user/assistant messages
-- Astellia: 23 threads, 506 user/assistant messages
-- Total: 40 threads, 923 user/assistant messages
+- Zzz: 2 threads, 38 user/assistant messages
+- Total: 46 threads, 1061 user/assistant messages
 
 ## File Structure
 
 - `projects/Rasalas/`: Rasalas conversations
-- `projects/Tetris/`: Tetris conversations
 - `projects/Astellia/`: Astellia conversations
+- `projects/Tetris/`: Tetris conversations
+- `projects/Zzz/`: Zzz conversations
 - `conversation.md`: earlier Git-upload check thread kept for reference
 - `archive-index.json`: machine-readable export index
 
@@ -43,12 +45,10 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-05-18 [특권 아이템 구매 추가](projects/Rasalas/2026-05-18_0630_%ED%8A%B9%EA%B6%8C%20%EC%95%84%EC%9D%B4%ED%85%9C%20%EA%B5%AC%EB%A7%A4%20%EC%B6%94%EA%B0%80_019e39c7.md)
 - 2026-05-19 [신규 컬럼 필요 여부 확인](projects/Rasalas/2026-05-19_0815_%EC%8B%A0%EA%B7%9C%20%EC%BB%AC%EB%9F%BC%20%ED%95%84%EC%9A%94%20%EC%97%AC%EB%B6%80%20%ED%99%95%EC%9D%B8_019e3f4d.md)
 - 2026-05-19 [슬래이어 7번 매핑 수정](projects/Rasalas/2026-05-19_0923_%EC%8A%AC%EB%9E%98%EC%9D%B4%EC%96%B4%207%EB%B2%88%20%EB%A7%A4%ED%95%91%20%EC%88%98%EC%A0%95_019e3f8b.md)
-
-### Tetris
-
-- 2026-04-16 [Unity 6000 싱글 게임 생성](projects/Tetris/2026-04-16_1142_Unity%206000%20%EC%8B%B1%EA%B8%80%20%EA%B2%8C%EC%9E%84%20%EC%83%9D%EC%84%B1_019d9613.md)
-- 2026-04-17 [서버 언어 성능 유지보수 비교 سوال](projects/Tetris/2026-04-17_0134_%EC%84%9C%EB%B2%84%20%EC%96%B8%EC%96%B4%20%EC%84%B1%EB%8A%A5%20%EC%9C%A0%EC%A7%80%EB%B3%B4%EC%88%98%20%EB%B9%84%EA%B5%90%20%D8%B3%D9%88%D8%A7%D9%84_019d9911.md)
-- 2026-05-19 [싱글·멀티 UI 개편](projects/Tetris/2026-05-19_0547_%EC%8B%B1%EA%B8%80%C2%B7%EB%A9%80%ED%8B%B0%20UI%20%EA%B0%9C%ED%8E%B8_019e3ec6.md)
+- 2026-05-20 [EffectiveDate 처리 위치 확인](projects/Rasalas/2026-05-20_0556_EffectiveDate%20%EC%B2%98%EB%A6%AC%20%EC%9C%84%EC%B9%98%20%ED%99%95%EC%9D%B8_019e43f5.md)
+- 2026-05-21 [BMStoreData 초기화 위치 찾기](projects/Rasalas/2026-05-21_0523_BMStoreData%20%EC%B4%88%EA%B8%B0%ED%99%94%20%EC%9C%84%EC%B9%98%20%EC%B0%BE%EA%B8%B0_019e48fc.md)
+- 2026-05-21 [SpawnMonster 코드 확인](projects/Rasalas/2026-05-21_1059_SpawnMonster%20%EC%BD%94%EB%93%9C%20%ED%99%95%EC%9D%B8_019e4a30.md)
+- 2026-05-21 [클래스체인지 서약 비용 수정](projects/Rasalas/2026-05-21_1150_%ED%81%B4%EB%9E%98%EC%8A%A4%EC%B2%B4%EC%9D%B8%EC%A7%80%20%EC%84%9C%EC%95%BD%20%EB%B9%84%EC%9A%A9%20%EC%88%98%EC%A0%95_019e4a5f.md)
 
 ### Astellia
 
@@ -75,3 +75,14 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-05-13 [petAwakenLv 0 전달 원인 확인](projects/Astellia/2026-05-13_0951_petAwakenLv%200%20%EC%A0%84%EB%8B%AC%20%EC%9B%90%EC%9D%B8%20%ED%99%95%EC%9D%B8_019e20bf.md)
 - 2026-05-14 [독 폭발 대미지 계산 확인](projects/Astellia/2026-05-14_0253_%EB%8F%85%20%ED%8F%AD%EB%B0%9C%20%EB%8C%80%EB%AF%B8%EC%A7%80%20%EA%B3%84%EC%82%B0%20%ED%99%95%EC%9D%B8_019e2466.md)
 - 2026-05-18 [동접 1000 기준 검토](projects/Astellia/2026-05-18_0135_%EB%8F%99%EC%A0%91%201000%20%EA%B8%B0%EC%A4%80%20%EA%B2%80%ED%86%A0_019e38b7.md)
+
+### Tetris
+
+- 2026-04-16 [Unity 6000 싱글 게임 생성](projects/Tetris/2026-04-16_1142_Unity%206000%20%EC%8B%B1%EA%B8%80%20%EA%B2%8C%EC%9E%84%20%EC%83%9D%EC%84%B1_019d9613.md)
+- 2026-04-17 [서버 언어 성능 유지보수 비교 سوال](projects/Tetris/2026-04-17_0134_%EC%84%9C%EB%B2%84%20%EC%96%B8%EC%96%B4%20%EC%84%B1%EB%8A%A5%20%EC%9C%A0%EC%A7%80%EB%B3%B4%EC%88%98%20%EB%B9%84%EA%B5%90%20%D8%B3%D9%88%D8%A7%D9%84_019d9911.md)
+- 2026-05-19 [싱글·멀티 UI 개편](projects/Tetris/2026-05-19_0547_%EC%8B%B1%EA%B8%80%C2%B7%EB%A9%80%ED%8B%B0%20UI%20%EA%B0%9C%ED%8E%B8_019e3ec6.md)
+
+### Zzz
+
+- 2026-04-28 [Codex 내용 백업 및 이동](projects/Zzz/2026-04-28_0613_Codex%20%EB%82%B4%EC%9A%A9%20%EB%B0%B1%EC%97%85%20%EB%B0%8F%20%EC%9D%B4%EB%8F%99_019dd2b8.md)
+- 2026-05-20 [Git 업로드 가능 여부 확인](projects/Zzz/2026-05-20_0101_Git%20%EC%97%85%EB%A1%9C%EB%93%9C%20%EA%B0%80%EB%8A%A5%20%EC%97%AC%EB%B6%80%20%ED%99%95%EC%9D%B8_019e42e6.md)
