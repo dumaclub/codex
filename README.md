@@ -1,16 +1,16 @@
 # Codex Conversation Archive
 
-Exported: 2026-05-22T00:07:38.158Z
+Exported: 2026-05-29T00:10:09.216Z
 
 This repository stores project conversation archives from Codex as Markdown files. It does not include source projects or the raw `.codex` folder.
 
 ## Scope
 
-- Rasalas: 18 threads, 444 user/assistant messages
-- Astellia: 23 threads, 510 user/assistant messages
+- Rasalas: 25 threads, 569 user/assistant messages
+- Astellia: 26 threads, 549 user/assistant messages
 - Tetris: 3 threads, 69 user/assistant messages
 - Zzz: 2 threads, 38 user/assistant messages
-- Total: 46 threads, 1061 user/assistant messages
+- Total: 56 threads, 1225 user/assistant messages
 
 ## File Structure
 
@@ -32,7 +32,7 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 ### Rasalas
 
 - 2026-04-15 [함수·변수명 위치 찾기 } }}**](projects/Rasalas/2026-04-15_0646_%ED%95%A8%EC%88%98%C2%B7%EB%B3%80%EC%88%98%EB%AA%85%20%EC%9C%84%EC%B9%98%20%EC%B0%BE%EA%B8%B0%20%7D%20%7D%7D_019d8fe3.md)
-- 2026-04-16 [Context: - 개발환경: Windows 11 / Visual Studio 2022 - 라이브 환경 : aws linux - Language](projects/Rasalas/2026-04-16_0057_Context%20-%20%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD%20Windows%2011%20Visual%20Studio%202022%20-%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%20%ED%99%98%EA%B2%BD%20aws%20linux%20-%20Language_019d93ca.md)
+- 2026-04-16 [Context: - 개발환경: Windows 11 / Visual Studio 2022 - 라이브 환경 : aws linux - Language: C# .net8.0 - Networking: NetMQ - Archi](projects/Rasalas/2026-04-16_0057_Context%20-%20%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD%20Windows%2011%20Visual%20Studio%202022%20-%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%20%ED%99%98%EA%B2%BD%20aws%20linux%20-%20Language_019d93ca.md)
 - 2026-04-21 [보물 레벨 총합 스킬 이식 설계 검토](projects/Rasalas/2026-04-21_0557_%EB%B3%B4%EB%AC%BC%20%EB%A0%88%EB%B2%A8%20%EC%B4%9D%ED%95%A9%20%EC%8A%A4%ED%82%AC%20%EC%9D%B4%EC%8B%9D%20%EC%84%A4%EA%B3%84%20%EA%B2%80%ED%86%A0_019dae9c.md)
 - 2026-04-24 [EventType 11→7 변경 영향 확인](projects/Rasalas/2026-04-24_0529_EventType%2011%E2%86%927%20%EB%B3%80%EA%B2%BD%20%EC%98%81%ED%96%A5%20%ED%99%95%EC%9D%B8_019dbdf7.md)
 - 2026-04-24 [server_group 키 누락 확인](projects/Rasalas/2026-04-24_0952_server_group%20%ED%82%A4%20%EB%88%84%EB%9D%BD%20%ED%99%95%EC%9D%B8_019dbee7.md)
@@ -49,6 +49,13 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-05-21 [BMStoreData 초기화 위치 찾기](projects/Rasalas/2026-05-21_0523_BMStoreData%20%EC%B4%88%EA%B8%B0%ED%99%94%20%EC%9C%84%EC%B9%98%20%EC%B0%BE%EA%B8%B0_019e48fc.md)
 - 2026-05-21 [SpawnMonster 코드 확인](projects/Rasalas/2026-05-21_1059_SpawnMonster%20%EC%BD%94%EB%93%9C%20%ED%99%95%EC%9D%B8_019e4a30.md)
 - 2026-05-21 [클래스체인지 서약 비용 수정](projects/Rasalas/2026-05-21_1150_%ED%81%B4%EB%9E%98%EC%8A%A4%EC%B2%B4%EC%9D%B8%EC%A7%80%20%EC%84%9C%EC%95%BD%20%EB%B9%84%EC%9A%A9%20%EC%88%98%EC%A0%95_019e4a5f.md)
+- 2026-05-22 [112002 출석 이벤트 처리 확인](projects/Rasalas/2026-05-22_0248_112002%20%EC%B6%9C%EC%84%9D%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%B2%98%EB%A6%AC%20%ED%99%95%EC%9D%B8_019e4d95.md)
+- 2026-05-26 [클래스 마스터리 경험치 오류 수정](projects/Rasalas/2026-05-26_0442_%ED%81%B4%EB%9E%98%EC%8A%A4%20%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A6%AC%20%EA%B2%BD%ED%97%98%EC%B9%98%20%EC%98%A4%EB%A5%98%20%EC%88%98%EC%A0%95_019e6297.md)
+- 2026-05-27 [랭킹 정보 표시 원인 확인](projects/Rasalas/2026-05-27_0431_%EB%9E%AD%ED%82%B9%20%EC%A0%95%EB%B3%B4%20%ED%91%9C%EC%8B%9C%20%EC%9B%90%EC%9D%B8%20%ED%99%95%EC%9D%B8_019e67b3.md)
+- 2026-05-27 [무게 디버프 오류 확인](projects/Rasalas/2026-05-27_0742_%EB%AC%B4%EA%B2%8C%20%EB%94%94%EB%B2%84%ED%94%84%20%EC%98%A4%EB%A5%98%20%ED%99%95%EC%9D%B8_019e6862.md)
+- 2026-05-27 [축복의 성배 서버 제어 확인](projects/Rasalas/2026-05-27_0958_%EC%B6%95%EB%B3%B5%EC%9D%98%20%EC%84%B1%EB%B0%B0%20%EC%84%9C%EB%B2%84%20%EC%A0%9C%EC%96%B4%20%ED%99%95%EC%9D%B8_019e68dd.md)
+- 2026-05-28 [일일 초기화 오류 확인](projects/Rasalas/2026-05-28_0134_%EC%9D%BC%EC%9D%BC%20%EC%B4%88%EA%B8%B0%ED%99%94%20%EC%98%A4%EB%A5%98%20%ED%99%95%EC%9D%B8_019e6c37.md)
+- 2026-05-28 [복귀 이벤트 중복 삽입 수정](projects/Rasalas/2026-05-28_0550_%EB%B3%B5%EA%B7%80%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%A4%91%EB%B3%B5%20%EC%82%BD%EC%9E%85%20%EC%88%98%EC%A0%95_019e6d22.md)
 
 ### Astellia
 
@@ -64,7 +71,7 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-04-23 [확인 보물 레벨제한 합산 오류 원인](projects/Astellia/2026-04-23_0238_%ED%99%95%EC%9D%B8%20%EB%B3%B4%EB%AC%BC%20%EB%A0%88%EB%B2%A8%EC%A0%9C%ED%95%9C%20%ED%95%A9%EC%82%B0%20%EC%98%A4%EB%A5%98%20%EC%9B%90%EC%9D%B8_019db832.md)
 - 2026-04-24 [드랍 아이템 획득 불가 원인 확인](projects/Astellia/2026-04-24_0305_%EB%93%9C%EB%9E%8D%20%EC%95%84%EC%9D%B4%ED%85%9C%20%ED%9A%8D%EB%93%9D%20%EB%B6%88%EA%B0%80%20%EC%9B%90%EC%9D%B8%20%ED%99%95%EC%9D%B8_019dbd72.md)
 - 2026-04-24 [검토 글로벌 서버 기능 적용 가능성](projects/Astellia/2026-04-24_0332_%EA%B2%80%ED%86%A0%20%EA%B8%80%EB%A1%9C%EB%B2%8C%20%EC%84%9C%EB%B2%84%20%EA%B8%B0%EB%8A%A5%20%EC%A0%81%EC%9A%A9%20%EA%B0%80%EB%8A%A5%EC%84%B1_019dbd8b.md)
-- 2026-04-24 [아스텔 로그 중에 사용자 IP를 출력하는 로그를 종류를 알려주세요. HiveVerify = 1001, //하이브 인증 LobyEnter = 10](projects/Astellia/2026-04-24_0827_%EC%95%84%EC%8A%A4%ED%85%94%20%EB%A1%9C%EA%B7%B8%20%EC%A4%91%EC%97%90%20%EC%82%AC%EC%9A%A9%EC%9E%90%20IP%EB%A5%BC%20%EC%B6%9C%EB%A0%A5%ED%95%98%EB%8A%94%20%EB%A1%9C%EA%B7%B8%EB%A5%BC%20%EC%A2%85%EB%A5%98%EB%A5%BC%20%EC%95%8C%EB%A0%A4%EC%A3%BC%EC%84%B8%EC%9A%94.%20HiveVerify%20=%201001,%20%ED%95%98%EC%9D%B4%EB%B8%8C%20%EC%9D%B8%EC%A6%9D%20LobyEnter%20=%2010_019dbe99.md)
+- 2026-04-24 [아스텔 로그 중에 사용자 IP를 출력하는 로그를 종류를 알려주세요. HiveVerify = 1001, //하이브 인증 LobyEnter = 1002, //서버 선택(로비 진입) CharSelect = 1003, //](projects/Astellia/2026-04-24_0827_%EC%95%84%EC%8A%A4%ED%85%94%20%EB%A1%9C%EA%B7%B8%20%EC%A4%91%EC%97%90%20%EC%82%AC%EC%9A%A9%EC%9E%90%20IP%EB%A5%BC%20%EC%B6%9C%EB%A0%A5%ED%95%98%EB%8A%94%20%EB%A1%9C%EA%B7%B8%EB%A5%BC%20%EC%A2%85%EB%A5%98%EB%A5%BC%20%EC%95%8C%EB%A0%A4%EC%A3%BC%EC%84%B8%EC%9A%94.%20HiveVerify%20%3D%201001%2C%20%ED%95%98%EC%9D%B4%EB%B8%8C%20%EC%9D%B8%EC%A6%9D%20LobyEnter%20%3D%2010_019dbe99.md)
 - 2026-04-27 [복구쿠폰 SQL 검증](projects/Astellia/2026-04-27_0203_%EB%B3%B5%EA%B5%AC%EC%BF%A0%ED%8F%B0%20SQL%20%EA%B2%80%EC%A6%9D_019dccad.md)
 - 2026-04-27 [유물 버프 하락 적용 확인](projects/Astellia/2026-04-27_0918_%EC%9C%A0%EB%AC%BC%20%EB%B2%84%ED%94%84%20%ED%95%98%EB%9D%BD%20%EC%A0%81%EC%9A%A9%20%ED%99%95%EC%9D%B8_019dce3b.md)
 - 2026-04-28 [판테온 합성 신화 즉시 확정 수정](projects/Astellia/2026-04-28_1116_%ED%8C%90%ED%85%8C%EC%98%A8%20%ED%95%A9%EC%84%B1%20%EC%8B%A0%ED%99%94%20%EC%A6%89%EC%8B%9C%20%ED%99%95%EC%A0%95%20%EC%88%98%EC%A0%95_019dd3cd.md)
@@ -75,6 +82,9 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-05-13 [petAwakenLv 0 전달 원인 확인](projects/Astellia/2026-05-13_0951_petAwakenLv%200%20%EC%A0%84%EB%8B%AC%20%EC%9B%90%EC%9D%B8%20%ED%99%95%EC%9D%B8_019e20bf.md)
 - 2026-05-14 [독 폭발 대미지 계산 확인](projects/Astellia/2026-05-14_0253_%EB%8F%85%20%ED%8F%AD%EB%B0%9C%20%EB%8C%80%EB%AF%B8%EC%A7%80%20%EA%B3%84%EC%82%B0%20%ED%99%95%EC%9D%B8_019e2466.md)
 - 2026-05-18 [동접 1000 기준 검토](projects/Astellia/2026-05-18_0135_%EB%8F%99%EC%A0%91%201000%20%EA%B8%B0%EC%A4%80%20%EA%B2%80%ED%86%A0_019e38b7.md)
+- 2026-05-22 [CheatBMAllDelete 확인](projects/Astellia/2026-05-22_0659_CheatBMAllDelete%20%ED%99%95%EC%9D%B8_019e4e7a.md)
+- 2026-05-26 [RequestZoneEnter 분석](projects/Astellia/2026-05-26_0127_RequestZoneEnter%20%EB%B6%84%EC%84%9D_019e61e4.md)
+- 2026-05-27 [서버 통합 창고 쿼리 검토](projects/Astellia/2026-05-27_0126_%EC%84%9C%EB%B2%84%20%ED%86%B5%ED%95%A9%20%EC%B0%BD%EA%B3%A0%20%EC%BF%BC%EB%A6%AC%20%EA%B2%80%ED%86%A0_019e6709.md)
 
 ### Tetris
 

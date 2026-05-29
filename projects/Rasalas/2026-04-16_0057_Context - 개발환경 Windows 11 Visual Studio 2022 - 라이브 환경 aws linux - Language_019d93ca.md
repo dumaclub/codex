@@ -1,4 +1,4 @@
-# Context: - 개발환경: Windows 11 / Visual Studio 2022 - 라이브 환경 : aws linux - Language
+# Context: - 개발환경: Windows 11 / Visual Studio 2022 - 라이브 환경 : aws linux - Language: C# .net8.0 - Networking: NetMQ - Archi
 
 - Project: Rasalas
 - Session ID: `019d93ca-aa73-73f0-944b-871e0566421b`

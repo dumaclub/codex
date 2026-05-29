@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-05-22T00:07:38.158Z",
+  "exportedAt": "2026-05-29T00:10:09.216Z",
   "source": {
     "sessionIndex": "C:\\Users\\dumaclub\\.codex\\session_index.jsonl",
     "globalState": "C:\\Users\\dumaclub\\.codex\\.codex-global-state.json",
@@ -29,8 +29,8 @@
   ],
   "totals": {
     "projects": 4,
-    "threads": 46,
-    "messages": 1061
+    "threads": 56,
+    "messages": 1225
   },
   "projects": {
     "Rasalas": [
@@ -44,7 +44,7 @@
       },
       {
         "id": "019d93ca-aa73-73f0-944b-871e0566421b",
-        "title": "Context: - 개발환경: Windows 11 / Visual Studio 2022 - 라이브 환경 : aws linux - Language",
+        "title": "Context: - 개발환경: Windows 11 / Visual Studio 2022 - 라이브 환경 : aws linux - Language: C# .net8.0 - Networking: NetMQ - Archi",
         "cwd": "E:\\Rasalas\\Trunk\\qa",
         "updatedAt": "2026-04-16T00:57:08.926Z",
         "messages": 10,
@@ -177,6 +177,62 @@
         "updatedAt": "2026-05-21T11:50:54.5692168Z",
         "messages": 30,
         "file": "projects/Rasalas/2026-05-21_1150_클래스체인지 서약 비용 수정_019e4a5f.md"
+      },
+      {
+        "id": "019e4d95-7184-7773-8183-9b885ce7ff2d",
+        "title": "112002 출석 이벤트 처리 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-22T02:48:32.1374202Z",
+        "messages": 20,
+        "file": "projects/Rasalas/2026-05-22_0248_112002 출석 이벤트 처리 확인_019e4d95.md"
+      },
+      {
+        "id": "019e6297-4700-7d70-a0ed-17faea6d0ad8",
+        "title": "클래스 마스터리 경험치 오류 수정",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-26T04:42:28.0588537Z",
+        "messages": 5,
+        "file": "projects/Rasalas/2026-05-26_0442_클래스 마스터리 경험치 오류 수정_019e6297.md"
+      },
+      {
+        "id": "019e67b3-6d8a-75e3-9c61-25eadab87535",
+        "title": "랭킹 정보 표시 원인 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-27T04:31:42.975976Z",
+        "messages": 20,
+        "file": "projects/Rasalas/2026-05-27_0431_랭킹 정보 표시 원인 확인_019e67b3.md"
+      },
+      {
+        "id": "019e6862-2fe5-7e51-ac8c-01848c7f91b9",
+        "title": "무게 디버프 오류 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-27T07:42:18.1579191Z",
+        "messages": 33,
+        "file": "projects/Rasalas/2026-05-27_0742_무게 디버프 오류 확인_019e6862.md"
+      },
+      {
+        "id": "019e68dd-b8e8-7f40-ae84-ee8670603da3",
+        "title": "축복의 성배 서버 제어 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-27T09:58:08.4939429Z",
+        "messages": 13,
+        "file": "projects/Rasalas/2026-05-27_0958_축복의 성배 서버 제어 확인_019e68dd.md"
+      },
+      {
+        "id": "019e6c37-e681-7050-bdec-1aad21e7ede4",
+        "title": "일일 초기화 오류 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-28T01:34:32.4013078Z",
+        "messages": 12,
+        "file": "projects/Rasalas/2026-05-28_0134_일일 초기화 오류 확인_019e6c37.md"
+      },
+      {
+        "id": "019e6d22-8552-7102-b50e-b4ea171bb00b",
+        "title": "복귀 이벤트 중복 삽입 수정",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "updatedAt": "2026-05-28T05:50:46.5961226Z",
+        "messages": 22,
+        "file": "projects/Rasalas/2026-05-28_0550_복귀 이벤트 중복 삽입 수정_019e6d22.md"
       }
     ],
     "Astellia": [
@@ -278,7 +334,7 @@
       },
       {
         "id": "019dbe99-95ec-77a1-971e-19ce212b25af",
-        "title": "아스텔 로그 중에 사용자 IP를 출력하는 로그를 종류를 알려주세요. HiveVerify = 1001, //하이브 인증 LobyEnter = 10",
+        "title": "아스텔 로그 중에 사용자 IP를 출력하는 로그를 종류를 알려주세요. HiveVerify = 1001, //하이브 인증 LobyEnter = 1002, //서버 선택(로비 진입) CharSelect = 1003, //",
         "cwd": "E:\\ProjectA02\\Trunk\\Dev",
         "updatedAt": "2026-04-24T08:27:13.093Z",
         "messages": 8,
@@ -363,6 +419,30 @@
         "updatedAt": "2026-05-18T01:35:58.2717202Z",
         "messages": 25,
         "file": "projects/Astellia/2026-05-18_0135_동접 1000 기준 검토_019e38b7.md"
+      },
+      {
+        "id": "019e4e7a-dbd2-76e0-85ad-82aab580af0b",
+        "title": "CheatBMAllDelete 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-05-22T06:59:06.0686854Z",
+        "messages": 20,
+        "file": "projects/Astellia/2026-05-22_0659_CheatBMAllDelete 확인_019e4e7a.md"
+      },
+      {
+        "id": "019e61e4-9f5a-79f0-8f25-855325ddf01d",
+        "title": "RequestZoneEnter 분석",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-05-26T01:27:20.1912715Z",
+        "messages": 7,
+        "file": "projects/Astellia/2026-05-26_0127_RequestZoneEnter 분석_019e61e4.md"
+      },
+      {
+        "id": "019e6709-f151-7750-a5a7-5e87106df530",
+        "title": "서버 통합 창고 쿼리 검토",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "updatedAt": "2026-05-27T01:26:13.7512664Z",
+        "messages": 12,
+        "file": "projects/Astellia/2026-05-27_0126_서버 통합 창고 쿼리 검토_019e6709.md"
       }
     ],
     "Tetris": [
