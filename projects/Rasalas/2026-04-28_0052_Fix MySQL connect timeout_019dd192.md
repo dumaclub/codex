@@ -68,11 +68,11 @@ ZmqIP : 10.0.5.185
 
 로그 흐름은 이렇습니다.
 
-- `DatabaseController.SelectOne()`에서 read DB 풀을 가져옴  
+- `DatabaseController.SelectOne()`에서 read DB 풀을 가져옴
   [DatabaseController.cs](/E:/Rasalas/Trunk/qa/Server/EgonServer/Controllers/DatabaseController.cs:229)
-- `DbPool.Get()`이 `work.Init()` 호출  
+- `DbPool.Get()`이 `work.Init()` 호출
   [DbPool.cs](/E:/Rasalas/Trunk/qa/Server/EgonServer/Database/DbPool.cs:43)
-- `UnitOfWork.Init()`에서 `Session.BeginTransaction()` 실행  
+- `UnitOfWork.Init()`에서 `Session.BeginTransaction()` 실행
   [UnitOfWork.cs](/E:/Rasalas/Trunk/qa/Server/EgonServer/Database/UnitOfWork.cs:53)
 - 이 순간 NHibernate가 MySQL 커넥션을 열려고 했지만 `10.0.5.185` 접속이 타임아웃됨
 
@@ -101,9 +101,8 @@ The operation has timed out.
 
 라이브에서 활성화 되어 있는 서버 목록입니다. type 값이 5인 서버들 모두 위에 전달드린 Exception 이 발생되었습니다. 공통원인으로 찾아볼 수 있는게 있나요?
 
-<image>
 
-[Image attached: base64 payload omitted]
+<image>
 
 </image>
 
@@ -176,9 +175,8 @@ Test-NetConnection 10.0.1.83 -Port 3306
 
 databaseinfo 정보입니다. writeIp와 readIp 모두 동일하고 같은 포트를 사용하고 있습니다. 현재 서비스 중인데 금일 오전에 갑자기 모든 database node 들에게서 동일한 오류가 발생되었습니다. 계정과 패스워도드 모두 동일하며 라이브 서비스 중이였기 때문에 전혀 문제가 없었습니다. aws 를 사용하다 tencent cloud 로 넘어오고 처음 발생되는 현상입니다. aws 에서는 2년동안 한번도 발생된적이 없는 오류였습니다.
 
-<image>
 
-[Image attached: base64 payload omitted]
+<image>
 
 </image>
 
@@ -253,15 +251,12 @@ Tencent Console에서는 장애 발생 시간 기준으로 다음을 보시면 �
 
 이게 좀 의심스러운 점은 dbnode 서버에 dbnode 하나의 프로세스만 떠 있는것이 아니라 game 서버, community 서버, trade 서버도 있습니다. 다른 서버들도 db 커넥션이 있는데 dbnode 만 발생하였다는게 조금 이상한 점입니다.
 
-<image>
 
-[Image attached: base64 payload omitted]
+<image>
 
 </image>
 
 <image>
-
-[Image attached: base64 payload omitted]
 
 </image>
 
@@ -295,15 +290,12 @@ max_connections	16500
 
 이게 좀 의심스러운 점은 dbnode 서버에 dbnode 하나의 프로세스만 떠 있는것이 아니라 game 서버, community 서버, trade 서버도 있습니다. 다른 서버들도 db 커넥션이 있는데 dbnode 만 발생하였다는게 조금 이상한 점입니다.
 
-<image>
 
-[Image attached: base64 payload omitted]
+<image>
 
 </image>
 
 <image>
-
-[Image attached: base64 payload omitted]
 
 </image>
 
@@ -406,7 +398,7 @@ ORDER BY cnt DESC;
 
 ### User
 
-아래는 요청하신 쿼리 결과입니다. 
+아래는 요청하신 쿼리 결과입니다.
 
 host	db	Command	cnt
 10.0.1.139	rasalas_w01_g73	Sleep	20
@@ -580,7 +572,7 @@ ESTAB     0      0         10.0.1.139:34664    10.0.100.7:3306  users:(("dotnet"
 ESTAB     0      0         10.0.1.139:57414    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1105))
 ESTAB     0      0         10.0.1.139:56654    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=2073))
 ESTAB     0      0         10.0.1.139:36812    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1137))
-ESTAB     0      0         10.0.1.139:38584    10.0.100.7:3306  users:(("dotnet",pid=34205,fd=185)) 
+ESTAB     0      0         10.0.1.139:38584    10.0.100.7:3306  users:(("dotnet",pid=34205,fd=185))
 ESTAB     0      0         10.0.1.139:43658    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1100))
 ESTAB     0      0         10.0.1.139:52340    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1141))
 ESTAB     0      0         10.0.1.139:49050    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=2067))
@@ -588,14 +580,14 @@ ESTAB     0      0         10.0.1.139:57190    10.0.100.7:3306  users:(("dotnet"
 ESTAB     0      0         10.0.1.139:41740    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=2116))
 ESTAB     0      0         10.0.1.139:37378    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1092))
 ESTAB     0      0         10.0.1.139:57664    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1102))
-TIME-WAIT 0      0         10.0.1.139:37688    10.0.100.7:3306                                      
+TIME-WAIT 0      0         10.0.1.139:37688    10.0.100.7:3306
 ESTAB     0      0         10.0.1.139:45592    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=2074))
 ESTAB     0      0         10.0.1.139:34670    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1110))
 ESTAB     0      0         10.0.1.139:33028    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1104))
 ESTAB     0      0         10.0.1.139:43178    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1091))
 ESTAB     0      0         10.0.1.139:58496    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1108))
 ESTAB     0      0         10.0.1.139:54968    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1098))
-TIME-WAIT 0      0         10.0.1.139:37672    10.0.100.7:3306                                      
+TIME-WAIT 0      0         10.0.1.139:37672    10.0.100.7:3306
 ESTAB     0      0         10.0.1.139:58506    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1099))
 ESTAB     0      0         10.0.1.139:37208    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1114))
 ESTAB     0      0         10.0.1.139:50764    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1132))
@@ -604,8 +596,8 @@ ESTAB     0      0         10.0.1.139:37682    10.0.100.7:3306  users:(("dotnet"
 ESTAB     0      0         10.0.1.139:33182    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1116))
 ESTAB     0      0         10.0.1.139:51720    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1097))
 ESTAB     0      0         10.0.1.139:56184    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1095))
-TIME-WAIT 0      0         10.0.1.139:57648    10.0.100.7:3306                                      
-TIME-WAIT 0      0         10.0.1.139:37690    10.0.100.7:3306                                      
+TIME-WAIT 0      0         10.0.1.139:57648    10.0.100.7:3306
+TIME-WAIT 0      0         10.0.1.139:37690    10.0.100.7:3306
 ESTAB     0      0         10.0.1.139:41664    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=2108))
 ESTAB     0      0         10.0.1.139:38288    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1145))
 ESTAB     0      0         10.0.1.139:54006    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1126))
@@ -613,11 +605,11 @@ ESTAB     0      0         10.0.1.139:47316    10.0.100.7:3306  users:(("dotnet"
 ESTAB     0      0         10.0.1.139:53398    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1133))
 ESTAB     0      0         10.0.1.139:47652    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=2176))
 ESTAB     0      0         10.0.1.139:55006    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1130))
-TIME-WAIT 0      0         10.0.1.139:37692    10.0.100.7:3306                                      
-TIME-WAIT 0      0         10.0.1.139:33674    10.0.100.7:3306                                      
+TIME-WAIT 0      0         10.0.1.139:37692    10.0.100.7:3306
+TIME-WAIT 0      0         10.0.1.139:33674    10.0.100.7:3306
 ESTAB     0      0         10.0.1.139:52324    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1128))
 ESTAB     0      0         10.0.1.139:58954    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1124))
-ESTAB     0      0         10.0.1.139:34306    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=185)) 
+ESTAB     0      0         10.0.1.139:34306    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=185))
 ESTAB     0      0         10.0.1.139:48054    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1125))
 ESTAB     0      0         10.0.1.139:51722    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1107))
 ESTAB     0      0         10.0.1.139:43314    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1112))
@@ -639,23 +631,23 @@ ESTAB     0      0         10.0.1.139:46684    10.0.100.7:3306  users:(("dotnet"
 ESTAB     0      0         10.0.1.139:58518    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1109))
 ESTAB     0      0         10.0.1.139:43384    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1096))
 ESTAB     0      0         10.0.1.139:36538    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1103))
-TIME-WAIT 0      0         10.0.1.139:33672    10.0.100.7:3306                                      
+TIME-WAIT 0      0         10.0.1.139:33672    10.0.100.7:3306
 ESTAB     0      0         10.0.1.139:47554    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1885))
 ESTAB     0      0         10.0.1.139:37352    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1138))
 ESTAB     0      0         10.0.1.139:45204    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1106))
 ESTAB     0      0         10.0.1.139:47898    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=2075))
 ESTAB     0      0         10.0.1.139:39158    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=1101))
-TIME-WAIT 0      0         10.0.1.139:37704    10.0.100.7:3306                                      
+TIME-WAIT 0      0         10.0.1.139:37704    10.0.100.7:3306
 ESTAB     0      0         10.0.1.139:47596    10.0.100.7:3306  users:(("dotnet",pid=34243,fd=2072))
 Total: 6457
 TCP:   6238 (estab 6139, closed 8, orphaned 0, timewait 8)
 
 Transport Total     IP        IPv6
-RAW	  1         0         1        
-UDP	  3         2         1        
-TCP	  6230      6224      6        
-INET	  6234      6226      8        
-FRAG	  0         0         0        
+RAW	  1         0         1
+UDP	  3         2         1
+TCP	  6230      6224      6
+INET	  6234      6226      8
+FRAG	  0         0         0
 
 dmesg: read kernel buffer failed: Operation not permitted
 [ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
@@ -748,9 +740,9 @@ ss -tanp | grep 'pid=34243' | grep '10.0.100.7:3306' | awk '{print $1}' | sort |
      11 20004
      11 20003
      11 20002
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
 [ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ ss -tanp | grep 'pid=34243' | awk '{print $5}' | sed 's/:.*//' | sort | uniq -c | sort -nr | head -20
     940 127.0.0.1
     160 10.0.1.232
@@ -767,12 +759,12 @@ ss -tanp | grep 'pid=34243' | grep '10.0.100.7:3306' | awk '{print $1}' | sort |
      40 10.0.1.148
      21 0.0.0.0
       1 [
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
 [ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ ss -tanp | grep 'pid=34243' | awk '{print $1}' | sort | uniq -c
    1891 ESTAB
      22 LISTEN
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
 [ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ ss -tanp | grep 'pid=34243' | grep '10.0.100.7:3306' | awk '{print $1}' | sort | uniq -c
      71 ESTAB
 [ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
@@ -885,15 +877,15 @@ Monitor Lock Contention Count
       1 59584
       1 59362
 [ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ ss -tanp | grep 'pid=34243' | grep '127.0.0.1' | head -30
-ESTAB     0      0          127.0.0.1:35718       127.0.0.1:33717 users:(("dotnet",pid=34243,fd=736)) 
-ESTAB     0      0          127.0.0.1:37935       127.0.0.1:51000 users:(("dotnet",pid=34243,fd=768)) 
-ESTAB     1      0          127.0.0.1:38601       127.0.0.1:37312 users:(("dotnet",pid=34243,fd=340)) 
-ESTAB     0      0          127.0.0.1:46049       127.0.0.1:44142 users:(("dotnet",pid=34243,fd=324)) 
-ESTAB     1      0          127.0.0.1:34771       127.0.0.1:59086 users:(("dotnet",pid=34243,fd=486)) 
-ESTAB     0      0          127.0.0.1:45062       127.0.0.1:34183 users:(("dotnet",pid=34243,fd=734)) 
+ESTAB     0      0          127.0.0.1:35718       127.0.0.1:33717 users:(("dotnet",pid=34243,fd=736))
+ESTAB     0      0          127.0.0.1:37935       127.0.0.1:51000 users:(("dotnet",pid=34243,fd=768))
+ESTAB     1      0          127.0.0.1:38601       127.0.0.1:37312 users:(("dotnet",pid=34243,fd=340))
+ESTAB     0      0          127.0.0.1:46049       127.0.0.1:44142 users:(("dotnet",pid=34243,fd=324))
+ESTAB     1      0          127.0.0.1:34771       127.0.0.1:59086 users:(("dotnet",pid=34243,fd=486))
+ESTAB     0      0          127.0.0.1:45062       127.0.0.1:34183 users:(("dotnet",pid=34243,fd=734))
 ESTAB     0      0          127.0.0.1:41952       127.0.0.1:42685 users:(("dotnet",pid=34243,fd=1086))
 ESTAB     0      0          127.0.0.1:50136       127.0.0.1:38581 users:(("dotnet",pid=34243,fd=1569))
-ESTAB     0      0          127.0.0.1:42110       127.0.0.1:43859 users:(("dotnet",pid=34243,fd=550)) 
+ESTAB     0      0          127.0.0.1:42110       127.0.0.1:43859 users:(("dotnet",pid=34243,fd=550))
 ESTAB     0      0          127.0.0.1:57796       127.0.0.1:46447 users:(("dotnet",pid=34243,fd=1307))
 ESTAB     0      0          127.0.0.1:36488       127.0.0.1:35419 users:(("dotnet",pid=34243,fd=1286))
 ESTAB     0      0          127.0.0.1:34476       127.0.0.1:43113 users:(("dotnet",pid=34243,fd=1331))
@@ -901,27 +893,27 @@ ESTAB     0      0          127.0.0.1:43628       127.0.0.1:46833 users:(("dotne
 ESTAB     1      0          127.0.0.1:42129       127.0.0.1:42886 users:(("dotnet",pid=34243,fd=1412))
 ESTAB     0      0          127.0.0.1:53862       127.0.0.1:44421 users:(("dotnet",pid=34243,fd=1376))
 ESTAB     1      0          127.0.0.1:39491       127.0.0.1:56024 users:(("dotnet",pid=34243,fd=1062))
-ESTAB     0      0          127.0.0.1:51076       127.0.0.1:46237 users:(("dotnet",pid=34243,fd=383)) 
+ESTAB     0      0          127.0.0.1:51076       127.0.0.1:46237 users:(("dotnet",pid=34243,fd=383))
 ESTAB     1      0          127.0.0.1:34259       127.0.0.1:54872 users:(("dotnet",pid=34243,fd=1329))
 ESTAB     1      0          127.0.0.1:45309       127.0.0.1:60750 users:(("dotnet",pid=34243,fd=1263))
 ESTAB     1      0          127.0.0.1:38931       127.0.0.1:35358 users:(("dotnet",pid=34243,fd=1251))
-ESTAB     0      0          127.0.0.1:39010       127.0.0.1:42289 users:(("dotnet",pid=34243,fd=630)) 
+ESTAB     0      0          127.0.0.1:39010       127.0.0.1:42289 users:(("dotnet",pid=34243,fd=630))
 ESTAB     0      0          127.0.0.1:45108       127.0.0.1:34449 users:(("dotnet",pid=34243,fd=1352))
-ESTAB     0      0          127.0.0.1:34918       127.0.0.1:34865 users:(("dotnet",pid=34243,fd=571)) 
+ESTAB     0      0          127.0.0.1:34918       127.0.0.1:34865 users:(("dotnet",pid=34243,fd=571))
 ESTAB     1      0          127.0.0.1:34355       127.0.0.1:46926 users:(("dotnet",pid=34243,fd=2199))
 ESTAB     0      0          127.0.0.1:43624       127.0.0.1:37253 users:(("dotnet",pid=34243,fd=1241))
-ESTAB     0      0          127.0.0.1:53098       127.0.0.1:45263 users:(("dotnet",pid=34243,fd=638)) 
-ESTAB     0      0          127.0.0.1:41935       127.0.0.1:60446 users:(("dotnet",pid=34243,fd=270)) 
+ESTAB     0      0          127.0.0.1:53098       127.0.0.1:45263 users:(("dotnet",pid=34243,fd=638))
+ESTAB     0      0          127.0.0.1:41935       127.0.0.1:60446 users:(("dotnet",pid=34243,fd=270))
 ESTAB     0      0          127.0.0.1:52870       127.0.0.1:43661 users:(("dotnet",pid=34243,fd=1289))
-ESTAB     0      0          127.0.0.1:42090       127.0.0.1:41963 users:(("dotnet",pid=34243,fd=752)) 
-ESTAB     0      0          127.0.0.1:35318       127.0.0.1:34389 users:(("dotnet",pid=34243,fd=985)) 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
+ESTAB     0      0          127.0.0.1:42090       127.0.0.1:41963 users:(("dotnet",pid=34243,fd=752))
+ESTAB     0      0          127.0.0.1:35318       127.0.0.1:34389 users:(("dotnet",pid=34243,fd=985))
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
 [ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ dotnet-counters ps
 dotnet-counters monitor --process-id 34243 System.Runtime Microsoft.AspNetCore.Hosting
 ^C
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
 [ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ dotnet-counters ps
 -bash: dotnet-counters: command not found
 [ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ dotnet-counters monitor --process-id 34243 System.Runtime Microsoft.AspNetCore.Hosting
@@ -1003,10 +995,10 @@ connectionInfo_read ... // timeout 없음
 [ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ ps -o pid,nlwp,pcpu,pmem,rss,vsz,etime,cmd -p 34243
     PID NLWP %CPU %MEM   RSS    VSZ     ELAPSED CMD
   34243   73 27.0 14.0 4531548 277903724 5-19:04:39 dotnet EgonServer.dll 301
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
 [ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ cat /proc/34243/status | egrep 'Threads|FDSize|VmRSS|VmSize|voluntary|nonvoluntary'
 FDSize:	4096
 VmSize:	277903696 kB
@@ -1014,14 +1006,14 @@ VmRSS:	 4531524 kB
 Threads:	71
 voluntary_ctxt_switches:	503510
 nonvoluntary_ctxt_switches:	1083
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
 [ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ ss -tanp | grep 'pid=34243' | awk '{print $1}' | sort | uniq -c
    1899 ESTAB
      22 LISTEN
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
 [ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ ss -tanp | grep 'pid=34243' | awk '{print $5}' | sed 's/:.*//' | sort | uniq -c | sort -nr | head -30
     940 127.0.0.1
     160 10.0.1.232
@@ -1038,9 +1030,9 @@ nonvoluntary_ctxt_switches:	1083
      40 10.0.1.148
      21 0.0.0.0
       1 [
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
 [ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ for p in 34243 34140 34169 34205; do
   echo "PID=$p"
   ss -tanp | grep "pid=$p" | awk '{print $1}' | sort | uniq -c
@@ -1057,9 +1049,9 @@ PID=34169
 PID=34205
    1342 ESTAB
      22 LISTEN
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
-[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ 
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
+[ec2-user@Rasalas-Live-w01-g01-Game01 ~]$
 [ec2-user@Rasalas-Live-w01-g01-Game01 ~]$ dotnet tool install --global dotnet-counters
 export PATH="$PATH:$HOME/.dotnet/tools"
 dotnet-counters monitor --process-id 34243 System.Runtime
@@ -1101,20 +1093,20 @@ Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
+[System.Runtime]
     CPU Usage (%)                                                                                                                                                                                                         3.142
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
+[System.Runtime]
     CPU Usage (%)                                                                                                                                                                                                         3.142
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
+[System.Runtime]
     CPU Usage (%)                                                                                                                                                                                                         3.142
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
     Working Set (MB)                                                                                                                                                                                                  4,641.763
@@ -1122,492 +1114,492 @@ Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
+[System.Runtime]
     CPU Usage (%)                                                                                                                                                                                                         3.142
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
+[System.Runtime]
     CPU Usage (%)                                                                                                                                                                                                         3.142
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
+[System.Runtime]
     CPU Usage (%)                                                                                                                                                                                                         3.142
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
+[System.Runtime]
     CPU Usage (%)                                                                                                                                                                                                         3.142
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
+[System.Runtime]
     CPU Usage (%)                                                                                                                                                                                                         3.142
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    ThreadPool Thread Count                                                                                                                                                                                              10
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
+[System.Runtime]
     CPU Usage (%)                                                                                                                                                                                                         3.142
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    ThreadPool Thread Count                                                                                                                                                                                              10
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
+[System.Runtime]
     CPU Usage (%)                                                                                                                                                                                                         3.142
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
+[System.Runtime]
     CPU Usage (%)                                                                                                                                                                                                         3.142
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584    
+[System.Runtime]
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584
     CPU Usage (%)                                                                                                                                                                                                         3.142
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584    
+[System.Runtime]
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584
     CPU Usage (%)                                                                                                                                                                                                         3.142
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    Number of Active Timers                                                                                                                                                                                               4    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    Number of Active Timers                                                                                                                                                                                               4
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584    
+[System.Runtime]
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584
     CPU Usage (%)                                                                                                                                                                                                         3.142
-    GC Fragmentation (%)                                                                                                                                                                                                 21.26 
+    GC Fragmentation (%)                                                                                                                                                                                                 21.26
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    Number of Active Timers                                                                                                                                                                                               4    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    Number of Active Timers                                                                                                                                                                                               4
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584    
+[System.Runtime]
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584
     CPU Usage (%)                                                                                                                                                                                                         3.142
     GC Committed Bytes (MB)                                                                                                                                                                                           4,279.783
-    GC Fragmentation (%)                                                                                                                                                                                                 21.26 
+    GC Fragmentation (%)                                                                                                                                                                                                 21.26
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    Number of Active Timers                                                                                                                                                                                               4    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    Number of Active Timers                                                                                                                                                                                               4
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584    
+[System.Runtime]
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584
     CPU Usage (%)                                                                                                                                                                                                         3.142
-    Exception Count (Count / 1 sec)                                                                                                                                                                                       0    
+    Exception Count (Count / 1 sec)                                                                                                                                                                                       0
     GC Committed Bytes (MB)                                                                                                                                                                                           4,279.783
-    GC Fragmentation (%)                                                                                                                                                                                                 21.26 
+    GC Fragmentation (%)                                                                                                                                                                                                 21.26
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    Number of Active Timers                                                                                                                                                                                               4    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    Number of Active Timers                                                                                                                                                                                               4
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    % Time in GC since last GC (%)                                                                                                                                                                                        0    
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584    
+[System.Runtime]
+    % Time in GC since last GC (%)                                                                                                                                                                                        0
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584
     CPU Usage (%)                                                                                                                                                                                                         3.142
-    Exception Count (Count / 1 sec)                                                                                                                                                                                       0    
+    Exception Count (Count / 1 sec)                                                                                                                                                                                       0
     GC Committed Bytes (MB)                                                                                                                                                                                           4,279.783
-    GC Fragmentation (%)                                                                                                                                                                                                 21.26 
+    GC Fragmentation (%)                                                                                                                                                                                                 21.26
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    Number of Active Timers                                                                                                                                                                                               4    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    Number of Active Timers                                                                                                                                                                                               4
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    % Time in GC since last GC (%)                                                                                                                                                                                        0    
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584    
+[System.Runtime]
+    % Time in GC since last GC (%)                                                                                                                                                                                        0
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584
     CPU Usage (%)                                                                                                                                                                                                         3.142
-    Exception Count (Count / 1 sec)                                                                                                                                                                                       0    
+    Exception Count (Count / 1 sec)                                                                                                                                                                                       0
     GC Committed Bytes (MB)                                                                                                                                                                                           4,279.783
-    GC Fragmentation (%)                                                                                                                                                                                                 21.26 
+    GC Fragmentation (%)                                                                                                                                                                                                 21.26
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    Number of Active Timers                                                                                                                                                                                               4    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
-    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    Number of Active Timers                                                                                                                                                                                               4
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
+    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    % Time in GC since last GC (%)                                                                                                                                                                                        0    
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584    
+[System.Runtime]
+    % Time in GC since last GC (%)                                                                                                                                                                                        0
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584
     CPU Usage (%)                                                                                                                                                                                                         3.142
-    Exception Count (Count / 1 sec)                                                                                                                                                                                       0    
+    Exception Count (Count / 1 sec)                                                                                                                                                                                       0
     GC Committed Bytes (MB)                                                                                                                                                                                           4,279.783
-    GC Fragmentation (%)                                                                                                                                                                                                 21.26 
+    GC Fragmentation (%)                                                                                                                                                                                                 21.26
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 0 Size (B)                                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    Number of Active Timers                                                                                                                                                                                               4    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
-    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 0 Size (B)                                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    Number of Active Timers                                                                                                                                                                                               4
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
+    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    % Time in GC since last GC (%)                                                                                                                                                                                        0    
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584    
+[System.Runtime]
+    % Time in GC since last GC (%)                                                                                                                                                                                        0
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584
     CPU Usage (%)                                                                                                                                                                                                         3.142
-    Exception Count (Count / 1 sec)                                                                                                                                                                                       0    
+    Exception Count (Count / 1 sec)                                                                                                                                                                                       0
     GC Committed Bytes (MB)                                                                                                                                                                                           4,279.783
-    GC Fragmentation (%)                                                                                                                                                                                                 21.26 
+    GC Fragmentation (%)                                                                                                                                                                                                 21.26
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 0 Size (B)                                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 Size (B)                                                                                                                                                                                               30,859,424    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    Number of Active Timers                                                                                                                                                                                               4    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
-    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 0 Size (B)                                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 Size (B)                                                                                                                                                                                               30,859,424
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    Number of Active Timers                                                                                                                                                                                               4
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
+    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    % Time in GC since last GC (%)                                                                                                                                                                                        0    
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584    
+[System.Runtime]
+    % Time in GC since last GC (%)                                                                                                                                                                                        0
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584
     CPU Usage (%)                                                                                                                                                                                                         3.142
-    Exception Count (Count / 1 sec)                                                                                                                                                                                       0    
+    Exception Count (Count / 1 sec)                                                                                                                                                                                       0
     GC Committed Bytes (MB)                                                                                                                                                                                           4,279.783
-    GC Fragmentation (%)                                                                                                                                                                                                 21.26 
+    GC Fragmentation (%)                                                                                                                                                                                                 21.26
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 0 Size (B)                                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 Size (B)                                                                                                                                                                                               30,859,424    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 0 Size (B)                                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 Size (B)                                                                                                                                                                                               30,859,424
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
     Gen 2 Size (B)                                                                                                                                                                                                   1.4632e+09
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    Number of Active Timers                                                                                                                                                                                               4    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
-    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0    
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    Number of Active Timers                                                                                                                                                                                               4
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
+    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    % Time in GC since last GC (%)                                                                                                                                                                                        0    
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584    
+[System.Runtime]
+    % Time in GC since last GC (%)                                                                                                                                                                                        0
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584
     CPU Usage (%)                                                                                                                                                                                                         3.142
-    Exception Count (Count / 1 sec)                                                                                                                                                                                       0    
+    Exception Count (Count / 1 sec)                                                                                                                                                                                       0
     GC Committed Bytes (MB)                                                                                                                                                                                           4,279.783
-    GC Fragmentation (%)                                                                                                                                                                                                 21.26 
+    GC Fragmentation (%)                                                                                                                                                                                                 21.26
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 0 Size (B)                                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 Size (B)                                                                                                                                                                                               30,859,424    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 2 Size (B)                                                                                                                                                                                                   1.4632e+09
-    LOH Size (B)                                                                                                                                                                                                     7.8684e+08
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    Number of Active Timers                                                                                                                                                                                               4    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
-    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0    
-    Working Set (MB)                                                                                                                                                                                                  4,641.763
-Press p to pause, r to resume, q to quit.
-    Status: Running
-
-Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    % Time in GC since last GC (%)                                                                                                                                                                                        0    
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584    
-    CPU Usage (%)                                                                                                                                                                                                         3.142
-    Exception Count (Count / 1 sec)                                                                                                                                                                                       0    
-    GC Committed Bytes (MB)                                                                                                                                                                                           4,279.783
-    GC Fragmentation (%)                                                                                                                                                                                                 21.26 
-    GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 0 Size (B)                                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 Size (B)                                                                                                                                                                                               30,859,424    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 0 Size (B)                                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 Size (B)                                                                                                                                                                                               30,859,424
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
     Gen 2 Size (B)                                                                                                                                                                                                   1.4632e+09
     LOH Size (B)                                                                                                                                                                                                     7.8684e+08
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    Number of Active Timers                                                                                                                                                                                               4    
-    POH (Pinned Object Heap) Size (B)                                                                                                                                                                               133,800    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
-    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0    
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    Number of Active Timers                                                                                                                                                                                               4
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
+    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    % Time in GC since last GC (%)                                                                                                                                                                                        0    
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584    
+[System.Runtime]
+    % Time in GC since last GC (%)                                                                                                                                                                                        0
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584
     CPU Usage (%)                                                                                                                                                                                                         3.142
-    Exception Count (Count / 1 sec)                                                                                                                                                                                       0    
+    Exception Count (Count / 1 sec)                                                                                                                                                                                       0
     GC Committed Bytes (MB)                                                                                                                                                                                           4,279.783
-    GC Fragmentation (%)                                                                                                                                                                                                 21.26 
+    GC Fragmentation (%)                                                                                                                                                                                                 21.26
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 0 Size (B)                                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 Size (B)                                                                                                                                                                                               30,859,424    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 0 Size (B)                                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 Size (B)                                                                                                                                                                                               30,859,424
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
     Gen 2 Size (B)                                                                                                                                                                                                   1.4632e+09
     LOH Size (B)                                                                                                                                                                                                     7.8684e+08
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    Number of Active Timers                                                                                                                                                                                               4    
-    Number of Assemblies Loaded                                                                                                                                                                                         113    
-    POH (Pinned Object Heap) Size (B)                                                                                                                                                                               133,800    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
-    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0    
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    Number of Active Timers                                                                                                                                                                                               4
+    POH (Pinned Object Heap) Size (B)                                                                                                                                                                               133,800
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
+    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    % Time in GC since last GC (%)                                                                                                                                                                                        0    
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584    
+[System.Runtime]
+    % Time in GC since last GC (%)                                                                                                                                                                                        0
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584
     CPU Usage (%)                                                                                                                                                                                                         3.142
-    Exception Count (Count / 1 sec)                                                                                                                                                                                       0    
+    Exception Count (Count / 1 sec)                                                                                                                                                                                       0
     GC Committed Bytes (MB)                                                                                                                                                                                           4,279.783
-    GC Fragmentation (%)                                                                                                                                                                                                 21.26 
+    GC Fragmentation (%)                                                                                                                                                                                                 21.26
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 0 Size (B)                                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 Size (B)                                                                                                                                                                                               30,859,424    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 0 Size (B)                                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 Size (B)                                                                                                                                                                                               30,859,424
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 2 Size (B)                                                                                                                                                                                                   1.4632e+09
+    LOH Size (B)                                                                                                                                                                                                     7.8684e+08
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    Number of Active Timers                                                                                                                                                                                               4
+    Number of Assemblies Loaded                                                                                                                                                                                         113
+    POH (Pinned Object Heap) Size (B)                                                                                                                                                                               133,800
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
+    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0
+    Working Set (MB)                                                                                                                                                                                                  4,641.763
+Press p to pause, r to resume, q to quit.
+    Status: Running
+
+Name                                                                                                                                                                                                              Current Value
+[System.Runtime]
+    % Time in GC since last GC (%)                                                                                                                                                                                        0
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584
+    CPU Usage (%)                                                                                                                                                                                                         3.142
+    Exception Count (Count / 1 sec)                                                                                                                                                                                       0
+    GC Committed Bytes (MB)                                                                                                                                                                                           4,279.783
+    GC Fragmentation (%)                                                                                                                                                                                                 21.26
+    GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 0 Size (B)                                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 Size (B)                                                                                                                                                                                               30,859,424
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
     Gen 2 Size (B)                                                                                                                                                                                                   1.4632e+09
     IL Bytes Jitted (B)                                                                                                                                                                                              1.3771e+09
     LOH Size (B)                                                                                                                                                                                                     7.8684e+08
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    Number of Active Timers                                                                                                                                                                                               4    
-    Number of Assemblies Loaded                                                                                                                                                                                         113    
-    POH (Pinned Object Heap) Size (B)                                                                                                                                                                               133,800    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
-    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0    
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    Number of Active Timers                                                                                                                                                                                               4
+    Number of Assemblies Loaded                                                                                                                                                                                         113
+    POH (Pinned Object Heap) Size (B)                                                                                                                                                                               133,800
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
+    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    % Time in GC since last GC (%)                                                                                                                                                                                        0    
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584    
+[System.Runtime]
+    % Time in GC since last GC (%)                                                                                                                                                                                        0
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  22,189,584
     CPU Usage (%)                                                                                                                                                                                                         3.142
-    Exception Count (Count / 1 sec)                                                                                                                                                                                       0    
+    Exception Count (Count / 1 sec)                                                                                                                                                                                       0
     GC Committed Bytes (MB)                                                                                                                                                                                           4,279.783
-    GC Fragmentation (%)                                                                                                                                                                                                 21.26 
+    GC Fragmentation (%)                                                                                                                                                                                                 21.26
     GC Heap Size (MB)                                                                                                                                                                                                 1,865.662
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 0 Size (B)                                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 Size (B)                                                                                                                                                                                               30,859,424    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 0 Size (B)                                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 Size (B)                                                                                                                                                                                               30,859,424
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
     Gen 2 Size (B)                                                                                                                                                                                                   1.4632e+09
     IL Bytes Jitted (B)                                                                                                                                                                                              1.3771e+09
     LOH Size (B)                                                                                                                                                                                                     7.8684e+08
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19    
-    Number of Active Timers                                                                                                                                                                                               4    
-    Number of Assemblies Loaded                                                                                                                                                                                         113    
-    Number of Methods Jitted                                                                                                                                                                                     54,251,732    
-    POH (Pinned Object Heap) Size (B)                                                                                                                                                                               133,800    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
-    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0    
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        19
+    Number of Active Timers                                                                                                                                                                                               4
+    Number of Assemblies Loaded                                                                                                                                                                                         113
+    Number of Methods Jitted                                                                                                                                                                                     54,251,732
+    POH (Pinned Object Heap) Size (B)                                                                                                                                                                               133,800
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,709
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
+    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0
     Working Set (MB)                                                                                                                                                                                                  4,641.763
 Press p to pause, r to resume, q to quit.
     Status: Running
 
 Name                                                                                                                                                                                                              Current Value
-[System.Runtime]                                                                                                                                                                                                               
-    % Time in GC since last GC (%)                                                                                                                                                                                        0    
-    Allocation Rate (B / 1 sec)                                                                                                                                                                                  27,544,120    
+[System.Runtime]
+    % Time in GC since last GC (%)                                                                                                                                                                                        0
+    Allocation Rate (B / 1 sec)                                                                                                                                                                                  27,544,120
     CPU Usage (%)                                                                                                                                                                                                         2.727
-    Exception Count (Count / 1 sec)                                                                                                                                                                                       0    
+    Exception Count (Count / 1 sec)                                                                                                                                                                                       0
     GC Committed Bytes (MB)                                                                                                                                                                                           4,279.783
-    GC Fragmentation (%)                                                                                                                                                                                                 21.26 
+    GC Fragmentation (%)                                                                                                                                                                                                 21.26
     GC Heap Size (MB)                                                                                                                                                                                                 1,992.616
-    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342    
-    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 0 Size (B)                                                                                                                                                                                                        0    
-    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
-    Gen 1 Size (B)                                                                                                                                                                                               30,859,424    
-    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0    
+    Gen 0 GC Budget (MB)                                                                                                                                                                                              1,342
+    Gen 0 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 0 Size (B)                                                                                                                                                                                                        0
+    Gen 1 GC Count (Count / 1 sec)                                                                                                                                                                                        0
+    Gen 1 Size (B)                                                                                                                                                                                               30,859,424
+    Gen 2 GC Count (Count / 1 sec)                                                                                                                                                                                        0
     Gen 2 Size (B)                                                                                                                                                                                                   1.4632e+09
     IL Bytes Jitted (B)                                                                                                                                                                                              1.3771e+09
     LOH Size (B)                                                                                                                                                                                                     7.8684e+08
-    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        15    
-    Number of Active Timers                                                                                                                                                                                               4    
-    Number of Assemblies Loaded                                                                                                                                                                                         113    
-    Number of Methods Jitted                                                                                                                                                                                     54,252,125    
-    POH (Pinned Object Heap) Size (B)                                                                                                                                                                               133,800    
-    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,667    
-    ThreadPool Queue Length                                                                                                                                                                                               0    
-    ThreadPool Thread Count                                                                                                                                                                                              10    
-    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0    
+    Monitor Lock Contention Count (Count / 1 sec)                                                                                                                                                                        15
+    Number of Active Timers                                                                                                                                                                                               4
+    Number of Assemblies Loaded                                                                                                                                                                                         113
+    Number of Methods Jitted                                                                                                                                                                                     54,252,125
+    POH (Pinned Object Heap) Size (B)                                                                                                                                                                               133,800
+    ThreadPool Completed Work Item Count (Count / 1 sec)                                                                                                                                                              1,667
+    ThreadPool Queue Length                                                                                                                                                                                               0
+    ThreadPool Thread Count                                                                                                                                                                                              10
+    Time paused by GC (ms / 1 sec)                                                                                                                                                                                        0
     Time spent in JIT (ms / 1 sec)                                                                                                                                                                                       21.634
     Working Set (MB)                                                                                                                                                                                                  4,642.132
 
