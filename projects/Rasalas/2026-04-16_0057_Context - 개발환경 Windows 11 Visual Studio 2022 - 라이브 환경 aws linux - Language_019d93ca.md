@@ -1,15 +1,24 @@
-# Context: - 개발환경: Windows 11 / Visual Studio 2022 - 라이브 환경 : aws linux - Language: C# .net8.0 - Networking: NetMQ - Archi
+# <environmentcontext>
 
 - Project: Rasalas
 - Session ID: `019d93ca-aa73-73f0-944b-871e0566421b`
 - Workspace: `E:\Rasalas\Trunk\qa`
 - Started: 2026-04-16T00:57:05.953Z
-- Updated: 2026-04-16T00:57:08.926Z
-- Messages exported: 10
+- Updated: 2026-04-16T01:05:26.026Z
+- Messages exported: 11
 
 > Export note: internal system/developer instructions, tool execution logs, and base64 image payloads are omitted. Only user/assistant messages are archived.
 
 ## Conversation
+
+### User
+
+<environment_context>
+  <cwd>E:\Rasalas\Trunk\qa</cwd>
+  <shell>powershell</shell>
+  <current_date>2026-04-16</current_date>
+  <timezone>Asia/Seoul</timezone>
+</environment_context>
 
 ### User
 

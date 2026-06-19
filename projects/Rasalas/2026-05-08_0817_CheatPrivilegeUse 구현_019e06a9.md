@@ -5,11 +5,20 @@
 - Workspace: `E:\Rasalas\Trunk\qa`
 - Started: 2026-05-08T08:17:19.144Z
 - Updated: 2026-05-08T08:17:33.6160833Z
-- Messages exported: 14
+- Messages exported: 15
 
 > Export note: internal system/developer instructions, tool execution logs, and base64 image payloads are omitted. Only user/assistant messages are archived.
 
 ## Conversation
+
+### User
+
+<environment_context>
+  <cwd>E:\Rasalas\Trunk\qa</cwd>
+  <shell>powershell</shell>
+  <current_date>2026-05-08</current_date>
+  <timezone>Asia/Seoul</timezone>
+</environment_context>
 
 ### User
 
