@@ -124,18 +124,13 @@ bm_character 삭제는 어떤 인자값이 추가로 받아오면 되나요? cha
 allbmdel
 private bool AllBmDelete(UserGameModel user)
 public static void OnCheatAllBmDeleteCmd(BaseZoneCmd baseCmd)
-public void CheatAllBmDelete(long uId) 
-
+public void CheatAllBmDelete(long uId)
 
 <image>
-
-<image omitted>
 
 </image>
 
 <image>
-
-<image omitted>
 
 </image>
 

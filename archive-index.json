@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-06-19T00:08:45.961Z",
+  "exportedAt": "2026-07-31T01:59:08.491Z",
   "source": {
     "sessionIndex": "C:\\Users\\dumaclub\\.codex\\session_index.jsonl",
     "globalState": "C:\\Users\\dumaclub\\.codex\\.codex-global-state.json",
@@ -25,12 +25,22 @@
       "cwd": "E:\\Rasalas\\Trunk\\qa",
       "project": "Rasalas",
       "labelSource": "electron-workspace-root-labels"
+    },
+    {
+      "cwd": "E:\\Study\\Codex",
+      "project": "Codex",
+      "labelSource": "local-projects"
+    },
+    {
+      "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
+      "project": "W찾아줘",
+      "labelSource": "local-projects"
     }
   ],
   "totals": {
-    "projects": 4,
-    "threads": 78,
-    "messages": 1906
+    "projects": 6,
+    "threads": 147,
+    "messages": 5520
   },
   "projects": {
     "Zzz": [
@@ -59,7 +69,34 @@
         "startedAt": "2026-06-18T08:14:36.749Z",
         "updatedAt": "2026-06-18T08:15:33.0677281Z",
         "messages": 11,
-        "file": "projects/Zzz/2026-06-18_0814_daypay 사용 쿼리 찾기_019ed9cb.md"
+        "file": "projects/Zzz/2026-06-18_0815_daypay 사용 쿼리 찾기_019ed9cb.md"
+      },
+      {
+        "id": "019f4a5e-87b4-7682-9aa1-b69899eeba3f",
+        "title": "Fluentd 실행 상태 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "startedAt": "2026-07-10T04:52:21.969Z",
+        "updatedAt": "2026-07-10T04:52:44.285766Z",
+        "messages": 3,
+        "file": "projects/Zzz/2026-07-10_0452_Fluentd 실행 상태 확인_019f4a5e.md"
+      },
+      {
+        "id": "019fa714-cee7-7a73-8ff2-ef4b77f55db4",
+        "title": "Dictionary를 List로 변환",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "startedAt": "2026-07-28T04:56:26.945Z",
+        "updatedAt": "2026-07-28T04:56:45.6869581Z",
+        "messages": 3,
+        "file": "projects/Zzz/2026-07-28_0456_Dictionary를 List로 변환_019fa714.md"
+      },
+      {
+        "id": "019fabbd-be2e-7d21-8faa-ff9626ca510e",
+        "title": "Explain internal access modifier",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "startedAt": "2026-07-29T02:39:27.042Z",
+        "updatedAt": "2026-07-29T02:39:32.5306743Z",
+        "messages": 6,
+        "file": "projects/Zzz/2026-07-29_0239_Explain internal access modifier_019fabbd.md"
       }
     ],
     "Tetris": [
@@ -89,6 +126,15 @@
         "updatedAt": "2026-05-19T05:47:47.3156211Z",
         "messages": 29,
         "file": "projects/Tetris/2026-05-19_0547_싱글·멀티 UI 개편_019e3ec6.md"
+      },
+      {
+        "id": "019f44d5-f619-7ad3-a0ce-1007ca8a3a7a",
+        "title": "Redis 숫자 범위 확인",
+        "cwd": "D:\\TestProject\\Tetris",
+        "startedAt": "2026-07-09T03:05:00.698Z",
+        "updatedAt": "2026-07-09T03:05:36.4010654Z",
+        "messages": 7,
+        "file": "projects/Tetris/2026-07-09_0305_Redis 숫자 범위 확인_019f44d5.md"
       }
     ],
     "Astellia": [
@@ -202,12 +248,12 @@
       },
       {
         "id": "019dbe99-95ec-77a1-971e-19ce212b25af",
-        "title": "<environmentcontext>",
+        "title": "Untitled",
         "cwd": "E:\\ProjectA02\\Trunk\\Dev",
         "startedAt": "2026-04-24T08:27:09.714Z",
         "updatedAt": "2026-04-24T08:32:01.869Z",
         "messages": 9,
-        "file": "projects/Astellia/2026-04-24_0827_아스텔 로그 중에 사용자 IP를 출력하는 로그를 종류를 알려주세요. HiveVerify = 1001, 하이브 인증 LobyEnter = 10_019dbe99.md"
+        "file": "projects/Astellia/2026-04-24_0832_Untitled_019dbe99.md"
       },
       {
         "id": "019dccad-532e-7180-9d1e-cff74ed9f41e",
@@ -261,7 +307,7 @@
         "startedAt": "2026-05-06T05:43:37.068Z",
         "updatedAt": "2026-05-06T05:47:31.1025261Z",
         "messages": 34,
-        "file": "projects/Astellia/2026-05-06_0547_서버-클라 hp mp 차이 확인_019dfbd0.md"
+        "file": "projects/Astellia/2026-05-06_0547_서버-클라 hp_mp 차이 확인_019dfbd0.md"
       },
       {
         "id": "019e0637-a476-77b2-aa74-03ea801a9322",
@@ -369,7 +415,7 @@
         "startedAt": "2026-06-04T11:59:41.941Z",
         "updatedAt": "2026-06-04T12:00:01.322576Z",
         "messages": 22,
-        "file": "projects/Astellia/2026-06-04_1159_서버 코어 차이 확인_019e9280.md"
+        "file": "projects/Astellia/2026-06-04_1200_서버 코어 차이 확인_019e9280.md"
       },
       {
         "id": "019e9700-f80d-77c1-a593-7201534e944e",
@@ -382,12 +428,12 @@
       },
       {
         "id": "019eb05f-b3f6-7453-ac45-3dae9211e376",
-        "title": "<environmentcontext>",
+        "title": "Untitled",
         "cwd": "E:\\ProjectA02\\Trunk\\Dev",
         "startedAt": "2026-06-10T07:12:02.552Z",
         "updatedAt": "2026-06-10T08:13:28.555Z",
         "messages": 33,
-        "file": "projects/Astellia/2026-06-10_0813_보물과 스킬 레벨 하락 제한 기능이 추가되었는데 맞게 개발 되었는지 확인해 주세요._019eb05f.md"
+        "file": "projects/Astellia/2026-06-10_0813_Untitled_019eb05f.md"
       },
       {
         "id": "019ec9b1-5eec-7f31-9aae-de3ce7885e40",
@@ -396,7 +442,7 @@
         "startedAt": "2026-06-15T05:11:45.133Z",
         "updatedAt": "2026-06-15T05:12:26.7680569Z",
         "messages": 10,
-        "file": "projects/Astellia/2026-06-15_0511_itemType 차감 함수 확인_019ec9b1.md"
+        "file": "projects/Astellia/2026-06-15_0512_itemType 차감 함수 확인_019ec9b1.md"
       },
       {
         "id": "019ed350-be50-75f2-ba7f-c16bf8d7add8",
@@ -414,7 +460,7 @@
         "startedAt": "2026-06-17T02:40:31.827Z",
         "updatedAt": "2026-06-17T02:41:23.4376544Z",
         "messages": 34,
-        "file": "projects/Astellia/2026-06-17_0240_클래스 숙련도 변경 로그 추가_019ed373.md"
+        "file": "projects/Astellia/2026-06-17_0241_클래스 숙련도 변경 로그 추가_019ed373.md"
       },
       {
         "id": "019ed451-547d-7613-be2f-c651fa66fcda",
@@ -424,6 +470,303 @@
         "updatedAt": "2026-06-17T06:42:53.7878205Z",
         "messages": 57,
         "file": "projects/Astellia/2026-06-17_0642_각성 실패 보정 로직 추가_019ed451.md"
+      },
+      {
+        "id": "019edd8b-93a8-7130-a71c-1d8dea0c7124",
+        "title": "각인 패킷 찾기",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-06-19T01:42:52.584Z",
+        "updatedAt": "2026-06-19T01:43:16.5323497Z",
+        "messages": 48,
+        "file": "projects/Astellia/2026-06-19_0143_각인 패킷 찾기_019edd8b.md"
+      },
+      {
+        "id": "019ede98-f8a4-7e50-8945-026027d7f194",
+        "title": "튜토리얼 순서 이상 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-06-19T06:37:07.620Z",
+        "updatedAt": "2026-06-19T06:39:30.1971603Z",
+        "messages": 22,
+        "file": "projects/Astellia/2026-06-19_0639_튜토리얼 순서 이상 확인_019ede98.md"
+      },
+      {
+        "id": "019ef78f-183c-7e52-8882-dbd58c07b340",
+        "title": "특권 상품 지급 함수 찾기",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-06-24T02:56:50.749Z",
+        "updatedAt": "2026-06-24T02:57:15.0544462Z",
+        "messages": 30,
+        "file": "projects/Astellia/2026-06-24_0257_특권 상품 지급 함수 찾기_019ef78f.md"
+      },
+      {
+        "id": "019ef8f8-4868-75a3-a40b-bc11747ffdb2",
+        "title": "FocusEndConditionType 오류 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-06-24T09:31:21.979Z",
+        "updatedAt": "2026-06-24T09:31:27.4889949Z",
+        "messages": 8,
+        "file": "projects/Astellia/2026-06-24_0931_FocusEndConditionType 오류 확인_019ef8f8.md"
+      },
+      {
+        "id": "019f0315-7f99-7aa0-9917-616b5a52b1c2",
+        "title": "영웅 이상 확정 카운트 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-06-26T08:39:28.545Z",
+        "updatedAt": "2026-06-26T08:39:32.841442Z",
+        "messages": 9,
+        "file": "projects/Astellia/2026-06-26_0839_영웅 이상 확정 카운트 확인_019f0315.md"
+      },
+      {
+        "id": "019f0333-7e3d-77e2-b021-ad4ef4f35177",
+        "title": "서버 최대체력 로그 추가",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-06-26T09:12:19.166Z",
+        "updatedAt": "2026-06-26T09:13:00.9174247Z",
+        "messages": 32,
+        "file": "projects/Astellia/2026-06-26_0913_서버 최대체력 로그 추가_019f0333.md"
+      },
+      {
+        "id": "019f1d33-d51c-78e2-b97c-fc8f3039243e",
+        "title": "스페셜 체인지 확인 조건 추가",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-01T05:24:28.452Z",
+        "updatedAt": "2026-07-01T05:24:50.0814981Z",
+        "messages": 21,
+        "file": "projects/Astellia/2026-07-01_0524_스페셜 체인지 확인 조건 추가_019f1d33.md"
+      },
+      {
+        "id": "019f1d33-d51c-78e2-b97c-fdcad8ef0fdf",
+        "title": "특권 사망 복구 할인 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-01T06:39:43.313Z",
+        "updatedAt": "2026-07-01T06:40:56.3380782Z",
+        "messages": 46,
+        "file": "projects/Astellia/2026-07-01_0640_특권 사망 복구 할인 확인_019f1d33.md"
+      },
+      {
+        "id": "019f1ceb-4e85-7b72-81f7-f11cef242673",
+        "title": "특권 Type14 다이아 지급 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-01T09:03:35.982Z",
+        "updatedAt": "2026-07-01T09:04:25.7318393Z",
+        "messages": 373,
+        "file": "projects/Astellia/2026-07-01_0904_특권 Type14 다이아 지급 확인_019f1ceb.md"
+      },
+      {
+        "id": "019f1d33-d51c-78e2-b97c-ff2a56e96758",
+        "title": "스텔라 수집 등록 오류 원인 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-01T09:31:16.660Z",
+        "updatedAt": "2026-07-01T09:32:05.8739237Z",
+        "messages": 14,
+        "file": "projects/Astellia/2026-07-01_0932_스텔라 수집 등록 오류 원인 확인_019f1d33.md"
+      },
+      {
+        "id": "019f212a-abbe-7b42-9a04-aef8a6390a19",
+        "title": "도감 수정 공수 비교",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-02T04:51:17.470Z",
+        "updatedAt": "2026-07-02T04:55:50.8111848Z",
+        "messages": 225,
+        "file": "projects/Astellia/2026-07-02_0455_도감 수정 공수 비교_019f212a.md"
+      },
+      {
+        "id": "019f26a8-08f3-7281-9365-6e4dc402d931",
+        "title": "EventHubPageInfo 이벤트 추가",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-03T06:26:19.426Z",
+        "updatedAt": "2026-07-03T06:30:41.3114363Z",
+        "messages": 26,
+        "file": "projects/Astellia/2026-07-03_0630_EventHubPageInfo 이벤트 추가_019f26a8.md"
+      },
+      {
+        "id": "019f26fd-50ff-75c1-8c74-6819343aa39b",
+        "title": "MySQL 서비스 오류 해결",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-03T07:59:28.424Z",
+        "updatedAt": "2026-07-03T08:00:01.7482781Z",
+        "messages": 3,
+        "file": "projects/Astellia/2026-07-03_0800_MySQL 서비스 오류 해결_019f26fd.md"
+      },
+      {
+        "id": "019f352e-1867-7633-9269-9743336810fd",
+        "title": "확인 던전소탕권 서버 작업",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-06T02:07:26.209Z",
+        "updatedAt": "2026-07-06T02:07:31.3322022Z",
+        "messages": 151,
+        "file": "projects/Astellia/2026-07-06_0207_확인 던전소탕권 서버 작업_019f352e.md"
+      },
+      {
+        "id": "019f3a7f-d58c-77a2-92ff-e8620f2f49d5",
+        "title": "특권 즉시 활성화 원인 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-07T02:54:47.125Z",
+        "updatedAt": "2026-07-07T02:57:21.354057Z",
+        "messages": 53,
+        "file": "projects/Astellia/2026-07-07_0257_특권 즉시 활성화 원인 확인_019f3a7f.md"
+      },
+      {
+        "id": "019f3fa2-6172-7da2-a0e0-4a8ac6de9ecb",
+        "title": "nft 기획데이터 시작 설정",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-08T02:50:36.743Z",
+        "updatedAt": "2026-07-08T02:50:43.6850971Z",
+        "messages": 11,
+        "file": "projects/Astellia/2026-07-08_0250_nft 기획데이터 시작 설정_019f3fa2.md"
+      },
+      {
+        "id": "019f3fcd-8b9e-7ed0-afce-bdfa9ac5f661",
+        "title": "RewardSweepHelper 인코딩 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-08T03:37:44.723Z",
+        "updatedAt": "2026-07-08T03:37:49.8765321Z",
+        "messages": 10,
+        "file": "projects/Astellia/2026-07-08_0337_RewardSweepHelper 인코딩 확인_019f3fcd.md"
+      },
+      {
+        "id": "019f45df-12c7-7723-bdfb-e99ef802d632",
+        "title": "요일보스 남은시간 오늘 표시 원인 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-09T07:54:36.887Z",
+        "updatedAt": "2026-07-09T07:55:03.9628907Z",
+        "messages": 100,
+        "file": "projects/Astellia/2026-07-09_0755_요일보스 남은시간 오늘 표시 원인 확인_019f45df.md"
+      },
+      {
+        "id": "019f4b0b-1bfe-7570-8f74-fa4f46a3da6e",
+        "title": "DB IP 변경",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-10T08:00:47.864Z",
+        "updatedAt": "2026-07-10T08:00:52.0275011Z",
+        "messages": 32,
+        "file": "projects/Astellia/2026-07-10_0800_DB IP 변경_019f4b0b.md"
+      },
+      {
+        "id": "019f5980-8def-74f1-a24b-32ee41dc77d0",
+        "title": "로컬 기획데이터 경로 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-13T03:23:50.036Z",
+        "updatedAt": "2026-07-13T03:24:36.5751792Z",
+        "messages": 19,
+        "file": "projects/Astellia/2026-07-13_0324_로컬 기획데이터 경로 확인_019f5980.md"
+      },
+      {
+        "id": "019f5e88-60a7-72c1-ab98-72aa90ee2cd4",
+        "title": "클래스 체인지 횟수 저장 위치 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-14T02:50:25.038Z",
+        "updatedAt": "2026-07-14T02:50:30.0709039Z",
+        "messages": 34,
+        "file": "projects/Astellia/2026-07-14_0250_클래스 체인지 횟수 저장 위치 확인_019f5e88.md"
+      },
+      {
+        "id": "019f5f92-ea1c-7211-b876-c862a3a74df7",
+        "title": "엑셀 양식 기입",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-14T07:41:36.573Z",
+        "updatedAt": "2026-07-14T07:42:52.7480553Z",
+        "messages": 53,
+        "file": "projects/Astellia/2026-07-14_0742_엑셀 양식 기입_019f5f92.md"
+      },
+      {
+        "id": "019f642f-1a4f-7972-838f-c1e4cc8a5d64",
+        "title": "랭킹 시스템 추가 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-15T05:10:36.675Z",
+        "updatedAt": "2026-07-15T05:10:42.0138849Z",
+        "messages": 466,
+        "file": "projects/Astellia/2026-07-15_0510_랭킹 시스템 추가 확인_019f642f.md"
+      },
+      {
+        "id": "019f68e3-0942-78a2-b8a9-fcef3ad4d4ba",
+        "title": "에러 원인 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-16T03:05:42.370Z",
+        "updatedAt": "2026-07-16T03:05:47.4737834Z",
+        "messages": 6,
+        "file": "projects/Astellia/2026-07-16_0305_에러 원인 확인_019f68e3.md"
+      },
+      {
+        "id": "019f697d-a62c-7ef1-9e52-bb9f3d62ac3e",
+        "title": "강화 단계 조회 쿼리 작성",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-16T05:54:31.064Z",
+        "updatedAt": "2026-07-16T05:54:49.1182179Z",
+        "messages": 15,
+        "file": "projects/Astellia/2026-07-16_0554_강화 단계 조회 쿼리 작성_019f697d.md"
+      },
+      {
+        "id": "019f69b0-ae01-7091-b6dd-15b09fbd4df3",
+        "title": "도메인 등록 프로필 생성",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-16T06:50:18.256Z",
+        "updatedAt": "2026-07-16T06:50:26.2731927Z",
+        "messages": 8,
+        "file": "projects/Astellia/2026-07-16_0650_도메인 등록 프로필 생성_019f69b0.md"
+      },
+      {
+        "id": "019f82a5-0365-74a0-b5e7-514410e49580",
+        "title": "서버명 기준 IP 업데이트 쿼리 작성",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-21T03:08:05.255Z",
+        "updatedAt": "2026-07-21T03:10:29.9172795Z",
+        "messages": 13,
+        "file": "projects/Astellia/2026-07-21_0310_서버명 기준 IP 업데이트 쿼리 작성_019f82a5.md"
+      },
+      {
+        "id": "019f830b-18dd-7d30-870a-dee60b4bc005",
+        "title": "서버이전 pet_deck 적용 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-21T04:59:35.424Z",
+        "updatedAt": "2026-07-21T05:00:42.5210181Z",
+        "messages": 84,
+        "file": "projects/Astellia/2026-07-21_0500_서버이전 pet_deck 적용 확인_019f830b.md"
+      },
+      {
+        "id": "019f8375-7b48-7583-bdb2-90c10fb40727",
+        "title": "웹샵 결제 테이블 및 조회 조건 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-21T06:55:47.439Z",
+        "updatedAt": "2026-07-21T06:56:07.2693448Z",
+        "messages": 4,
+        "file": "projects/Astellia/2026-07-21_0656_웹샵 결제 테이블 및 조회 조건 확인_019f8375.md"
+      },
+      {
+        "id": "019f83b3-a4fc-78b2-ba1a-69ac0d940bf2",
+        "title": "펫 별보석 장착 서버 로직 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-21T08:03:38.078Z",
+        "updatedAt": "2026-07-21T08:06:03.8690512Z",
+        "messages": 5,
+        "file": "projects/Astellia/2026-07-21_0806_펫 별보석 장착 서버 로직 확인_019f83b3.md"
+      },
+      {
+        "id": "019f91c2-e0f9-7933-8825-4c5bcb9aad8f",
+        "title": "운영툴 연동 Database 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-24T01:35:00.760Z",
+        "updatedAt": "2026-07-24T01:35:06.0609288Z",
+        "messages": 12,
+        "file": "projects/Astellia/2026-07-24_0135_운영툴 연동 Database 확인_019f91c2.md"
+      },
+      {
+        "id": "019fa721-ece2-7922-8acf-39fa03524bef",
+        "title": "Untitled",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-28T05:10:46.397Z",
+        "updatedAt": "2026-07-29T03:42:52.594Z",
+        "messages": 243,
+        "file": "projects/Astellia/2026-07-29_0342_Untitled_019fa721.md"
+      },
+      {
+        "id": "019fac79-0b74-7610-900b-2e152c5262c4",
+        "title": "Untitled",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-07-29T06:04:01.916Z",
+        "updatedAt": "2026-07-29T10:12:37.784Z",
+        "messages": 111,
+        "file": "projects/Astellia/2026-07-29_1012_Untitled_019fac79.md"
       }
     ],
     "Rasalas": [
@@ -434,16 +777,16 @@
         "startedAt": "2026-04-15T06:45:57.097Z",
         "updatedAt": "2026-04-15T06:46:04.8147447Z",
         "messages": 3,
-        "file": "projects/Rasalas/2026-04-15_0646_함수·변수명 위치 찾기 } }}_019d8fe3.md"
+        "file": "projects/Rasalas/2026-04-15_0646_함수·변수명 위치 찾기 } }}___019d8fe3.md"
       },
       {
         "id": "019d93ca-aa73-73f0-944b-871e0566421b",
-        "title": "<environmentcontext>",
+        "title": "Untitled",
         "cwd": "E:\\Rasalas\\Trunk\\qa",
         "startedAt": "2026-04-16T00:57:05.953Z",
         "updatedAt": "2026-04-16T01:05:26.026Z",
         "messages": 11,
-        "file": "projects/Rasalas/2026-04-16_0057_Context - 개발환경 Windows 11 Visual Studio 2022 - 라이브 환경 aws linux - Language_019d93ca.md"
+        "file": "projects/Rasalas/2026-04-16_0105_Untitled_019d93ca.md"
       },
       {
         "id": "019dae9c-f1c2-7ff2-b47c-9f5e0474775c",
@@ -451,7 +794,7 @@
         "cwd": "E:\\Rasalas\\Trunk\\qa",
         "startedAt": "2026-04-21T05:56:54.374Z",
         "updatedAt": "2026-04-21T05:57:05.2340914Z",
-        "messages": 89,
+        "messages": 101,
         "file": "projects/Rasalas/2026-04-21_0557_보물 레벨 총합 스킬 이식 설계 검토_019dae9c.md"
       },
       {
@@ -658,8 +1001,8 @@
         "cwd": "E:\\Rasalas\\Trunk\\qa",
         "startedAt": "2026-05-29T06:47:12.457Z",
         "updatedAt": "2026-05-29T06:50:52.0933996Z",
-        "messages": 11,
-        "file": "projects/Rasalas/2026-05-29_0647_계약정보 누락 원인 확인_019e727c.md"
+        "messages": 52,
+        "file": "projects/Rasalas/2026-05-29_0650_계약정보 누락 원인 확인_019e727c.md"
       },
       {
         "id": "019e927f-d85e-74d0-ae2d-6ce6a48a1a3c",
@@ -668,7 +1011,7 @@
         "startedAt": "2026-06-04T11:58:32.542Z",
         "updatedAt": "2026-06-04T11:59:46.6455744Z",
         "messages": 21,
-        "file": "projects/Rasalas/2026-06-04_1158_서버 코어 차이 확인_019e927f.md"
+        "file": "projects/Rasalas/2026-06-04_1159_서버 코어 차이 확인_019e927f.md"
       },
       {
         "id": "019ea4c9-d305-7330-89fd-0f7aea905209",
@@ -703,7 +1046,7 @@
         "cwd": "E:\\Rasalas\\Trunk\\qa",
         "startedAt": "2026-06-10T07:10:26.349Z",
         "updatedAt": "2026-06-10T07:10:37.1399442Z",
-        "messages": 61,
+        "messages": 82,
         "file": "projects/Rasalas/2026-06-10_0710_아바타 초월합성 확인_019eb05e.md"
       },
       {
@@ -713,7 +1056,7 @@
         "startedAt": "2026-06-12T05:35:40.050Z",
         "updatedAt": "2026-06-12T05:36:37.1858826Z",
         "messages": 40,
-        "file": "projects/Rasalas/2026-06-12_0535_서버 통합 슬롯 잠금 수정_019eba54.md"
+        "file": "projects/Rasalas/2026-06-12_0536_서버 통합 슬롯 잠금 수정_019eba54.md"
       },
       {
         "id": "019ecf0a-82fe-7bb3-b86d-02bb93e79203",
@@ -721,7 +1064,7 @@
         "cwd": "E:\\Rasalas\\Trunk\\qa",
         "startedAt": "2026-06-16T06:07:13.150Z",
         "updatedAt": "2026-06-16T06:07:18.5455411Z",
-        "messages": 73,
+        "messages": 407,
         "file": "projects/Rasalas/2026-06-16_0607_커스텀 출석 패스 서버 검토_019ecf0a.md"
       },
       {
@@ -740,7 +1083,299 @@
         "startedAt": "2026-06-18T08:46:21.664Z",
         "updatedAt": "2026-06-18T08:47:09.2659677Z",
         "messages": 14,
-        "file": "projects/Rasalas/2026-06-18_0846_제작 제한 조건 확인_019ed9e8.md"
+        "file": "projects/Rasalas/2026-06-18_0847_제작 제한 조건 확인_019ed9e8.md"
+      },
+      {
+        "id": "019eed40-0da0-78e3-978c-219027fdf294",
+        "title": "커스텀 팝업 패키지",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-06-22T02:54:18.528Z",
+        "updatedAt": "2026-06-24T07:07:05.6185904Z",
+        "messages": 323,
+        "file": "projects/Rasalas/2026-06-24_0707_커스텀 팝업 패키지_019eed40.md"
+      },
+      {
+        "id": "019ef97a-b5e8-74c1-81d8-d496b5cdd794",
+        "title": "gmtool_log INSERT 쿼리 작성",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-06-24T11:53:54.323Z",
+        "updatedAt": "2026-06-24T11:53:58.5934523Z",
+        "messages": 11,
+        "file": "projects/Rasalas/2026-06-24_1153_gmtool_log INSERT 쿼리 작성_019ef97a.md"
+      },
+      {
+        "id": "019efc99-ee15-7731-9808-0c4753b61c62",
+        "title": "데이터 추출 오류 수정",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-06-25T02:26:50.984Z",
+        "updatedAt": "2026-06-25T02:27:08.9826322Z",
+        "messages": 6,
+        "file": "projects/Rasalas/2026-06-25_0227_데이터 추출 오류 수정_019efc99.md"
+      },
+      {
+        "id": "019f027a-68a3-7e42-b952-83ae156161df",
+        "title": "게이트웨이 통신 지연 원인 찾기",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-06-26T05:50:06.805Z",
+        "updatedAt": "2026-06-26T05:50:11.8647774Z",
+        "messages": 43,
+        "file": "projects/Rasalas/2026-06-26_0550_게이트웨이 통신 지연 원인 찾기_019f027a.md"
+      },
+      {
+        "id": "019f1109-14e8-7403-b676-10510ddad9f5",
+        "title": "무게 초과 악용 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-06-29T01:40:35.859Z",
+        "updatedAt": "2026-06-29T01:41:06.5622584Z",
+        "messages": 24,
+        "file": "projects/Rasalas/2026-06-29_0141_무게 초과 악용 확인_019f1109.md"
+      },
+      {
+        "id": "019f1d33-d51c-78e2-b97c-fa71bd8681b7",
+        "title": "Fix server startup crash",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-06-30T07:04:32.291Z",
+        "updatedAt": "2026-06-30T07:04:35.6513221Z",
+        "messages": 7,
+        "file": "projects/Rasalas/2026-06-30_0704_Fix server startup crash_019f1d33.md"
+      },
+      {
+        "id": "019f1d33-d51c-78e2-b97c-fafad47d0f8e",
+        "title": "VS2022에 시작 스크립트 적용",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-06-30T07:18:28.553Z",
+        "updatedAt": "2026-06-30T07:18:39.9779286Z",
+        "messages": 25,
+        "file": "projects/Rasalas/2026-06-30_0718_VS2022에 시작 스크립트 적용_019f1d33.md"
+      },
+      {
+        "id": "019f20e1-9215-7440-9c15-8171e197f29c",
+        "title": "BMStore 보상 오류 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-07-02T03:31:22.277Z",
+        "updatedAt": "2026-07-02T03:31:32.1473885Z",
+        "messages": 19,
+        "file": "projects/Rasalas/2026-07-02_0331_BMStore 보상 오류 확인_019f20e1.md"
+      },
+      {
+        "id": "019f3a56-28d6-7c22-a874-0a8419fe321c",
+        "title": "테이블 재생성 여부 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-07-07T02:09:17.942Z",
+        "updatedAt": "2026-07-07T02:09:23.3332695Z",
+        "messages": 27,
+        "file": "projects/Rasalas/2026-07-07_0209_테이블 재생성 여부 확인_019f3a56.md"
+      },
+      {
+        "id": "019f409c-632b-7d63-910d-ae97ca32141a",
+        "title": "증표 초기화 페이지값 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-07-08T07:23:41.031Z",
+        "updatedAt": "2026-07-08T07:25:36.2788408Z",
+        "messages": 38,
+        "file": "projects/Rasalas/2026-07-08_0725_증표 초기화 페이지값 확인_019f409c.md"
+      },
+      {
+        "id": "019f4b19-f9f9-76a2-9589-4d3098876105",
+        "title": "Fix ZmqPacket duplicate fields",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-07-10T08:17:04.430Z",
+        "updatedAt": "2026-07-10T08:17:08.426809Z",
+        "messages": 6,
+        "file": "projects/Rasalas/2026-07-10_0817_Fix ZmqPacket duplicate fields_019f4b19.md"
+      },
+      {
+        "id": "019f59e8-1d7a-7e52-a026-f8d1d37332db",
+        "title": "신규서버 반복 메시지 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-07-13T05:16:56.988Z",
+        "updatedAt": "2026-07-13T05:18:27.7615274Z",
+        "messages": 34,
+        "file": "projects/Rasalas/2026-07-13_0518_신규서버 반복 메시지 확인_019f59e8.md"
+      },
+      {
+        "id": "019f7efc-b51f-7e01-97a7-22b9e4be1ac0",
+        "title": "몬스터 스폰 실패 원인 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-07-20T10:05:22.154Z",
+        "updatedAt": "2026-07-20T10:05:26.5736697Z",
+        "messages": 72,
+        "file": "projects/Rasalas/2026-07-20_1005_몬스터 스폰 실패 원인 확인_019f7efc.md"
+      },
+      {
+        "id": "019f945d-4c11-7290-9685-e030cb4c82eb",
+        "title": "서버이전 삭제 마스터리 오류 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-07-24T13:42:54.961Z",
+        "updatedAt": "2026-07-24T13:44:08.069328Z",
+        "messages": 7,
+        "file": "projects/Rasalas/2026-07-24_1344_서버이전 삭제 마스터리 오류 확인_019f945d.md"
+      }
+    ],
+    "Codex": [
+      {
+        "id": "019e9516-5a56-7611-b806-732ceaae9c4d",
+        "title": "Weekly Codex conversation archive",
+        "cwd": "E:\\Study\\Codex",
+        "startedAt": "2026-06-05T00:02:15.717Z",
+        "updatedAt": "2026-06-05T00:02:22.5009834Z",
+        "messages": 37,
+        "file": "projects/Codex/2026-06-05_0002_Weekly Codex conversation archive_019e9516.md"
+      },
+      {
+        "id": "019eb922-ce5d-71f1-829b-976fc0ab8b2f",
+        "title": "Weekly Codex conversation archive",
+        "cwd": "E:\\Study\\Codex",
+        "startedAt": "2026-06-12T00:02:11.577Z",
+        "updatedAt": "2026-06-12T00:02:18.2854248Z",
+        "messages": 47,
+        "file": "projects/Codex/2026-06-12_0002_Weekly Codex conversation archive_019eb922.md"
+      },
+      {
+        "id": "019edd2f-3b28-7153-a76a-61f04932bba1",
+        "title": "Weekly Codex conversation archive",
+        "cwd": "E:\\Study\\Codex",
+        "startedAt": "2026-06-19T00:02:05.663Z",
+        "updatedAt": "2026-06-19T00:02:11.9422928Z",
+        "messages": 30,
+        "file": "projects/Codex/2026-06-19_0002_Weekly Codex conversation archive_019edd2f.md"
+      },
+      {
+        "id": "019f013b-19b2-78f1-aae1-7fac94ec4d60",
+        "title": "Weekly Codex conversation archive",
+        "cwd": "E:\\Study\\Codex",
+        "startedAt": "2026-06-26T00:01:23.291Z",
+        "updatedAt": "2026-06-26T00:01:29.7368177Z",
+        "messages": 5,
+        "file": "projects/Codex/2026-06-26_0001_Weekly Codex conversation archive_019f013b.md"
+      },
+      {
+        "id": "019f2548-2e7d-7b21-9419-f384b1c70ac0",
+        "title": "Weekly Codex conversation archive",
+        "cwd": "E:\\Study\\Codex",
+        "startedAt": "2026-07-03T00:02:00.349Z",
+        "updatedAt": "2026-07-03T00:02:06.7740184Z",
+        "messages": 7,
+        "file": "projects/Codex/2026-07-03_0002_Weekly Codex conversation archive_019f2548.md"
+      },
+      {
+        "id": "019f4954-f82c-7401-9356-673fb090e8da",
+        "title": "Weekly Codex conversation archive",
+        "cwd": "E:\\Study\\Codex",
+        "startedAt": "2026-07-10T00:02:18.187Z",
+        "updatedAt": "2026-07-10T00:02:24.6686432Z",
+        "messages": 8,
+        "file": "projects/Codex/2026-07-10_0002_Weekly Codex conversation archive_019f4954.md"
+      },
+      {
+        "id": "019f6d61-336d-7003-8414-3dec7d95c8e9",
+        "title": "Weekly Codex conversation archive",
+        "cwd": "E:\\Study\\Codex",
+        "startedAt": "2026-07-17T00:01:59.564Z",
+        "updatedAt": "2026-07-17T00:02:06.7331307Z",
+        "messages": 11,
+        "file": "projects/Codex/2026-07-17_0002_Weekly Codex conversation archive_019f6d61.md"
+      },
+      {
+        "id": "019f916e-40e2-7231-a3bf-b19bcb58bba5",
+        "title": "Weekly Codex conversation archive",
+        "cwd": "E:\\Study\\Codex",
+        "startedAt": "2026-07-24T00:02:34.743Z",
+        "updatedAt": "2026-07-24T00:02:41.8168853Z",
+        "messages": 6,
+        "file": "projects/Codex/2026-07-24_0002_Weekly Codex conversation archive_019f916e.md"
+      },
+      {
+        "id": "019fb57a-3672-7192-9d3d-502640057071",
+        "title": "Weekly Codex conversation archive",
+        "cwd": "E:\\Study\\Codex",
+        "startedAt": "2026-07-31T00:01:53.596Z",
+        "updatedAt": "2026-07-31T00:01:55.9525953Z",
+        "messages": 10,
+        "file": "projects/Codex/2026-07-31_0001_Weekly Codex conversation archive_019fb57a.md"
+      }
+    ],
+    "W찾아줘": [
+      {
+        "id": "019f9228-7e03-78f0-b7c2-67aac43bc6e8",
+        "title": "오늘의 주식 시황",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
+        "startedAt": "2026-07-24T03:26:00.087Z",
+        "updatedAt": "2026-07-24T03:29:46.8490154Z",
+        "messages": 45,
+        "file": "projects/W찾아줘/2026-07-24_0329_오늘의 주식 시황_019f9228.md"
+      },
+      {
+        "id": "019f922c-2124-7ea1-b107-aae197caf3cf",
+        "title": "반도체 저평가 여부 분석",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
+        "startedAt": "2026-07-24T03:29:58.461Z",
+        "updatedAt": "2026-07-24T03:32:23.2956664Z",
+        "messages": 5,
+        "file": "projects/W찾아줘/2026-07-24_0332_반도체 저평가 여부 분석_019f922c.md"
+      },
+      {
+        "id": "019f922e-7005-7162-b84b-ac0834d54262",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
+        "startedAt": "2026-07-24T03:32:29.731Z",
+        "updatedAt": "2026-07-24T03:36:12.734Z",
+        "messages": 4,
+        "file": "projects/W찾아줘/2026-07-24_0336_Untitled_019f922e.md"
+      },
+      {
+        "id": "019f922f-6486-71f0-aef6-641ec222668c",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
+        "startedAt": "2026-07-24T03:33:32.328Z",
+        "updatedAt": "2026-07-24T03:36:38.432Z",
+        "messages": 4,
+        "file": "projects/W찾아줘/2026-07-24_0336_Untitled_019f922f.md"
+      },
+      {
+        "id": "019fa166-3d00-7120-916d-6ff7a63f7444",
+        "title": "우리금융지주 배당 정보 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
+        "startedAt": "2026-07-27T02:27:40.342Z",
+        "updatedAt": "2026-07-27T02:28:20.4646066Z",
+        "messages": 12,
+        "file": "projects/W찾아줘/2026-07-27_0228_우리금융지주 배당 정보 확인_019fa166.md"
+      },
+      {
+        "id": "019fa175-bf4b-7831-aa02-1319814de1f7",
+        "title": "고배당 성장 ETF와 종목 찾기",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
+        "startedAt": "2026-07-27T02:44:36.641Z",
+        "updatedAt": "2026-07-27T02:44:58.1726407Z",
+        "messages": 8,
+        "file": "projects/W찾아줘/2026-07-27_0244_고배당 성장 ETF와 종목 찾기_019fa175.md"
+      },
+      {
+        "id": "019fa221-1b72-76e0-8642-97030ab6edbc",
+        "title": "순자산 20억 자산배분 점검",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
+        "startedAt": "2026-07-27T05:51:46.856Z",
+        "updatedAt": "2026-07-27T05:52:46.032288Z",
+        "messages": 4,
+        "file": "projects/W찾아줘/2026-07-27_0552_순자산 20억 자산배분 점검_019fa221.md"
+      },
+      {
+        "id": "019fa2d6-753b-77d2-a765-e7620902e5a3",
+        "title": "단일 추천 종목 찾기",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
+        "startedAt": "2026-07-27T09:09:51.828Z",
+        "updatedAt": "2026-07-27T09:10:23.567521Z",
+        "messages": 11,
+        "file": "projects/W찾아줘/2026-07-27_0910_단일 추천 종목 찾기_019fa2d6.md"
+      },
+      {
+        "id": "019fac2a-fd04-7132-8cf1-1418d88d53dc",
+        "title": "하이닉스 외국인 매도 수급 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
+        "startedAt": "2026-07-29T04:38:46.559Z",
+        "updatedAt": "2026-07-29T04:39:41.701813Z",
+        "messages": 4,
+        "file": "projects/W찾아줘/2026-07-29_0439_하이닉스 외국인 매도 수급 확인_019fac2a.md"
       }
     ]
   }
