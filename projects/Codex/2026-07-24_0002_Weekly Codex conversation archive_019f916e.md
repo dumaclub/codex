@@ -5,38 +5,11 @@
 - Workspace: `E:\Study\Codex`
 - Started: 2026-07-24T00:02:34.743Z
 - Updated: 2026-07-24T00:02:41.8168853Z
-- Messages exported: 6
+- Messages exported: 5
 
 > Export note: internal system/developer instructions, tool execution logs, and base64 image payloads are omitted. Only user/assistant messages are archived.
 
 ## Conversation
-
-### User
-
-<recommended_plugins>
-Here is a list of plugins that are available but not installed.
-
-- Atlassian Rovo (atlassian-rovo@openai-curated-remote)
-- Box (box@openai-curated-remote)
-- Figma (figma@openai-curated-remote)
-- GitHub (github@openai-curated-remote)
-- Gmail (gmail@openai-curated-remote)
-- Google Drive (google-drive@openai-curated-remote)
-- Notion (notion@openai-curated-remote)
-- Outlook Calendar (outlook-calendar@openai-curated-remote)
-- Outlook Email (outlook-email@openai-curated-remote)
-- SharePoint (sharepoint@openai-curated-remote)
-- Slack (slack@openai-curated-remote)
-- Teams (teams@openai-curated-remote)
-</recommended_plugins>
-
-<environment_context>
-  <cwd>E:\Study\Codex</cwd>
-  <shell>powershell</shell>
-  <current_date>2026-07-24</current_date>
-  <timezone>Asia/Seoul</timezone>
-  <filesystem><workspace_roots><root>E:\Study\Codex</root></workspace_roots><permission_profile type="managed"><file_system type="restricted"><entry access="read"><special>:root</special></entry><entry access="write"><path>E:\Study\Codex</path></entry><entry access="write"><special>:slash_tmp</special></entry><entry access="write"><special>:tmpdir</special></entry><entry access="write"><path>C:\Users\dumaclub\.codex\automations\weekly-codex-conversation-archive</path></entry><entry access="write"><path>E:\Study\Codex\.git</path></entry><entry access="read"><path>E:\Study\Codex\.git</path></entry><entry access="read"><path>E:\Study\Codex\.agents</path></entry><entry access="read"><path>E:\Study\Codex\.codex</path></entry></file_system></permission_profile></filesystem>
-</environment_context>
 
 ### User
 

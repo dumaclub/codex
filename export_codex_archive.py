@@ -17,6 +17,11 @@ DATA_IMAGE = re.compile(
     r"data:image/[a-zA-Z0-9.+-]+;base64,[a-zA-Z0-9+/=\r\n]+",
     re.IGNORECASE,
 )
+CONTEXT_BLOCKS = re.compile(
+    r"<(?:recommended_plugins|environment_context|app-context|permissions instructions|apps_instructions|plugins_instructions|skills_instructions)>.*?</(?:recommended_plugins|environment_context|app-context|permissions instructions|apps_instructions|plugins_instructions|skills_instructions)>",
+    re.IGNORECASE | re.DOTALL,
+)
+LEADING_USER_HEADING = re.compile(r"^\s*### User\s+", re.IGNORECASE)
 
 
 def read_jsonl(path):
@@ -29,7 +34,19 @@ def read_jsonl(path):
 
 
 def sanitize_text(text):
-    return DATA_IMAGE.sub("[base64 image omitted]", text).rstrip()
+    text = DATA_IMAGE.sub("[base64 image omitted]", text)
+    text = CONTEXT_BLOCKS.sub("", text)
+    text = LEADING_USER_HEADING.sub("", text)
+    clean_lines = []
+    for line in text.splitlines():
+        line = line.rstrip()
+        indent = re.match(r"^[ \t]+", line)
+        if indent:
+            fixed_indent = re.sub(r" +(?=\t)", "", indent.group(0))
+            line = fixed_indent + line[indent.end() :]
+        clean_lines.append(line)
+    text = "\n".join(clean_lines)
+    return text.strip()
 
 
 def filename_part(text, max_length=140):
@@ -274,8 +291,7 @@ def main():
         "## Scope",
         "",
     ]
-    for workspace in saved_workspaces:
-        project = workspace["project"]
+    for project in projects:
         project_sessions = projects.get(project, [])
         count = sum(len(session["messages"]) for session in project_sessions)
         readme.append(
@@ -289,8 +305,7 @@ def main():
             "",
         ]
     )
-    for workspace in saved_workspaces:
-        project = workspace["project"]
+    for project in projects:
         readme.append(f"- `projects/{project}/`: {project} conversations")
     readme.extend(
         [
@@ -307,8 +322,7 @@ def main():
             "",
         ]
     )
-    for workspace in saved_workspaces:
-        project = workspace["project"]
+    for project in projects:
         readme.extend([f"### {project}", ""])
         for session in projects.get(project, []):
             stamp = session["updatedAt"][:10]

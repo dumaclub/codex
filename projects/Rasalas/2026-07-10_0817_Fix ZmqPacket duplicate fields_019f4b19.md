@@ -5,21 +5,11 @@
 - Workspace: `E:\Rasalas\Trunk\qa`
 - Started: 2026-07-10T08:17:04.430Z
 - Updated: 2026-07-10T08:17:08.426809Z
-- Messages exported: 6
+- Messages exported: 5
 
 > Export note: internal system/developer instructions, tool execution logs, and base64 image payloads are omitted. Only user/assistant messages are archived.
 
 ## Conversation
-
-### User
-
-<environment_context>
-  <cwd>E:\Rasalas\Trunk\qa</cwd>
-  <shell>powershell</shell>
-  <current_date>2026-07-10</current_date>
-  <timezone>Asia/Seoul</timezone>
-  <filesystem><workspace_roots><root>E:\Rasalas\Trunk\qa</root></workspace_roots><permission_profile type="managed"><file_system type="restricted"><entry access="read"><special>:root</special></entry><entry access="write"><path>E:\Rasalas\Trunk\qa</path></entry><entry access="write"><special>:slash_tmp</special></entry><entry access="write"><special>:tmpdir</special></entry><entry access="read"><path>E:\Rasalas\Trunk\qa\.git</path></entry><entry access="read"><path>E:\Rasalas\Trunk\qa\.agents</path></entry><entry access="read"><path>E:\Rasalas\Trunk\qa\.codex</path></entry></file_system></permission_profile></filesystem>
-</environment_context>
 
 ### User
 

@@ -5,21 +5,11 @@
 - Workspace: `E:\Study\Codex`
 - Started: 2026-06-19T00:02:05.663Z
 - Updated: 2026-06-19T00:02:11.9422928Z
-- Messages exported: 30
+- Messages exported: 29
 
 > Export note: internal system/developer instructions, tool execution logs, and base64 image payloads are omitted. Only user/assistant messages are archived.
 
 ## Conversation
-
-### User
-
-<environment_context>
-  <cwd>E:\Study\Codex</cwd>
-  <shell>powershell</shell>
-  <current_date>2026-06-19</current_date>
-  <timezone>Asia/Seoul</timezone>
-  <filesystem><workspace_roots><root>E:\Study\Codex</root></workspace_roots><permission_profile type="managed"><file_system type="restricted"><entry access="read"><special>:root</special></entry><entry access="write"><path>E:\Study\Codex</path></entry><entry access="write"><special>:slash_tmp</special></entry><entry access="write"><special>:tmpdir</special></entry><entry access="write"><path>C:\Users\dumaclub\.codex\automations\weekly-codex-conversation-archive</path></entry><entry access="write"><path>E:\Study\Codex\.git</path></entry><entry access="read"><path>E:\Study\Codex\.git</path></entry><entry access="read"><path>E:\Study\Codex\.agents</path></entry><entry access="read"><path>E:\Study\Codex\.codex</path></entry></file_system></permission_profile></filesystem>
-</environment_context>
 
 ### User
 

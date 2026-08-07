@@ -5,7 +5,7 @@
 - Workspace: `E:\ProjectA02\Trunk\Dev`
 - Started: 2026-05-22T06:58:55.058Z
 - Updated: 2026-05-22T06:59:06.0686854Z
-- Messages exported: 22
+- Messages exported: 20
 
 > Export note: internal system/developer instructions, tool execution logs, and base64 image payloads are omitted. Only user/assistant messages are archived.
 
@@ -13,17 +13,8 @@
 
 ### User
 
-<environment_context>
-  <cwd>E:\ProjectA02\Trunk\Dev</cwd>
-  <shell>powershell</shell>
-  <current_date>2026-05-22</current_date>
-  <timezone>Asia/Seoul</timezone>
-</environment_context>
-
-### User
-
-모든 상품 삭제 
-치트키 작업이 필요한데 아래의 쿼리처럼 모든 bm 상품을 삭제하는 기능을 추가하고 싶은데 public void CheatBMAllDelete(long uId) 이 함수로 동일 처리가 되는지 확인해 주세요. 
+모든 상품 삭제
+치트키 작업이 필요한데 아래의 쿼리처럼 모든 bm 상품을 삭제하는 기능을 추가하고 싶은데 public void CheatBMAllDelete(long uId) 이 함수로 동일 처리가 되는지 확인해 주세요.
 DELETE FROM astellia_account_game.bm_account WHERE uId= 1;
 DELETE FROM astellia_game.bm_character WHERE uId= 1;
 DELETE FROM astellia_game.bm_user WHERE uId= 1;
@@ -71,7 +62,7 @@ SQL과 동일한 “모든 BM 상품 삭제” 치트가 필요하면 별도 구
 3. 이후 [SaveToDB](E:/ProjectA02/Trunk/Dev/Server/EgonServer/ServerNodes/GameNode/Models/BMModel.cs:292)에서 삭제 상태 엔티티를 DB 저장 리스트에 넣고,
 4. 저장 처리 후 [BMModel.cs:328](E:/ProjectA02/Trunk/Dev/Server/EgonServer/ServerNodes/GameNode/Models/BMModel.cs:328)에서 `_bmDic.TryRemove(entity.bmStoreId, out _)`로 메모리 딕셔너리에서도 제거합니다.
 
-그래서 **저장 루틴이 정상적으로 한 번 돌면 BM 메모리 캐시에서도 빠지는 게 맞습니다.**  
+그래서 **저장 루틴이 정상적으로 한 번 돌면 BM 메모리 캐시에서도 빠지는 게 맞습니다.**
 주의할 점은 이전 답변처럼 `bm_character`는 현재 로드된 캐릭터 기준 데이터만 대상일 가능성이 있어, “유저의 모든 캐릭터 BM 상품”까지 지워야 하면 그 부분만 별도 확인/보강이 필요합니다.
 
 ### User
@@ -113,14 +104,7 @@ bm_character 삭제는 어떤 인자값이 추가로 받아오면 되나요? cha
 
 ### User
 
-<environment_context>
-  <current_date>2026-05-26</current_date>
-  <timezone>Asia/Seoul</timezone>
-</environment_context>
-
-### User
-
-전체 BM 상품을 제거하는 치트키를 만들었는데 적용되지 않는 것 같습니다. 확인해 주세요. 치트키를 사용하고 존 이동을 하여도 이전에 구매한 상품 횟수가 그대로 남아있습니다. 상품 횟수를 0으로 초기화 하는 기능이 필요합니다. DB데이터를 확인해 보면 isDelete 값이 1로 잘 변경되어 있습니다. 다른 테이블을 초기화 해야 하는 것은 아닌지 확인해 주세요.  
+전체 BM 상품을 제거하는 치트키를 만들었는데 적용되지 않는 것 같습니다. 확인해 주세요. 치트키를 사용하고 존 이동을 하여도 이전에 구매한 상품 횟수가 그대로 남아있습니다. 상품 횟수를 0으로 초기화 하는 기능이 필요합니다. DB데이터를 확인해 보면 isDelete 값이 1로 잘 변경되어 있습니다. 다른 테이블을 초기화 해야 하는 것은 아닌지 확인해 주세요.
 allbmdel
 private bool AllBmDelete(UserGameModel user)
 public static void OnCheatAllBmDeleteCmd(BaseZoneCmd baseCmd)
@@ -161,15 +145,15 @@ public void CheatAllBmDelete(long uId)
 수정했습니다.
 
 - [BMModel.cs](E:/ProjectA02/Trunk/Dev/Server/EgonServer/ServerNodes/GameNode/Models/BMModel.cs:1110)
-  `CheatDeleteBMEntity()`에서 `SetDelete()` 전에 `ResetBuyCount()`를 호출하도록 수정했습니다.  
+  `CheatDeleteBMEntity()`에서 `SetDelete()` 전에 `ResetBuyCount()`를 호출하도록 수정했습니다.
   이제 치트로 삭제되는 BM row는 저장 시 `isDelete = 1`뿐 아니라 `buyCount = 0`도 같이 반영됩니다.
 
 - [BMModel.cs](E:/ProjectA02/Trunk/Dev/Server/EgonServer/ServerNodes/GameNode/Models/BMModel.cs:748)
-  `GetBMEntity()`가 삭제 상태 엔티티를 반환하지 않도록 수정했습니다.  
+  `GetBMEntity()`가 삭제 상태 엔티티를 반환하지 않도록 수정했습니다.
   그래서 저장 전 메모리에 아직 남아 있어도 구매 횟수 계산에서는 제외됩니다.
 
 - [BMModel.cs](E:/ProjectA02/Trunk/Dev/Server/EgonServer/ServerNodes/GameNode/Models/BMModel.cs:500)
-  `SC_BM_BuyList` 응답 시 구매 이력이 없는 상품도 `buyCount = 0` 패킷으로 내려가게 했습니다.  
+  `SC_BM_BuyList` 응답 시 구매 이력이 없는 상품도 `buyCount = 0` 패킷으로 내려가게 했습니다.
   기존 클라가 빈 리스트를 받으면 이전 캐시를 유지하고 있었기 때문에, 이 부분이 화면에 `1/5`가 계속 남는 직접 원인이었습니다.
 
 - [CheatCmdLayer.cs](E:/ProjectA02/Trunk/Dev/Server/EgonServer/ServerNodes/GameNode/Commands/CmdLayer/CheatCmdLayer.cs:1460)

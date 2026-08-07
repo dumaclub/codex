@@ -5,20 +5,11 @@
 - Workspace: `E:\Rasalas\Trunk\qa`
 - Started: 2026-05-11T06:57:16.016Z
 - Updated: 2026-05-11T06:58:22.2219345Z
-- Messages exported: 11
+- Messages exported: 10
 
 > Export note: internal system/developer instructions, tool execution logs, and base64 image payloads are omitted. Only user/assistant messages are archived.
 
 ## Conversation
-
-### User
-
-<environment_context>
-  <cwd>E:\Rasalas\Trunk\qa</cwd>
-  <shell>powershell</shell>
-  <current_date>2026-05-11</current_date>
-  <timezone>Asia/Seoul</timezone>
-</environment_context>
 
 ### User
 
@@ -41,7 +32,7 @@ ActorUserModel_Quest.cs 파일의 public ePacketCommonResult ResetDailyQuest(int
 - [ActorUserModel_Quest.cs:2386](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Actor/ActorUserModel_Quest.cs:2386) 에서 `limitLevel = GetMaxLevel()`
 - [ActorUserModel_Quest.cs:2387](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Actor/ActorUserModel_Quest.cs:2387) 에서 zone별 `minLevel`을 가져옴
 - [ActorUserModel_Quest.cs:2388](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Actor/ActorUserModel_Quest.cs:2388) 에서 `limitLevel`을 보정함
-- 그런데 실제 필터링 조건인  
+- 그런데 실제 필터링 조건인
   `if (dailyQuestInfo.RequestLevelMin > limitLevel) { continue; }` 가 [ActorUserModel_Quest.cs:2396](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Actor/ActorUserModel_Quest.cs:2396) 에서 주석 처리되어 있습니다.
 
 그래서 현재 `randomDqList`에는 레벨 조건 없이 `dailyQuestInfoList`의 모든 일일 퀘스트가 들어갑니다. 즉 `minLevel`과 `limitLevel` 계산은 남아 있지만, **랜덤 일일 퀘스트 선정에는 아무 영향이 없습니다.**

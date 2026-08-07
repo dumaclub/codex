@@ -1,18 +1,19 @@
 # Codex Conversation Archive
 
-Exported: 2026-07-31T01:59:08.491Z
+Exported: 2026-08-07T03:14:50.862Z
 
 This repository stores project conversation archives from Codex as Markdown files. It does not include source projects or the raw `.codex` folder.
 
 ## Scope
 
-- Zzz: 6 threads, 63 user/assistant messages
-- Tetris: 4 threads, 79 user/assistant messages
-- Astellia: 70 threads, 3168 user/assistant messages
-- Rasalas: 49 threads, 1952 user/assistant messages
-- Codex: 9 threads, 161 user/assistant messages
-- W찾아줘: 9 threads, 97 user/assistant messages
-- Total: 147 threads, 5520 user/assistant messages
+- Zzz: 9 threads, 78 user/assistant messages
+- Tetris: 4 threads, 75 user/assistant messages
+- Astellia: 75 threads, 3068 user/assistant messages
+- Rasalas: 53 threads, 2057 user/assistant messages
+- Codex: 10 threads, 177 user/assistant messages
+- W찾아줘: 10 threads, 97 user/assistant messages
+- SwordSpirit: 1 threads, 4 user/assistant messages
+- Total: 162 threads, 5556 user/assistant messages
 
 ## File Structure
 
@@ -22,6 +23,7 @@ This repository stores project conversation archives from Codex as Markdown file
 - `projects/Rasalas/`: Rasalas conversations
 - `projects/Codex/`: Codex conversations
 - `projects/W찾아줘/`: W찾아줘 conversations
+- `projects/SwordSpirit/`: SwordSpirit conversations
 - `conversation.md`: earlier Git-upload check thread kept for reference
 - `archive-index.json`: machine-readable export index
 
@@ -41,6 +43,9 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-07-10 [Fluentd 실행 상태 확인](projects/Zzz/2026-07-10_0452_Fluentd%20%EC%8B%A4%ED%96%89%20%EC%83%81%ED%83%9C%20%ED%99%95%EC%9D%B8_019f4a5e.md)
 - 2026-07-28 [Dictionary를 List로 변환](projects/Zzz/2026-07-28_0456_Dictionary%EB%A5%BC%20List%EB%A1%9C%20%EB%B3%80%ED%99%98_019fa714.md)
 - 2026-07-29 [Explain internal access modifier](projects/Zzz/2026-07-29_0239_Explain%20internal%20access%20modifier_019fabbd.md)
+- 2026-07-31 [금요일 커밋 지연 원인 확인](projects/Zzz/2026-07-31_0159_%EA%B8%88%EC%9A%94%EC%9D%BC%20%EC%BB%A4%EB%B0%8B%20%EC%A7%80%EC%97%B0%20%EC%9B%90%EC%9D%B8%20%ED%99%95%EC%9D%B8_019fb5e5.md)
+- 2026-07-31 [Fix Redis ECONNREFUSED error](projects/Zzz/2026-07-31_0205_Fix%20Redis%20ECONNREFUSED%20error_019fb5eb.md)
+- 2026-07-31 [Install Redis on Tencent Cloud Linux](projects/Zzz/2026-07-31_0228_Install%20Redis%20on%20Tencent%20Cloud%20Linux_019fb600.md)
 
 ### Tetris
 
@@ -121,6 +126,11 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-07-24 [운영툴 연동 Database 확인](projects/Astellia/2026-07-24_0135_%EC%9A%B4%EC%98%81%ED%88%B4%20%EC%97%B0%EB%8F%99%20Database%20%ED%99%95%EC%9D%B8_019f91c2.md)
 - 2026-07-29 [Untitled](projects/Astellia/2026-07-29_0342_Untitled_019fa721.md)
 - 2026-07-29 [Untitled](projects/Astellia/2026-07-29_1012_Untitled_019fac79.md)
+- 2026-07-31 [Untitled](projects/Astellia/2026-07-31_0200_Untitled_019fb5e6.md)
+- 2026-07-31 [합성 결과물 증발 버그 확인](projects/Astellia/2026-07-31_0655_%ED%95%A9%EC%84%B1%20%EA%B2%B0%EA%B3%BC%EB%AC%BC%20%EC%A6%9D%EB%B0%9C%20%EB%B2%84%EA%B7%B8%20%ED%99%95%EC%9D%B8_019fb6f4.md)
+- 2026-08-06 [Untitled](projects/Astellia/2026-08-06_0145_Untitled_019fd4bf.md)
+- 2026-08-07 [출석 조건 체크 로직 확인](projects/Astellia/2026-08-07_0220_%EC%B6%9C%EC%84%9D%20%EC%A1%B0%EA%B1%B4%20%EC%B2%B4%ED%81%AC%20%EB%A1%9C%EC%A7%81%20%ED%99%95%EC%9D%B8_019fda05.md)
+- 2026-08-07 [Untitled](projects/Astellia/2026-08-07_0235_Untitled_019fda07.md)
 
 ### Rasalas
 
@@ -173,6 +183,10 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-07-13 [신규서버 반복 메시지 확인](projects/Rasalas/2026-07-13_0518_%EC%8B%A0%EA%B7%9C%EC%84%9C%EB%B2%84%20%EB%B0%98%EB%B3%B5%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%ED%99%95%EC%9D%B8_019f59e8.md)
 - 2026-07-20 [몬스터 스폰 실패 원인 확인](projects/Rasalas/2026-07-20_1005_%EB%AA%AC%EC%8A%A4%ED%84%B0%20%EC%8A%A4%ED%8F%B0%20%EC%8B%A4%ED%8C%A8%20%EC%9B%90%EC%9D%B8%20%ED%99%95%EC%9D%B8_019f7efc.md)
 - 2026-07-24 [서버이전 삭제 마스터리 오류 확인](projects/Rasalas/2026-07-24_1344_%EC%84%9C%EB%B2%84%EC%9D%B4%EC%A0%84%20%EC%82%AD%EC%A0%9C%20%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A6%AC%20%EC%98%A4%EB%A5%98%20%ED%99%95%EC%9D%B8_019f945d.md)
+- 2026-08-05 [Untitled](projects/Rasalas/2026-08-05_0943_Untitled_019fcf83.md)
+- 2026-08-06 [CS_ZMQ_SaveToDB 처리 방식 확인](projects/Rasalas/2026-08-06_0741_CS_ZMQ_SaveToDB%20%EC%B2%98%EB%A6%AC%20%EB%B0%A9%EC%8B%9D%20%ED%99%95%EC%9D%B8_019fd601.md)
+- 2026-08-06 [Verify PrivilegeData GroupId usage](projects/Rasalas/2026-08-06_0828_Verify%20PrivilegeData%20GroupId%20usage_019fd630.md)
+- 2026-08-06 [Untitled](projects/Rasalas/2026-08-06_1131_Untitled_019fd639.md)
 
 ### Codex
 
@@ -185,6 +199,7 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-07-17 [Weekly Codex conversation archive](projects/Codex/2026-07-17_0002_Weekly%20Codex%20conversation%20archive_019f6d61.md)
 - 2026-07-24 [Weekly Codex conversation archive](projects/Codex/2026-07-24_0002_Weekly%20Codex%20conversation%20archive_019f916e.md)
 - 2026-07-31 [Weekly Codex conversation archive](projects/Codex/2026-07-31_0001_Weekly%20Codex%20conversation%20archive_019fb57a.md)
+- 2026-08-07 [Weekly Codex conversation archive](projects/Codex/2026-08-07_0000_Weekly%20Codex%20conversation%20archive_019fd985.md)
 
 ### W찾아줘
 
@@ -197,3 +212,8 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-07-27 [순자산 20억 자산배분 점검](projects/W%EC%B0%BE%EC%95%84%EC%A4%98/2026-07-27_0552_%EC%88%9C%EC%9E%90%EC%82%B0%2020%EC%96%B5%20%EC%9E%90%EC%82%B0%EB%B0%B0%EB%B6%84%20%EC%A0%90%EA%B2%80_019fa221.md)
 - 2026-07-27 [단일 추천 종목 찾기](projects/W%EC%B0%BE%EC%95%84%EC%A4%98/2026-07-27_0910_%EB%8B%A8%EC%9D%BC%20%EC%B6%94%EC%B2%9C%20%EC%A2%85%EB%AA%A9%20%EC%B0%BE%EA%B8%B0_019fa2d6.md)
 - 2026-07-29 [하이닉스 외국인 매도 수급 확인](projects/W%EC%B0%BE%EC%95%84%EC%A4%98/2026-07-29_0439_%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4%20%EC%99%B8%EA%B5%AD%EC%9D%B8%20%EB%A7%A4%EB%8F%84%20%EC%88%98%EA%B8%89%20%ED%99%95%EC%9D%B8_019fac2a.md)
+- 2026-08-05 [환율 하락 원인과 1300원대 전망](projects/W%EC%B0%BE%EC%95%84%EC%A4%98/2026-08-05_0124_%ED%99%98%EC%9C%A8%20%ED%95%98%EB%9D%BD%20%EC%9B%90%EC%9D%B8%EA%B3%BC%201300%EC%9B%90%EB%8C%80%20%EC%A0%84%EB%A7%9D_019fcf85.md)
+
+### SwordSpirit
+
+- 2026-08-05 [검영 Database 접두어 찾기](projects/SwordSpirit/2026-08-05_0901_%EA%B2%80%EC%98%81%20Database%20%EC%A0%91%EB%91%90%EC%96%B4%20%EC%B0%BE%EA%B8%B0_019fd126.md)

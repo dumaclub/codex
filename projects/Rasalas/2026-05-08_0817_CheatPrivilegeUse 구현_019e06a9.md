@@ -5,7 +5,7 @@
 - Workspace: `E:\Rasalas\Trunk\qa`
 - Started: 2026-05-08T08:17:19.144Z
 - Updated: 2026-05-08T08:17:33.6160833Z
-- Messages exported: 15
+- Messages exported: 14
 
 > Export note: internal system/developer instructions, tool execution logs, and base64 image payloads are omitted. Only user/assistant messages are archived.
 
@@ -13,17 +13,8 @@
 
 ### User
 
-<environment_context>
-  <cwd>E:\Rasalas\Trunk\qa</cwd>
-  <shell>powershell</shell>
-  <current_date>2026-05-08</current_date>
-  <timezone>Asia/Seoul</timezone>
-</environment_context>
-
-### User
-
-특권이 없는 상황에서 치트키를 사용하여 특권을 사용할 수 있도록 처리하는 기능을 추가하려고 합니다. 
-아래의 과정으로 작업하고 있는데 CheatPrivilegeUse 함수에서 작업을 완료해 주세요.  (서버작업만 하면 됩니다. )  
+특권이 없는 상황에서 치트키를 사용하여 특권을 사용할 수 있도록 처리하는 기능을 추가하려고 합니다.
+아래의 과정으로 작업하고 있는데 CheatPrivilegeUse 함수에서 작업을 완료해 주세요.  (서버작업만 하면 됩니다. )
                         case eCheatCommand.privilegeuse:
                             isSuccess = PrivilegeUse(user, int.Parse(parserText[1]));
                             break;
