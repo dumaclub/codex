@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-08-07T03:14:50.862Z",
+  "exportedAt": "2026-08-14T01:08:39.830Z",
   "source": {
     "sessionIndex": "C:\\Users\\dumaclub\\.codex\\session_index.jsonl",
     "globalState": "C:\\Users\\dumaclub\\.codex\\.codex-global-state.json",
@@ -45,12 +45,22 @@
       "cwd": "E:\\SwordSpirit\\Dev",
       "project": "SwordSpirit",
       "labelSource": "local-projects"
+    },
+    {
+      "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+      "project": "Astellia02",
+      "labelSource": "local-projects"
+    },
+    {
+      "cwd": "D:\\ProjectA\\Trunk\\Dev",
+      "project": "Astellia02",
+      "labelSource": "local-projects"
     }
   ],
   "totals": {
-    "projects": 7,
-    "threads": 162,
-    "messages": 5556
+    "projects": 8,
+    "threads": 199,
+    "messages": 6213
   },
   "projects": {
     "Zzz": [
@@ -134,6 +144,42 @@
         "updatedAt": "2026-07-31T02:28:51.4423101Z",
         "messages": 10,
         "file": "projects/Zzz/2026-07-31_0228_Install Redis on Tencent Cloud Linux_019fb600.md"
+      },
+      {
+        "id": "019ff8ea-8ab1-7450-9932-f268fb2d2d3e",
+        "title": "카카오톡 1/N 결제 요청 방법",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "startedAt": "2026-08-13T02:19:08.642Z",
+        "updatedAt": "2026-08-13T02:19:27.6607808Z",
+        "messages": 3,
+        "file": "projects/Zzz/2026-08-13_0219_카카오톡 1_N 결제 요청 방법_019ff8ea.md"
+      },
+      {
+        "id": "019ff90b-173a-7213-badd-76b1246204c0",
+        "title": "스테비아와 설탕 비교",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "startedAt": "2026-08-13T02:54:41.803Z",
+        "updatedAt": "2026-08-13T02:54:53.4452565Z",
+        "messages": 9,
+        "file": "projects/Zzz/2026-08-13_0254_스테비아와 설탕 비교_019ff90b.md"
+      },
+      {
+        "id": "019ff971-7d71-7a02-bfc3-0a778be05825",
+        "title": "드라이브 이동 오류 원인 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "startedAt": "2026-08-13T04:46:32.576Z",
+        "updatedAt": "2026-08-13T04:47:01.0012027Z",
+        "messages": 6,
+        "file": "projects/Zzz/2026-08-13_0447_드라이브 이동 오류 원인 확인_019ff971.md"
+      },
+      {
+        "id": "019ffdce-6295-75a1-844c-9676a1c1d4ad",
+        "title": "Explain Unity UI structure",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "startedAt": "2026-08-14T01:06:29.505Z",
+        "updatedAt": "2026-08-14T01:06:35.1222375Z",
+        "messages": 3,
+        "file": "projects/Zzz/2026-08-14_0106_Explain Unity UI structure_019ffdce.md"
       }
     ],
     "Tetris": [
@@ -667,7 +713,7 @@
         "cwd": "E:\\ProjectA02\\Trunk\\Dev",
         "startedAt": "2026-07-09T07:54:36.887Z",
         "updatedAt": "2026-07-09T07:55:03.9628907Z",
-        "messages": 97,
+        "messages": 101,
         "file": "projects/Astellia/2026-07-09_0755_요일보스 남은시간 오늘 표시 원인 확인_019f45df.md"
       },
       {
@@ -838,7 +884,7 @@
         "cwd": "E:\\ProjectA02\\Trunk\\Dev",
         "startedAt": "2026-08-07T02:20:42.446Z",
         "updatedAt": "2026-08-07T02:20:48.2835901Z",
-        "messages": 16,
+        "messages": 86,
         "file": "projects/Astellia/2026-08-07_0220_출석 조건 체크 로직 확인_019fda05.md"
       },
       {
@@ -849,6 +895,114 @@
         "updatedAt": "2026-08-07T02:35:06.938Z",
         "messages": 20,
         "file": "projects/Astellia/2026-08-07_0235_Untitled_019fda07.md"
+      },
+      {
+        "id": "019fda3e-b33a-7bb2-9ec8-c41391efbf63",
+        "title": "Untitled",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-08-07T03:22:50.195Z",
+        "updatedAt": "2026-08-07T03:30:17.626Z",
+        "messages": 14,
+        "file": "projects/Astellia/2026-08-07_0330_Untitled_019fda3e.md"
+      },
+      {
+        "id": "019fdbc0-a72b-71a3-a0ac-e36d34e05a97",
+        "title": "Untitled",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-08-07T10:24:24.006Z",
+        "updatedAt": "2026-08-07T11:22:03.498Z",
+        "messages": 8,
+        "file": "projects/Astellia/2026-08-07_1122_Untitled_019fdbc0.md"
+      },
+      {
+        "id": "019fe9ad-cc13-7250-ba86-7f4d1f407ba0",
+        "title": "상품 groupId 구매기능 설계",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-08-10T03:18:30.123Z",
+        "updatedAt": "2026-08-10T03:18:37.5093814Z",
+        "messages": 67,
+        "file": "projects/Astellia/2026-08-10_0318_상품 groupId 구매기능 설계_019fe9ad.md"
+      },
+      {
+        "id": "019fe9af-53e4-7851-9e64-2e55b8b0374d",
+        "title": "Untitled",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-08-10T03:20:09.608Z",
+        "updatedAt": "2026-08-10T03:26:06.482Z",
+        "messages": 12,
+        "file": "projects/Astellia/2026-08-10_0326_Untitled_019fe9af.md"
+      },
+      {
+        "id": "019fea2e-924a-7b60-b785-a62c05fbf81a",
+        "title": "아스텔 간헐적 스킬 삭제 오류 수정",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-08-10T05:39:08.631Z",
+        "updatedAt": "2026-08-10T05:39:37.6984314Z",
+        "messages": 14,
+        "file": "projects/Astellia/2026-08-10_0539_아스텔 간헐적 스킬 삭제 오류 수정_019fea2e.md"
+      },
+      {
+        "id": "019fea41-172e-7741-8392-b9c13dbf10bf",
+        "title": "Untitled",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-08-10T05:59:22.316Z",
+        "updatedAt": "2026-08-10T06:08:28.050Z",
+        "messages": 10,
+        "file": "projects/Astellia/2026-08-10_0608_Untitled_019fea41.md"
+      },
+      {
+        "id": "019fef39-992c-77a1-a84b-5f6b9ac3e762",
+        "title": "Compare files and setup B_데이터생성기",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-08-11T05:09:17.377Z",
+        "updatedAt": "2026-08-11T05:09:40.148778Z",
+        "messages": 5,
+        "file": "projects/Astellia/2026-08-11_0509_Compare files and setup B_데이터생성기_019fef39.md"
+      },
+      {
+        "id": "019fef7d-3a76-76a1-af14-a3bac7702a14",
+        "title": "로컬 접속 BindServerGroupId 오류",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-08-11T06:23:09.569Z",
+        "updatedAt": "2026-08-11T06:23:13.2743759Z",
+        "messages": 6,
+        "file": "projects/Astellia/2026-08-11_0623_로컬 접속 BindServerGroupId 오류_019fef7d.md"
+      },
+      {
+        "id": "019fef96-2a01-7111-a829-1eb3f3e353a5",
+        "title": "Untitled",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-08-11T06:50:23.796Z",
+        "updatedAt": "2026-08-11T06:51:16.059Z",
+        "messages": 4,
+        "file": "projects/Astellia/2026-08-11_0651_Untitled_019fef96.md"
+      },
+      {
+        "id": "019feb04-5069-7a90-98a7-48a851c237c9",
+        "title": "Untitled",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-08-10T09:32:36.481Z",
+        "updatedAt": "2026-08-11T07:04:08.890Z",
+        "messages": 44,
+        "file": "projects/Astellia/2026-08-11_0704_Untitled_019feb04.md"
+      },
+      {
+        "id": "019ff4ca-db0c-7921-8c27-68785e4e0b46",
+        "title": "cashPurchase 치트키 동작 확인",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-08-12T07:06:03.913Z",
+        "updatedAt": "2026-08-12T07:06:09.2634477Z",
+        "messages": 10,
+        "file": "projects/Astellia/2026-08-12_0706_cashPurchase 치트키 동작 확인_019ff4ca.md"
+      },
+      {
+        "id": "019ff4e1-56b9-7b51-844d-8d830e9a8ce6",
+        "title": "Untitled",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-08-12T07:30:36.541Z",
+        "updatedAt": "2026-08-12T07:32:24.384Z",
+        "messages": 10,
+        "file": "projects/Astellia/2026-08-12_0732_Untitled_019ff4e1.md"
       }
     ],
     "Rasalas": [
@@ -1328,6 +1482,105 @@
         "updatedAt": "2026-08-06T11:31:37.851Z",
         "messages": 28,
         "file": "projects/Rasalas/2026-08-06_1131_Untitled_019fd639.md"
+      },
+      {
+        "id": "019fdacc-6659-7760-8424-e515fc38e5b1",
+        "title": "서버 실행 오류 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-08-07T05:57:36.667Z",
+        "updatedAt": "2026-08-07T05:57:57.0729742Z",
+        "messages": 17,
+        "file": "projects/Rasalas/2026-08-07_0557_서버 실행 오류 확인_019fdacc.md"
+      },
+      {
+        "id": "019fe9a8-fb9f-7fa0-ac1b-770df2d06543",
+        "title": "Fix privilegeInit cheat key",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-08-10T03:13:13.773Z",
+        "updatedAt": "2026-08-10T03:13:20.6189245Z",
+        "messages": 11,
+        "file": "projects/Rasalas/2026-08-10_0313_Fix privilegeInit cheat key_019fe9a8.md"
+      },
+      {
+        "id": "019fe9b1-3e39-7612-a946-974c8d1add28",
+        "title": "Untitled",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-08-10T03:22:15.120Z",
+        "updatedAt": "2026-08-10T03:22:20.590Z",
+        "messages": 2,
+        "file": "projects/Rasalas/2026-08-10_0322_Untitled_019fe9b1.md"
+      },
+      {
+        "id": "019fea62-29d7-7b42-95e8-b7b02063051f",
+        "title": "접속 유지 보상 테이블 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-08-10T06:35:29.758Z",
+        "updatedAt": "2026-08-10T06:36:14.5044727Z",
+        "messages": 5,
+        "file": "projects/Rasalas/2026-08-10_0636_접속 유지 보상 테이블 확인_019fea62.md"
+      },
+      {
+        "id": "019fea6f-f2c5-7002-b413-c4678bd0301a",
+        "title": "Locate EventHubPageInfo reward data",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-08-10T06:50:33.163Z",
+        "updatedAt": "2026-08-10T06:50:39.5125225Z",
+        "messages": 25,
+        "file": "projects/Rasalas/2026-08-10_0650_Locate EventHubPageInfo reward data_019fea6f.md"
+      },
+      {
+        "id": "019fea71-9899-7081-93fc-8bcfd9517220",
+        "title": "Untitled",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-08-10T06:52:21.191Z",
+        "updatedAt": "2026-08-10T06:58:48.887Z",
+        "messages": 30,
+        "file": "projects/Rasalas/2026-08-10_0658_Untitled_019fea71.md"
+      },
+      {
+        "id": "019ff4c6-93e9-7261-80b0-72f73fec3b2f",
+        "title": "ClassMasteryData 중복 키 오류 확인",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-08-12T07:01:22.675Z",
+        "updatedAt": "2026-08-12T07:01:31.9037973Z",
+        "messages": 28,
+        "file": "projects/Rasalas/2026-08-12_0701_ClassMasteryData 중복 키 오류 확인_019ff4c6.md"
+      },
+      {
+        "id": "019ff4c8-c185-7503-9c8e-93e813a98c94",
+        "title": "Untitled",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-08-12T07:03:45.592Z",
+        "updatedAt": "2026-08-12T07:03:52.299Z",
+        "messages": 2,
+        "file": "projects/Rasalas/2026-08-12_0703_Untitled_019ff4c8.md"
+      },
+      {
+        "id": "019ff54e-ad55-7962-9bd0-6ff06263c974",
+        "title": "Fix duplicate ClassMasteryData key",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-08-12T09:30:02.068Z",
+        "updatedAt": "2026-08-12T09:30:13.7381761Z",
+        "messages": 7,
+        "file": "projects/Rasalas/2026-08-12_0930_Fix duplicate ClassMasteryData key_019ff54e.md"
+      },
+      {
+        "id": "019ff56f-6881-75d0-9ecc-34f0cfda170c",
+        "title": "Untitled",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-08-12T10:05:47.136Z",
+        "updatedAt": "2026-08-12T10:07:52.564Z",
+        "messages": 4,
+        "file": "projects/Rasalas/2026-08-12_1007_Untitled_019ff56f.md"
+      },
+      {
+        "id": "019ff8bf-8b5d-7800-80eb-227058bf0f9e",
+        "title": "C++ 버전 업그레이드로 서버 안정화",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-08-13T01:32:10.975Z",
+        "updatedAt": "2026-08-13T01:34:37.5157592Z",
+        "messages": 4,
+        "file": "projects/Rasalas/2026-08-13_0134_C++ 버전 업그레이드로 서버 안정화_019ff8bf.md"
       }
     ],
     "Codex": [
@@ -1418,8 +1671,17 @@
         "cwd": "E:\\Study\\Codex",
         "startedAt": "2026-08-07T00:00:46.542Z",
         "updatedAt": "2026-08-07T00:00:48.8987984Z",
-        "messages": 16,
+        "messages": 25,
         "file": "projects/Codex/2026-08-07_0000_Weekly Codex conversation archive_019fd985.md"
+      },
+      {
+        "id": "019ffd93-00bd-76b0-bc5b-05bf2ab664bc",
+        "title": "Weekly Codex conversation archive",
+        "cwd": "E:\\Study\\Codex",
+        "startedAt": "2026-08-14T00:01:38.139Z",
+        "updatedAt": "2026-08-14T00:01:40.523849Z",
+        "messages": 15,
+        "file": "projects/Codex/2026-08-14_0001_Weekly Codex conversation archive_019ffd93.md"
       }
     ],
     "W찾아줘": [
@@ -1429,7 +1691,7 @@
         "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
         "startedAt": "2026-07-24T03:26:00.087Z",
         "updatedAt": "2026-07-24T03:29:46.8490154Z",
-        "messages": 53,
+        "messages": 55,
         "file": "projects/W찾아줘/2026-07-24_0329_오늘의 주식 시황_019f9228.md"
       },
       {
@@ -1523,6 +1785,89 @@
         "updatedAt": "2026-08-05T09:01:08.7610769Z",
         "messages": 4,
         "file": "projects/SwordSpirit/2026-08-05_0901_검영 Database 접두어 찾기_019fd126.md"
+      },
+      {
+        "id": "019ff98a-38a8-75e0-8108-b0aa93acb28e",
+        "title": "검령 Unity 6 UI 작업 안내",
+        "cwd": "E:\\SwordSpirit\\Dev",
+        "startedAt": "2026-08-13T05:13:33.097Z",
+        "updatedAt": "2026-08-13T05:13:41.7848983Z",
+        "messages": 67,
+        "file": "projects/SwordSpirit/2026-08-13_0513_검령 Unity 6 UI 작업 안내_019ff98a.md"
+      },
+      {
+        "id": "019ffdcc-4c9a-7db0-bc8d-f351dc2bda79",
+        "title": "클래스 선택 로비 UI 검토",
+        "cwd": "E:\\SwordSpirit\\Dev",
+        "startedAt": "2026-08-14T01:04:12.444Z",
+        "updatedAt": "2026-08-14T01:04:19.6025403Z",
+        "messages": 4,
+        "file": "projects/SwordSpirit/2026-08-14_0104_클래스 선택 로비 UI 검토_019ffdcc.md"
+      }
+    ],
+    "Astellia02": [
+      {
+        "id": "019ff466-66d7-7e02-9d2e-285941fa544a",
+        "title": "eEventType EventCheck2 추가",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-12T05:16:19.927Z",
+        "updatedAt": "2026-08-12T05:16:23.4572117Z",
+        "messages": 12,
+        "file": "projects/Astellia02/2026-08-12_0516_eEventType EventCheck2 추가_019ff466.md"
+      },
+      {
+        "id": "019ff48a-338f-7ec2-a5e8-90447e259941",
+        "title": "서버 빌드 오류 원인 찾기",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-12T05:55:26.065Z",
+        "updatedAt": "2026-08-12T05:55:39.5838672Z",
+        "messages": 4,
+        "file": "projects/Astellia02/2026-08-12_0555_서버 빌드 오류 원인 찾기_019ff48a.md"
+      },
+      {
+        "id": "019ff4e3-49dd-7ec1-ac6e-1c374dfd4694",
+        "title": "Verify cashpurchase cheat key",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-12T07:32:44.461Z",
+        "updatedAt": "2026-08-12T07:33:48.3521106Z",
+        "messages": 11,
+        "file": "projects/Astellia02/2026-08-12_0733_Verify cashpurchase cheat key_019ff4e3.md"
+      },
+      {
+        "id": "019ff8ec-cd83-77b3-a376-a3618b493e60",
+        "title": "AOS 구글 빌드 접속 오류 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-13T02:21:36.767Z",
+        "updatedAt": "2026-08-13T02:23:58.9900922Z",
+        "messages": 7,
+        "file": "projects/Astellia02/2026-08-13_0223_AOS 구글 빌드 접속 오류 확인_019ff8ec.md"
+      },
+      {
+        "id": "019ff8f1-2ff7-7481-bad1-470168f0bf3c",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-13T02:26:25.987Z",
+        "updatedAt": "2026-08-13T02:32:45.803Z",
+        "messages": 32,
+        "file": "projects/Astellia02/2026-08-13_0232_Untitled_019ff8f1.md"
+      },
+      {
+        "id": "019ff9b6-915c-7c82-b9ab-1941c0b5bed7",
+        "title": "결제 후 보상받기 이벤트 추가",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-13T06:01:59.667Z",
+        "updatedAt": "2026-08-13T06:02:16.4554155Z",
+        "messages": 54,
+        "file": "projects/Astellia02/2026-08-13_0602_결제 후 보상받기 이벤트 추가_019ff9b6.md"
+      },
+      {
+        "id": "019ff9ec-4adf-7820-bdd2-ddc4962971ca",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-13T07:00:40.555Z",
+        "updatedAt": "2026-08-13T07:04:09.400Z",
+        "messages": 6,
+        "file": "projects/Astellia02/2026-08-13_0704_Untitled_019ff9ec.md"
       }
     ]
   }

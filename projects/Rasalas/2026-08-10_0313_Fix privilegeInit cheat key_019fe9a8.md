@@ -1,0 +1,94 @@
+# Fix privilegeInit cheat key
+
+- Project: Rasalas
+- Session ID: `019fe9a8-fb9f-7fa0-ac1b-770df2d06543`
+- Workspace: `E:\Rasalas\Trunk\qa`
+- Started: 2026-08-10T03:13:13.773Z
+- Updated: 2026-08-10T03:13:20.6189245Z
+- Messages exported: 11
+
+> Export note: internal system/developer instructions, tool execution logs, and base64 image payloads are omitted. Only user/assistant messages are archived.
+
+## Conversation
+
+### User
+
+특권 기간 변경 치트키(privilegeInit) 적용 안되는 현상
+privilegeInit 1 999 이렇게 할경우 1번 그룹의 남은 시간이 999분이 되어야 하는데 적용이 되지 않고 있습니다.
+전주에 특권이 서버 그룹별로 적용되는 기능이 추가되었는데 혹시 그 기능때문에 치트키가 적용 안되는 것인가요?
+아니면 다른 오류가 있는 것인지 확인해 주세요.
+
+### Assistant
+
+`privilegeInit` 치트키의 입력 파싱부터 특권 만료시간 저장 경로, 지난주 추가된 서버 그룹별 적용 로직까지 따라가며 원인을 확인하겠습니다. 우선 관련 코드와 최근 변경 이력을 함께 대조하겠습니다.
+
+### Assistant
+
+치트 명령 자체는 `groupId=1`, `remainMinute=999`로 정상 전달되고 있습니다. 현재는 실제 갱신 함수에서 그룹별 만료시간 딕셔너리와 상품 엔티티를 어떻게 처리하는지, 그리고 해당 부분의 최근 커밋에서 무엇이 바뀌었는지를 확인 중입니다.
+
+### Assistant
+
+원인 범위가 좁혀졌습니다. 8월 7일 변경된 `BMModel.cs`에서 특권 만료 기준이 `lastRefreshDate + 기간` 계산값에서 별도 `endDate` 필드로 전환됐는데, `privilegeInit` 경로는 여전히 `lastRefreshDate`만 바꾸고 있습니다. 이 불일치가 실제 증상과 일치하는지 관련 저장/패킷 경로까지 마지막으로 검증하겠습니다.
+
+### Assistant
+
+확인 결과, 서버 그룹별 특권 기능 추가 과정에서 발생한 회귀 오류로 판단됩니다. 다만 `serverGroupId` 조회 자체가 아니라, 특권 만료시간 관리가 `endDate` 기준으로 변경됐는데 치트키가 기존 `lastRefreshDate`만 변경하는 것이 직접 원인입니다.
+
+- `privilegeInit 1 999` 입력은 정상 파싱되어 전달됩니다: [CheatManager.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Managers/CheatManager.cs:535)
+- `CheatPrivilegeReset(1, 999)`도 정상 호출됩니다: [CheatCmdLayer.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Commands/CmdLayer/CheatCmdLayer.cs:401)
+- 하지만 실제 변경 함수는 `lastRefreshDate`만 수정합니다: [BMModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/BMModel.cs:1789)
+- 현재 남은 시간 판정과 클라이언트 전달에는 별도 `bmEntity.endDate`와 `privilegeEndTimeDic`을 사용합니다: [BMModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/BMModel.cs:511)
+
+따라서 치트 실행 후에도:
+
+1. DB의 `endDate`가 변경되지 않습니다.
+2. 메모리의 `privilegeEndTimeDic[1]`도 갱신되지 않습니다.
+3. 클라이언트에는 기존 만료시간이 그대로 전송됩니다.
+4. 재접속하더라도 현재 로직은 `endDate`를 늘리는 경우만 보정하므로, 기존 기간을 999분으로 줄이는 용도는 계속 적용되지 않을 수 있습니다.
+
+해당 `BMModel.cs`는 2026-08-07 리비전 51217에서 변경됐고, 코드에 기존 `lastRefreshDate + PrivilegeDayCount` 방식이 주석으로 남아 있어 최근 특권 변경과의 연관성이 명확합니다.
+
+수정 시에는 `CheatChangePrivilegDate()`에서 목표 시간을 `현재 시간 + remainMinute`로 계산한 뒤 다음을 함께 갱신해야 합니다.
+
+- 해당 상품 엔티티의 `endDate`
+- `privilegeEndTimeDic[groupId]`
+- 필요하면 `lastRefreshDate`도 호환성 목적으로 갱신
+- 변경 완료 후 갱신 패킷 1회 전송
+
+추가로 `remainMinute == 0`일 때 그룹 하나만 지정해도 `privilegeEndTimeDic.Clear()`로 모든 그룹을 지우는 별도 그룹 처리 오류도 발견했습니다: [BMModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/BMModel.cs:1773)
+
+현재는 원인 확인만 진행했으며 소스 수정은 하지 않았습니다.
+
+### User
+
+코드 수정해 주세요.
+
+### Assistant
+
+확인된 만료시간 불일치를 수정하겠습니다. `privilegeInit`이 상품 엔티티의 `endDate`, 그룹별 캐시, 스탯 상태를 함께 갱신하도록 하고, 특정 그룹을 0분으로 초기화할 때 다른 그룹까지 삭제되는 문제도 같이 바로잡은 뒤 빌드로 검증하겠습니다.
+
+### Assistant
+
+수정은 `BMModel.cs` 한 파일에만 적용했습니다. 999분 설정 시 `endDate`와 그룹 캐시가 즉시 같은 값으로 바뀌며, 갱신 패킷은 외부 메서드에서 한 번만 전송되도록 중복 전송도 제거했습니다. 이제 diff와 컴파일 오류 여부를 확인하겠습니다.
+
+### Assistant
+
+빌드는 코드 컴파일 전에 기존 `obj\x64` 산출물에 대한 접근 거부가 발생했습니다. 빌드 프로세스가 종료되는지 확인한 뒤, 이 변경 파일 자체를 검증할 수 있도록 쓰기 가능한 별도 중간 출력 경로를 사용해 다시 시도하겠습니다.
+
+### Assistant
+
+별도 임시 출력 경로를 사용한 재빌드에서는 공용 프로젝트들이 정상 컴파일됐고, 현재 `EgonServer` 본체 컴파일 단계까지 진행 중입니다. 기존 작업 산출물과 사용자 변경 파일은 건드리지 않는 방식입니다.
+
+### Assistant
+
+코드 수정 완료했습니다: [BMModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/BMModel.cs:1742)
+
+변경 사항:
+
+- `privilegeInit 1 999` 실행 시 `endDate`를 현재 시간 + 999분으로 저장
+- `lastRefreshDate`, `privilegeEndTimeDic`, 특권 스탯을 함께 갱신
+- 특정 그룹을 0분으로 초기화할 때 다른 특권 그룹이 함께 삭제되던 문제 수정
+- 치트 처리 중 중복 전송되던 갱신 패킷 제거
+- 전체 초기화(`groupId == 0`)는 모든 그룹과 스탯을 정상 제거
+
+별도 임시 출력 경로에서 `EgonServer` Debug x64 전체 빌드도 완료했으며, 컴파일 오류 없이 성공했습니다. 기존 프로젝트 경고만 발생했습니다.

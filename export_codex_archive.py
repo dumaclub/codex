@@ -17,6 +17,18 @@ DATA_IMAGE = re.compile(
     r"data:image/[a-zA-Z0-9.+-]+;base64,[a-zA-Z0-9+/=\r\n]+",
     re.IGNORECASE,
 )
+GOOGLE_OAUTH_CLIENT_ID = re.compile(
+    r"\b[0-9]+-[A-Za-z0-9_-]+\.apps\.googleusercontent\.com\b"
+)
+GOOGLE_OAUTH_CLIENT_SECRET = re.compile(r"\bGOCSPX-[A-Za-z0-9_-]+\b")
+SENSITIVE_JSON_VALUE = re.compile(
+    r'("(?:(?:[A-Za-z0-9_]*)(?:Secret|Token|ClientId|ApiKey|Password|AccessKey|PrivateKey)(?:[A-Za-z0-9_]*))"\s*:\s*)"[^"\r\n]*"',
+    re.IGNORECASE,
+)
+SENSITIVE_ASSIGNMENT_VALUE = re.compile(
+    r"\b([A-Za-z0-9_.-]*(?:Secret|Token|ClientId|ApiKey|Password|AccessKey|PrivateKey)[A-Za-z0-9_.-]*\s*=\s*)([^\s,;]+)",
+    re.IGNORECASE,
+)
 CONTEXT_BLOCKS = re.compile(
     r"<(?:recommended_plugins|environment_context|app-context|permissions instructions|apps_instructions|plugins_instructions|skills_instructions)>.*?</(?:recommended_plugins|environment_context|app-context|permissions instructions|apps_instructions|plugins_instructions|skills_instructions)>",
     re.IGNORECASE | re.DOTALL,
@@ -36,6 +48,10 @@ def read_jsonl(path):
 def sanitize_text(text):
     text = DATA_IMAGE.sub("[base64 image omitted]", text)
     text = CONTEXT_BLOCKS.sub("", text)
+    text = GOOGLE_OAUTH_CLIENT_ID.sub("[google oauth client id redacted]", text)
+    text = GOOGLE_OAUTH_CLIENT_SECRET.sub("[google oauth client secret redacted]", text)
+    text = SENSITIVE_JSON_VALUE.sub(r'\1"[credential redacted]"', text)
+    text = SENSITIVE_ASSIGNMENT_VALUE.sub(r"\1[credential redacted]", text)
     text = LEADING_USER_HEADING.sub("", text)
     clean_lines = []
     for line in text.splitlines():

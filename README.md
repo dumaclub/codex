@@ -1,19 +1,20 @@
 # Codex Conversation Archive
 
-Exported: 2026-08-07T03:14:50.862Z
+Exported: 2026-08-14T01:08:39.830Z
 
 This repository stores project conversation archives from Codex as Markdown files. It does not include source projects or the raw `.codex` folder.
 
 ## Scope
 
-- Zzz: 9 threads, 78 user/assistant messages
+- Zzz: 13 threads, 99 user/assistant messages
 - Tetris: 4 threads, 75 user/assistant messages
-- Astellia: 75 threads, 3068 user/assistant messages
-- Rasalas: 53 threads, 2057 user/assistant messages
-- Codex: 10 threads, 177 user/assistant messages
-- W찾아줘: 10 threads, 97 user/assistant messages
-- SwordSpirit: 1 threads, 4 user/assistant messages
-- Total: 162 threads, 5556 user/assistant messages
+- Astellia: 87 threads, 3346 user/assistant messages
+- Rasalas: 64 threads, 2192 user/assistant messages
+- Codex: 11 threads, 201 user/assistant messages
+- W찾아줘: 10 threads, 99 user/assistant messages
+- SwordSpirit: 3 threads, 75 user/assistant messages
+- Astellia02: 7 threads, 126 user/assistant messages
+- Total: 199 threads, 6213 user/assistant messages
 
 ## File Structure
 
@@ -24,6 +25,7 @@ This repository stores project conversation archives from Codex as Markdown file
 - `projects/Codex/`: Codex conversations
 - `projects/W찾아줘/`: W찾아줘 conversations
 - `projects/SwordSpirit/`: SwordSpirit conversations
+- `projects/Astellia02/`: Astellia02 conversations
 - `conversation.md`: earlier Git-upload check thread kept for reference
 - `archive-index.json`: machine-readable export index
 
@@ -46,6 +48,10 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-07-31 [금요일 커밋 지연 원인 확인](projects/Zzz/2026-07-31_0159_%EA%B8%88%EC%9A%94%EC%9D%BC%20%EC%BB%A4%EB%B0%8B%20%EC%A7%80%EC%97%B0%20%EC%9B%90%EC%9D%B8%20%ED%99%95%EC%9D%B8_019fb5e5.md)
 - 2026-07-31 [Fix Redis ECONNREFUSED error](projects/Zzz/2026-07-31_0205_Fix%20Redis%20ECONNREFUSED%20error_019fb5eb.md)
 - 2026-07-31 [Install Redis on Tencent Cloud Linux](projects/Zzz/2026-07-31_0228_Install%20Redis%20on%20Tencent%20Cloud%20Linux_019fb600.md)
+- 2026-08-13 [카카오톡 1/N 결제 요청 방법](projects/Zzz/2026-08-13_0219_%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1%201_N%20%EA%B2%B0%EC%A0%9C%20%EC%9A%94%EC%B2%AD%20%EB%B0%A9%EB%B2%95_019ff8ea.md)
+- 2026-08-13 [스테비아와 설탕 비교](projects/Zzz/2026-08-13_0254_%EC%8A%A4%ED%85%8C%EB%B9%84%EC%95%84%EC%99%80%20%EC%84%A4%ED%83%95%20%EB%B9%84%EA%B5%90_019ff90b.md)
+- 2026-08-13 [드라이브 이동 오류 원인 확인](projects/Zzz/2026-08-13_0447_%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C%20%EC%9D%B4%EB%8F%99%20%EC%98%A4%EB%A5%98%20%EC%9B%90%EC%9D%B8%20%ED%99%95%EC%9D%B8_019ff971.md)
+- 2026-08-14 [Explain Unity UI structure](projects/Zzz/2026-08-14_0106_Explain%20Unity%20UI%20structure_019ffdce.md)
 
 ### Tetris
 
@@ -131,6 +137,18 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-08-06 [Untitled](projects/Astellia/2026-08-06_0145_Untitled_019fd4bf.md)
 - 2026-08-07 [출석 조건 체크 로직 확인](projects/Astellia/2026-08-07_0220_%EC%B6%9C%EC%84%9D%20%EC%A1%B0%EA%B1%B4%20%EC%B2%B4%ED%81%AC%20%EB%A1%9C%EC%A7%81%20%ED%99%95%EC%9D%B8_019fda05.md)
 - 2026-08-07 [Untitled](projects/Astellia/2026-08-07_0235_Untitled_019fda07.md)
+- 2026-08-07 [Untitled](projects/Astellia/2026-08-07_0330_Untitled_019fda3e.md)
+- 2026-08-07 [Untitled](projects/Astellia/2026-08-07_1122_Untitled_019fdbc0.md)
+- 2026-08-10 [상품 groupId 구매기능 설계](projects/Astellia/2026-08-10_0318_%EC%83%81%ED%92%88%20groupId%20%EA%B5%AC%EB%A7%A4%EA%B8%B0%EB%8A%A5%20%EC%84%A4%EA%B3%84_019fe9ad.md)
+- 2026-08-10 [Untitled](projects/Astellia/2026-08-10_0326_Untitled_019fe9af.md)
+- 2026-08-10 [아스텔 간헐적 스킬 삭제 오류 수정](projects/Astellia/2026-08-10_0539_%EC%95%84%EC%8A%A4%ED%85%94%20%EA%B0%84%ED%97%90%EC%A0%81%20%EC%8A%A4%ED%82%AC%20%EC%82%AD%EC%A0%9C%20%EC%98%A4%EB%A5%98%20%EC%88%98%EC%A0%95_019fea2e.md)
+- 2026-08-10 [Untitled](projects/Astellia/2026-08-10_0608_Untitled_019fea41.md)
+- 2026-08-11 [Compare files and setup B_데이터생성기](projects/Astellia/2026-08-11_0509_Compare%20files%20and%20setup%20B_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%83%9D%EC%84%B1%EA%B8%B0_019fef39.md)
+- 2026-08-11 [로컬 접속 BindServerGroupId 오류](projects/Astellia/2026-08-11_0623_%EB%A1%9C%EC%BB%AC%20%EC%A0%91%EC%86%8D%20BindServerGroupId%20%EC%98%A4%EB%A5%98_019fef7d.md)
+- 2026-08-11 [Untitled](projects/Astellia/2026-08-11_0651_Untitled_019fef96.md)
+- 2026-08-11 [Untitled](projects/Astellia/2026-08-11_0704_Untitled_019feb04.md)
+- 2026-08-12 [cashPurchase 치트키 동작 확인](projects/Astellia/2026-08-12_0706_cashPurchase%20%EC%B9%98%ED%8A%B8%ED%82%A4%20%EB%8F%99%EC%9E%91%20%ED%99%95%EC%9D%B8_019ff4ca.md)
+- 2026-08-12 [Untitled](projects/Astellia/2026-08-12_0732_Untitled_019ff4e1.md)
 
 ### Rasalas
 
@@ -187,6 +205,17 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-08-06 [CS_ZMQ_SaveToDB 처리 방식 확인](projects/Rasalas/2026-08-06_0741_CS_ZMQ_SaveToDB%20%EC%B2%98%EB%A6%AC%20%EB%B0%A9%EC%8B%9D%20%ED%99%95%EC%9D%B8_019fd601.md)
 - 2026-08-06 [Verify PrivilegeData GroupId usage](projects/Rasalas/2026-08-06_0828_Verify%20PrivilegeData%20GroupId%20usage_019fd630.md)
 - 2026-08-06 [Untitled](projects/Rasalas/2026-08-06_1131_Untitled_019fd639.md)
+- 2026-08-07 [서버 실행 오류 확인](projects/Rasalas/2026-08-07_0557_%EC%84%9C%EB%B2%84%20%EC%8B%A4%ED%96%89%20%EC%98%A4%EB%A5%98%20%ED%99%95%EC%9D%B8_019fdacc.md)
+- 2026-08-10 [Fix privilegeInit cheat key](projects/Rasalas/2026-08-10_0313_Fix%20privilegeInit%20cheat%20key_019fe9a8.md)
+- 2026-08-10 [Untitled](projects/Rasalas/2026-08-10_0322_Untitled_019fe9b1.md)
+- 2026-08-10 [접속 유지 보상 테이블 확인](projects/Rasalas/2026-08-10_0636_%EC%A0%91%EC%86%8D%20%EC%9C%A0%EC%A7%80%20%EB%B3%B4%EC%83%81%20%ED%85%8C%EC%9D%B4%EB%B8%94%20%ED%99%95%EC%9D%B8_019fea62.md)
+- 2026-08-10 [Locate EventHubPageInfo reward data](projects/Rasalas/2026-08-10_0650_Locate%20EventHubPageInfo%20reward%20data_019fea6f.md)
+- 2026-08-10 [Untitled](projects/Rasalas/2026-08-10_0658_Untitled_019fea71.md)
+- 2026-08-12 [ClassMasteryData 중복 키 오류 확인](projects/Rasalas/2026-08-12_0701_ClassMasteryData%20%EC%A4%91%EB%B3%B5%20%ED%82%A4%20%EC%98%A4%EB%A5%98%20%ED%99%95%EC%9D%B8_019ff4c6.md)
+- 2026-08-12 [Untitled](projects/Rasalas/2026-08-12_0703_Untitled_019ff4c8.md)
+- 2026-08-12 [Fix duplicate ClassMasteryData key](projects/Rasalas/2026-08-12_0930_Fix%20duplicate%20ClassMasteryData%20key_019ff54e.md)
+- 2026-08-12 [Untitled](projects/Rasalas/2026-08-12_1007_Untitled_019ff56f.md)
+- 2026-08-13 [C++ 버전 업그레이드로 서버 안정화](projects/Rasalas/2026-08-13_0134_C%2B%2B%20%EB%B2%84%EC%A0%84%20%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C%EB%A1%9C%20%EC%84%9C%EB%B2%84%20%EC%95%88%EC%A0%95%ED%99%94_019ff8bf.md)
 
 ### Codex
 
@@ -200,6 +229,7 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-07-24 [Weekly Codex conversation archive](projects/Codex/2026-07-24_0002_Weekly%20Codex%20conversation%20archive_019f916e.md)
 - 2026-07-31 [Weekly Codex conversation archive](projects/Codex/2026-07-31_0001_Weekly%20Codex%20conversation%20archive_019fb57a.md)
 - 2026-08-07 [Weekly Codex conversation archive](projects/Codex/2026-08-07_0000_Weekly%20Codex%20conversation%20archive_019fd985.md)
+- 2026-08-14 [Weekly Codex conversation archive](projects/Codex/2026-08-14_0001_Weekly%20Codex%20conversation%20archive_019ffd93.md)
 
 ### W찾아줘
 
@@ -217,3 +247,15 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 ### SwordSpirit
 
 - 2026-08-05 [검영 Database 접두어 찾기](projects/SwordSpirit/2026-08-05_0901_%EA%B2%80%EC%98%81%20Database%20%EC%A0%91%EB%91%90%EC%96%B4%20%EC%B0%BE%EA%B8%B0_019fd126.md)
+- 2026-08-13 [검령 Unity 6 UI 작업 안내](projects/SwordSpirit/2026-08-13_0513_%EA%B2%80%EB%A0%B9%20Unity%206%20UI%20%EC%9E%91%EC%97%85%20%EC%95%88%EB%82%B4_019ff98a.md)
+- 2026-08-14 [클래스 선택 로비 UI 검토](projects/SwordSpirit/2026-08-14_0104_%ED%81%B4%EB%9E%98%EC%8A%A4%20%EC%84%A0%ED%83%9D%20%EB%A1%9C%EB%B9%84%20UI%20%EA%B2%80%ED%86%A0_019ffdcc.md)
+
+### Astellia02
+
+- 2026-08-12 [eEventType EventCheck2 추가](projects/Astellia02/2026-08-12_0516_eEventType%20EventCheck2%20%EC%B6%94%EA%B0%80_019ff466.md)
+- 2026-08-12 [서버 빌드 오류 원인 찾기](projects/Astellia02/2026-08-12_0555_%EC%84%9C%EB%B2%84%20%EB%B9%8C%EB%93%9C%20%EC%98%A4%EB%A5%98%20%EC%9B%90%EC%9D%B8%20%EC%B0%BE%EA%B8%B0_019ff48a.md)
+- 2026-08-12 [Verify cashpurchase cheat key](projects/Astellia02/2026-08-12_0733_Verify%20cashpurchase%20cheat%20key_019ff4e3.md)
+- 2026-08-13 [AOS 구글 빌드 접속 오류 확인](projects/Astellia02/2026-08-13_0223_AOS%20%EA%B5%AC%EA%B8%80%20%EB%B9%8C%EB%93%9C%20%EC%A0%91%EC%86%8D%20%EC%98%A4%EB%A5%98%20%ED%99%95%EC%9D%B8_019ff8ec.md)
+- 2026-08-13 [Untitled](projects/Astellia02/2026-08-13_0232_Untitled_019ff8f1.md)
+- 2026-08-13 [결제 후 보상받기 이벤트 추가](projects/Astellia02/2026-08-13_0602_%EA%B2%B0%EC%A0%9C%20%ED%9B%84%20%EB%B3%B4%EC%83%81%EB%B0%9B%EA%B8%B0%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%B6%94%EA%B0%80_019ff9b6.md)
+- 2026-08-13 [Untitled](projects/Astellia02/2026-08-13_0704_Untitled_019ff9ec.md)
