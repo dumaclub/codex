@@ -1,20 +1,20 @@
 # Codex Conversation Archive
 
-Exported: 2026-08-14T01:08:39.830Z
+Exported: 2026-08-27T02:25:36.173Z
 
 This repository stores project conversation archives from Codex as Markdown files. It does not include source projects or the raw `.codex` folder.
 
 ## Scope
 
-- Zzz: 13 threads, 99 user/assistant messages
+- Zzz: 15 threads, 113 user/assistant messages
 - Tetris: 4 threads, 75 user/assistant messages
-- Astellia: 87 threads, 3346 user/assistant messages
-- Rasalas: 64 threads, 2192 user/assistant messages
-- Codex: 11 threads, 201 user/assistant messages
-- W찾아줘: 10 threads, 99 user/assistant messages
-- SwordSpirit: 3 threads, 75 user/assistant messages
-- Astellia02: 7 threads, 126 user/assistant messages
-- Total: 199 threads, 6213 user/assistant messages
+- Astellia: 87 threads, 3387 user/assistant messages
+- Rasalas: 65 threads, 2272 user/assistant messages
+- Codex: 12 threads, 229 user/assistant messages
+- W찾아줘: 11 threads, 106 user/assistant messages
+- Astellia02: 13 threads, 216 user/assistant messages
+- SwordSpirit: 5 threads, 166 user/assistant messages
+- Total: 212 threads, 6564 user/assistant messages
 
 ## File Structure
 
@@ -24,8 +24,8 @@ This repository stores project conversation archives from Codex as Markdown file
 - `projects/Rasalas/`: Rasalas conversations
 - `projects/Codex/`: Codex conversations
 - `projects/W찾아줘/`: W찾아줘 conversations
-- `projects/SwordSpirit/`: SwordSpirit conversations
 - `projects/Astellia02/`: Astellia02 conversations
+- `projects/SwordSpirit/`: SwordSpirit conversations
 - `conversation.md`: earlier Git-upload check thread kept for reference
 - `archive-index.json`: machine-readable export index
 
@@ -52,6 +52,8 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-08-13 [스테비아와 설탕 비교](projects/Zzz/2026-08-13_0254_%EC%8A%A4%ED%85%8C%EB%B9%84%EC%95%84%EC%99%80%20%EC%84%A4%ED%83%95%20%EB%B9%84%EA%B5%90_019ff90b.md)
 - 2026-08-13 [드라이브 이동 오류 원인 확인](projects/Zzz/2026-08-13_0447_%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C%20%EC%9D%B4%EB%8F%99%20%EC%98%A4%EB%A5%98%20%EC%9B%90%EC%9D%B8%20%ED%99%95%EC%9D%B8_019ff971.md)
 - 2026-08-14 [Explain Unity UI structure](projects/Zzz/2026-08-14_0106_Explain%20Unity%20UI%20structure_019ffdce.md)
+- 2026-08-19 [ChatGPT 사용량 초기화 주기 확인](projects/Zzz/2026-08-19_0519_ChatGPT%20%EC%82%AC%EC%9A%A9%EB%9F%89%20%EC%B4%88%EA%B8%B0%ED%99%94%20%EC%A3%BC%EA%B8%B0%20%ED%99%95%EC%9D%B8_01a01876.md)
+- 2026-08-19 [웹사이트 주간 초기화 방법 안내](projects/Zzz/2026-08-19_0628_%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EC%A3%BC%EA%B0%84%20%EC%B4%88%EA%B8%B0%ED%99%94%20%EB%B0%A9%EB%B2%95%20%EC%95%88%EB%82%B4_01a018b4.md)
 
 ### Tetris
 
@@ -216,6 +218,7 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-08-12 [Fix duplicate ClassMasteryData key](projects/Rasalas/2026-08-12_0930_Fix%20duplicate%20ClassMasteryData%20key_019ff54e.md)
 - 2026-08-12 [Untitled](projects/Rasalas/2026-08-12_1007_Untitled_019ff56f.md)
 - 2026-08-13 [C++ 버전 업그레이드로 서버 안정화](projects/Rasalas/2026-08-13_0134_C%2B%2B%20%EB%B2%84%EC%A0%84%20%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C%EB%A1%9C%20%EC%84%9C%EB%B2%84%20%EC%95%88%EC%A0%95%ED%99%94_019ff8bf.md)
+- 2026-08-18 [Untitled](projects/Rasalas/2026-08-18_0135_Untitled_01a00014.md)
 
 ### Codex
 
@@ -230,6 +233,7 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-07-31 [Weekly Codex conversation archive](projects/Codex/2026-07-31_0001_Weekly%20Codex%20conversation%20archive_019fb57a.md)
 - 2026-08-07 [Weekly Codex conversation archive](projects/Codex/2026-08-07_0000_Weekly%20Codex%20conversation%20archive_019fd985.md)
 - 2026-08-14 [Weekly Codex conversation archive](projects/Codex/2026-08-14_0001_Weekly%20Codex%20conversation%20archive_019ffd93.md)
+- 2026-08-27 [Weekly Codex conversation archive](projects/Codex/2026-08-27_0221_Weekly%20Codex%20conversation%20archive_01a04105.md)
 
 ### W찾아줘
 
@@ -243,12 +247,7 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-07-27 [단일 추천 종목 찾기](projects/W%EC%B0%BE%EC%95%84%EC%A4%98/2026-07-27_0910_%EB%8B%A8%EC%9D%BC%20%EC%B6%94%EC%B2%9C%20%EC%A2%85%EB%AA%A9%20%EC%B0%BE%EA%B8%B0_019fa2d6.md)
 - 2026-07-29 [하이닉스 외국인 매도 수급 확인](projects/W%EC%B0%BE%EC%95%84%EC%A4%98/2026-07-29_0439_%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4%20%EC%99%B8%EA%B5%AD%EC%9D%B8%20%EB%A7%A4%EB%8F%84%20%EC%88%98%EA%B8%89%20%ED%99%95%EC%9D%B8_019fac2a.md)
 - 2026-08-05 [환율 하락 원인과 1300원대 전망](projects/W%EC%B0%BE%EC%95%84%EC%A4%98/2026-08-05_0124_%ED%99%98%EC%9C%A8%20%ED%95%98%EB%9D%BD%20%EC%9B%90%EC%9D%B8%EA%B3%BC%201300%EC%9B%90%EB%8C%80%20%EC%A0%84%EB%A7%9D_019fcf85.md)
-
-### SwordSpirit
-
-- 2026-08-05 [검영 Database 접두어 찾기](projects/SwordSpirit/2026-08-05_0901_%EA%B2%80%EC%98%81%20Database%20%EC%A0%91%EB%91%90%EC%96%B4%20%EC%B0%BE%EA%B8%B0_019fd126.md)
-- 2026-08-13 [검령 Unity 6 UI 작업 안내](projects/SwordSpirit/2026-08-13_0513_%EA%B2%80%EB%A0%B9%20Unity%206%20UI%20%EC%9E%91%EC%97%85%20%EC%95%88%EB%82%B4_019ff98a.md)
-- 2026-08-14 [클래스 선택 로비 UI 검토](projects/SwordSpirit/2026-08-14_0104_%ED%81%B4%EB%9E%98%EC%8A%A4%20%EC%84%A0%ED%83%9D%20%EB%A1%9C%EB%B9%84%20UI%20%EA%B2%80%ED%86%A0_019ffdcc.md)
+- 2026-08-19 [환율 하락 원인 찾기](projects/W%EC%B0%BE%EC%95%84%EC%A4%98/2026-08-19_0638_%ED%99%98%EC%9C%A8%20%ED%95%98%EB%9D%BD%20%EC%9B%90%EC%9D%B8%20%EC%B0%BE%EA%B8%B0_01a018bd.md)
 
 ### Astellia02
 
@@ -259,3 +258,17 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-08-13 [Untitled](projects/Astellia02/2026-08-13_0232_Untitled_019ff8f1.md)
 - 2026-08-13 [결제 후 보상받기 이벤트 추가](projects/Astellia02/2026-08-13_0602_%EA%B2%B0%EC%A0%9C%20%ED%9B%84%20%EB%B3%B4%EC%83%81%EB%B0%9B%EA%B8%B0%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%B6%94%EA%B0%80_019ff9b6.md)
 - 2026-08-13 [Untitled](projects/Astellia02/2026-08-13_0704_Untitled_019ff9ec.md)
+- 2026-08-14 [라살라스처럼 마켓 컬럼 통합](projects/Astellia02/2026-08-14_0336_%EB%9D%BC%EC%82%B4%EB%9D%BC%EC%8A%A4%EC%B2%98%EB%9F%BC%20%EB%A7%88%EC%BC%93%20%EC%BB%AC%EB%9F%BC%20%ED%86%B5%ED%95%A9_019ffe57.md)
+- 2026-08-14 [Untitled](projects/Astellia02/2026-08-14_0356_Untitled_019ffe69.md)
+- 2026-08-14 [Fix CollectionData integer error](projects/Astellia02/2026-08-14_0504_Fix%20CollectionData%20integer%20error_019ffea8.md)
+- 2026-08-18 [일일의뢰 갱신 오류 확인](projects/Astellia02/2026-08-18_0119_%EC%9D%BC%EC%9D%BC%EC%9D%98%EB%A2%B0%20%EA%B0%B1%EC%8B%A0%20%EC%98%A4%EB%A5%98%20%ED%99%95%EC%9D%B8_01a01272.md)
+- 2026-08-18 [첫결제 다음날 보상 치트키 확인](projects/Astellia02/2026-08-18_0258_%EC%B2%AB%EA%B2%B0%EC%A0%9C%20%EB%8B%A4%EC%9D%8C%EB%82%A0%20%EB%B3%B4%EC%83%81%20%EC%B9%98%ED%8A%B8%ED%82%A4%20%ED%99%95%EC%9D%B8_01a012ce.md)
+- 2026-08-18 [길드 미가입자 보스 정보 제한 확인](projects/Astellia02/2026-08-18_0808_%EA%B8%B8%EB%93%9C%20%EB%AF%B8%EA%B0%80%EC%9E%85%EC%9E%90%20%EB%B3%B4%EC%8A%A4%20%EC%A0%95%EB%B3%B4%20%EC%A0%9C%ED%95%9C%20%ED%99%95%EC%9D%B8_01a013ea.md)
+
+### SwordSpirit
+
+- 2026-08-05 [검영 Database 접두어 찾기](projects/SwordSpirit/2026-08-05_0901_%EA%B2%80%EC%98%81%20Database%20%EC%A0%91%EB%91%90%EC%96%B4%20%EC%B0%BE%EA%B8%B0_019fd126.md)
+- 2026-08-13 [검령 Unity 6 UI 작업 안내](projects/SwordSpirit/2026-08-13_0513_%EA%B2%80%EB%A0%B9%20Unity%206%20UI%20%EC%9E%91%EC%97%85%20%EC%95%88%EB%82%B4_019ff98a.md)
+- 2026-08-14 [클래스 선택 로비 UI 검토](projects/SwordSpirit/2026-08-14_0104_%ED%81%B4%EB%9E%98%EC%8A%A4%20%EC%84%A0%ED%83%9D%20%EB%A1%9C%EB%B9%84%20UI%20%EA%B2%80%ED%86%A0_019ffdcc.md)
+- 2026-08-14 [Untitled](projects/SwordSpirit/2026-08-14_0115_Untitled_019ffdd5.md)
+- 2026-08-14 [Untitled](projects/SwordSpirit/2026-08-14_0134_Untitled_019ffde7.md)

@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-08-14T01:08:39.830Z",
+  "exportedAt": "2026-08-27T02:25:36.173Z",
   "source": {
     "sessionIndex": "C:\\Users\\dumaclub\\.codex\\session_index.jsonl",
     "globalState": "C:\\Users\\dumaclub\\.codex\\.codex-global-state.json",
@@ -37,16 +37,6 @@
       "labelSource": "local-projects"
     },
     {
-      "cwd": "C:\\Users\\dumaclub\\Documents\\SwordSpirit",
-      "project": "SwordSpirit",
-      "labelSource": "local-projects"
-    },
-    {
-      "cwd": "E:\\SwordSpirit\\Dev",
-      "project": "SwordSpirit",
-      "labelSource": "local-projects"
-    },
-    {
       "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
       "project": "Astellia02",
       "labelSource": "local-projects"
@@ -55,12 +45,17 @@
       "cwd": "D:\\ProjectA\\Trunk\\Dev",
       "project": "Astellia02",
       "labelSource": "local-projects"
+    },
+    {
+      "cwd": "E:\\SwordSpirit\\Dev",
+      "project": "SwordSpirit",
+      "labelSource": "local-projects"
     }
   ],
   "totals": {
     "projects": 8,
-    "threads": 199,
-    "messages": 6213
+    "threads": 212,
+    "messages": 6564
   },
   "projects": {
     "Zzz": [
@@ -180,6 +175,24 @@
         "updatedAt": "2026-08-14T01:06:35.1222375Z",
         "messages": 3,
         "file": "projects/Zzz/2026-08-14_0106_Explain Unity UI structure_019ffdce.md"
+      },
+      {
+        "id": "01a01876-0068-7c00-a181-6d95eac37efc",
+        "title": "ChatGPT 사용량 초기화 주기 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "startedAt": "2026-08-19T05:19:42.306Z",
+        "updatedAt": "2026-08-19T05:19:51.362394Z",
+        "messages": 9,
+        "file": "projects/Zzz/2026-08-19_0519_ChatGPT 사용량 초기화 주기 확인_01a01876.md"
+      },
+      {
+        "id": "01a018b4-5c7e-7e43-bad8-b0c79e0d0464",
+        "title": "웹사이트 주간 초기화 방법 안내",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "startedAt": "2026-08-19T06:27:48.700Z",
+        "updatedAt": "2026-08-19T06:28:35.6688904Z",
+        "messages": 5,
+        "file": "projects/Zzz/2026-08-19_0628_웹사이트 주간 초기화 방법 안내_01a018b4.md"
       }
     ],
     "Tetris": [
@@ -632,7 +645,7 @@
         "cwd": "E:\\ProjectA02\\Trunk\\Dev",
         "startedAt": "2026-07-01T09:03:35.982Z",
         "updatedAt": "2026-07-01T09:04:25.7318393Z",
-        "messages": 335,
+        "messages": 339,
         "file": "projects/Astellia/2026-07-01_0904_특권 Type14 다이아 지급 확인_019f1ceb.md"
       },
       {
@@ -713,7 +726,7 @@
         "cwd": "E:\\ProjectA02\\Trunk\\Dev",
         "startedAt": "2026-07-09T07:54:36.887Z",
         "updatedAt": "2026-07-09T07:55:03.9628907Z",
-        "messages": 101,
+        "messages": 138,
         "file": "projects/Astellia/2026-07-09_0755_요일보스 남은시간 오늘 표시 원인 확인_019f45df.md"
       },
       {
@@ -1543,7 +1556,7 @@
         "cwd": "E:\\Rasalas\\Trunk\\qa",
         "startedAt": "2026-08-12T07:01:22.675Z",
         "updatedAt": "2026-08-12T07:01:31.9037973Z",
-        "messages": 28,
+        "messages": 78,
         "file": "projects/Rasalas/2026-08-12_0701_ClassMasteryData 중복 키 오류 확인_019ff4c6.md"
       },
       {
@@ -1581,6 +1594,15 @@
         "updatedAt": "2026-08-13T01:34:37.5157592Z",
         "messages": 4,
         "file": "projects/Rasalas/2026-08-13_0134_C++ 버전 업그레이드로 서버 안정화_019ff8bf.md"
+      },
+      {
+        "id": "01a00014-4786-73a2-a45c-c722ced362a0",
+        "title": "Untitled",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-08-14T11:42:04.286Z",
+        "updatedAt": "2026-08-18T01:35:58.764Z",
+        "messages": 30,
+        "file": "projects/Rasalas/2026-08-18_0135_Untitled_01a00014.md"
       }
     ],
     "Codex": [
@@ -1680,8 +1702,17 @@
         "cwd": "E:\\Study\\Codex",
         "startedAt": "2026-08-14T00:01:38.139Z",
         "updatedAt": "2026-08-14T00:01:40.523849Z",
-        "messages": 15,
+        "messages": 24,
         "file": "projects/Codex/2026-08-14_0001_Weekly Codex conversation archive_019ffd93.md"
+      },
+      {
+        "id": "01a04105-913d-7522-a365-ef694c167de2",
+        "title": "Weekly Codex conversation archive",
+        "cwd": "E:\\Study\\Codex",
+        "startedAt": "2026-08-27T02:21:19.603Z",
+        "updatedAt": "2026-08-27T02:21:22.4874162Z",
+        "messages": 19,
+        "file": "projects/Codex/2026-08-27_0221_Weekly Codex conversation archive_01a04105.md"
       }
     ],
     "W찾아줘": [
@@ -1691,7 +1722,7 @@
         "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
         "startedAt": "2026-07-24T03:26:00.087Z",
         "updatedAt": "2026-07-24T03:29:46.8490154Z",
-        "messages": 55,
+        "messages": 59,
         "file": "projects/W찾아줘/2026-07-24_0329_오늘의 주식 시황_019f9228.md"
       },
       {
@@ -1774,35 +1805,15 @@
         "updatedAt": "2026-08-05T01:24:29.1337614Z",
         "messages": 3,
         "file": "projects/W찾아줘/2026-08-05_0124_환율 하락 원인과 1300원대 전망_019fcf85.md"
-      }
-    ],
-    "SwordSpirit": [
-      {
-        "id": "019fd126-dad1-70b1-9edc-5c445740a78c",
-        "title": "검영 Database 접두어 찾기",
-        "cwd": "C:\\Users\\dumaclub\\Documents\\SwordSpirit",
-        "startedAt": "2026-08-05T09:00:12.674Z",
-        "updatedAt": "2026-08-05T09:01:08.7610769Z",
-        "messages": 4,
-        "file": "projects/SwordSpirit/2026-08-05_0901_검영 Database 접두어 찾기_019fd126.md"
       },
       {
-        "id": "019ff98a-38a8-75e0-8108-b0aa93acb28e",
-        "title": "검령 Unity 6 UI 작업 안내",
-        "cwd": "E:\\SwordSpirit\\Dev",
-        "startedAt": "2026-08-13T05:13:33.097Z",
-        "updatedAt": "2026-08-13T05:13:41.7848983Z",
-        "messages": 67,
-        "file": "projects/SwordSpirit/2026-08-13_0513_검령 Unity 6 UI 작업 안내_019ff98a.md"
-      },
-      {
-        "id": "019ffdcc-4c9a-7db0-bc8d-f351dc2bda79",
-        "title": "클래스 선택 로비 UI 검토",
-        "cwd": "E:\\SwordSpirit\\Dev",
-        "startedAt": "2026-08-14T01:04:12.444Z",
-        "updatedAt": "2026-08-14T01:04:19.6025403Z",
-        "messages": 4,
-        "file": "projects/SwordSpirit/2026-08-14_0104_클래스 선택 로비 UI 검토_019ffdcc.md"
+        "id": "01a018bd-c65b-73b0-b6ad-43b70996d03e",
+        "title": "환율 하락 원인 찾기",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
+        "startedAt": "2026-08-19T06:38:05.637Z",
+        "updatedAt": "2026-08-19T06:38:20.0920412Z",
+        "messages": 3,
+        "file": "projects/W찾아줘/2026-08-19_0638_환율 하락 원인 찾기_01a018bd.md"
       }
     ],
     "Astellia02": [
@@ -1857,7 +1868,7 @@
         "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
         "startedAt": "2026-08-13T06:01:59.667Z",
         "updatedAt": "2026-08-13T06:02:16.4554155Z",
-        "messages": 54,
+        "messages": 90,
         "file": "projects/Astellia02/2026-08-13_0602_결제 후 보상받기 이벤트 추가_019ff9b6.md"
       },
       {
@@ -1868,6 +1879,107 @@
         "updatedAt": "2026-08-13T07:04:09.400Z",
         "messages": 6,
         "file": "projects/Astellia02/2026-08-13_0704_Untitled_019ff9ec.md"
+      },
+      {
+        "id": "019ffe57-7250-70e3-b3cc-78b27ea257b1",
+        "title": "라살라스처럼 마켓 컬럼 통합",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-14T03:36:11.925Z",
+        "updatedAt": "2026-08-14T03:36:15.2100454Z",
+        "messages": 8,
+        "file": "projects/Astellia02/2026-08-14_0336_라살라스처럼 마켓 컬럼 통합_019ffe57.md"
+      },
+      {
+        "id": "019ffe69-d416-7121-b99f-45d5e1ba42c2",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-14T03:56:16.591Z",
+        "updatedAt": "2026-08-14T03:56:23.409Z",
+        "messages": 2,
+        "file": "projects/Astellia02/2026-08-14_0356_Untitled_019ffe69.md"
+      },
+      {
+        "id": "019ffea8-23d6-75d0-8918-d2059ee98ca1",
+        "title": "Fix CollectionData integer error",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-14T05:04:20.243Z",
+        "updatedAt": "2026-08-14T05:04:24.2565508Z",
+        "messages": 11,
+        "file": "projects/Astellia02/2026-08-14_0504_Fix CollectionData integer error_019ffea8.md"
+      },
+      {
+        "id": "01a01272-8796-7242-828e-fd28d5766a7b",
+        "title": "일일의뢰 갱신 오류 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-18T01:18:11.389Z",
+        "updatedAt": "2026-08-18T01:19:19.2683029Z",
+        "messages": 9,
+        "file": "projects/Astellia02/2026-08-18_0119_일일의뢰 갱신 오류 확인_01a01272.md"
+      },
+      {
+        "id": "01a012ce-2f59-7d83-97dd-0e33eaaad0b3",
+        "title": "첫결제 다음날 보상 치트키 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-18T02:58:18.238Z",
+        "updatedAt": "2026-08-18T02:58:34.31991Z",
+        "messages": 8,
+        "file": "projects/Astellia02/2026-08-18_0258_첫결제 다음날 보상 치트키 확인_01a012ce.md"
+      },
+      {
+        "id": "01a013ea-12ba-7b32-a4d2-572050324987",
+        "title": "길드 미가입자 보스 정보 제한 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-18T08:08:22.792Z",
+        "updatedAt": "2026-08-18T08:08:27.6836752Z",
+        "messages": 16,
+        "file": "projects/Astellia02/2026-08-18_0808_길드 미가입자 보스 정보 제한 확인_01a013ea.md"
+      }
+    ],
+    "SwordSpirit": [
+      {
+        "id": "019fd126-dad1-70b1-9edc-5c445740a78c",
+        "title": "검영 Database 접두어 찾기",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\SwordSpirit",
+        "startedAt": "2026-08-05T09:00:12.674Z",
+        "updatedAt": "2026-08-05T09:01:08.7610769Z",
+        "messages": 4,
+        "file": "projects/SwordSpirit/2026-08-05_0901_검영 Database 접두어 찾기_019fd126.md"
+      },
+      {
+        "id": "019ff98a-38a8-75e0-8108-b0aa93acb28e",
+        "title": "검령 Unity 6 UI 작업 안내",
+        "cwd": "E:\\SwordSpirit\\Dev",
+        "startedAt": "2026-08-13T05:13:33.097Z",
+        "updatedAt": "2026-08-13T05:13:41.7848983Z",
+        "messages": 67,
+        "file": "projects/SwordSpirit/2026-08-13_0513_검령 Unity 6 UI 작업 안내_019ff98a.md"
+      },
+      {
+        "id": "019ffdcc-4c9a-7db0-bc8d-f351dc2bda79",
+        "title": "클래스 선택 로비 UI 검토",
+        "cwd": "E:\\SwordSpirit\\Dev",
+        "startedAt": "2026-08-14T01:04:12.444Z",
+        "updatedAt": "2026-08-14T01:04:19.6025403Z",
+        "messages": 87,
+        "file": "projects/SwordSpirit/2026-08-14_0104_클래스 선택 로비 UI 검토_019ffdcc.md"
+      },
+      {
+        "id": "019ffdd5-366f-7bc3-910f-b18a9dc6798f",
+        "title": "Untitled",
+        "cwd": "E:\\SwordSpirit\\Dev",
+        "startedAt": "2026-08-14T01:13:56.592Z",
+        "updatedAt": "2026-08-14T01:15:02.648Z",
+        "messages": 6,
+        "file": "projects/SwordSpirit/2026-08-14_0115_Untitled_019ffdd5.md"
+      },
+      {
+        "id": "019ffde7-af9b-72c2-be31-650cb84c2198",
+        "title": "Untitled",
+        "cwd": "E:\\SwordSpirit\\Dev",
+        "startedAt": "2026-08-14T01:34:07.260Z",
+        "updatedAt": "2026-08-14T01:34:24.990Z",
+        "messages": 2,
+        "file": "projects/SwordSpirit/2026-08-14_0134_Untitled_019ffde7.md"
       }
     ]
   }

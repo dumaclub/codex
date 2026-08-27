@@ -33,6 +33,9 @@ CONTEXT_BLOCKS = re.compile(
     r"<(?:recommended_plugins|environment_context|app-context|permissions instructions|apps_instructions|plugins_instructions|skills_instructions)>.*?</(?:recommended_plugins|environment_context|app-context|permissions instructions|apps_instructions|plugins_instructions|skills_instructions)>",
     re.IGNORECASE | re.DOTALL,
 )
+TOOL_TRANSCRIPT_BLOCKS = re.compile(
+    r"(?ms)^\[\d+\]\s+tool\s+\w+\s+(?:call|result):.*?(?=^\[\d+\]\s+(?!tool\s+\w+\s+(?:call|result):)|\Z)"
+)
 LEADING_USER_HEADING = re.compile(r"^\s*### User\s+", re.IGNORECASE)
 
 
@@ -48,6 +51,7 @@ def read_jsonl(path):
 def sanitize_text(text):
     text = DATA_IMAGE.sub("[base64 image omitted]", text)
     text = CONTEXT_BLOCKS.sub("", text)
+    text = TOOL_TRANSCRIPT_BLOCKS.sub("[tool execution log omitted]\n", text)
     text = GOOGLE_OAUTH_CLIENT_ID.sub("[google oauth client id redacted]", text)
     text = GOOGLE_OAUTH_CLIENT_SECRET.sub("[google oauth client secret redacted]", text)
     text = SENSITIVE_JSON_VALUE.sub(r'\1"[credential redacted]"', text)
@@ -88,6 +92,7 @@ def load_workspace_map():
     labels = state.get("electron-workspace-root-labels", {})
     local_projects = state.get("local-projects", {})
     thread_assignments = state.get("thread-project-assignments", {})
+    thread_writable_roots = state.get("thread-writable-roots", {})
 
     workspace_map = {}
     saved = []
@@ -130,10 +135,23 @@ def load_workspace_map():
                 "labelSource": "thread-project-assignments",
             }
 
-    return workspace_map, assignment_map, saved
+    writable_root_map = {}
+    for session_id, roots in thread_writable_roots.items():
+        for root in roots:
+            normalized = os.path.normcase(os.path.normpath(root))
+            project = workspace_map.get(normalized)
+            if project:
+                writable_root_map[session_id] = {
+                    "cwd": root,
+                    "project": project,
+                    "labelSource": "thread-writable-roots",
+                }
+                break
+
+    return workspace_map, assignment_map, writable_root_map, saved
 
 
-def extract_session(path, title_info, workspace_map, assignment_map):
+def extract_session(path, title_info, workspace_map, assignment_map, writable_root_map):
     meta = None
     messages = []
     latest_timestamp = None
@@ -172,6 +190,8 @@ def extract_session(path, title_info, workspace_map, assignment_map):
     assignment = assignment_map.get(meta["id"], {})
     normalized_cwd = os.path.normcase(os.path.normpath(assignment.get("cwd") or meta["cwd"]))
     project = assignment.get("project") or workspace_map.get(normalized_cwd)
+    if not project:
+        project = writable_root_map.get(meta["id"], {}).get("project")
     if not project:
         return None
     info = title_info.get(meta["id"], {})
@@ -233,10 +253,12 @@ def relative_link(path):
 
 def main():
     title_info = load_titles()
-    workspace_map, assignment_map, saved_workspaces = load_workspace_map()
+    workspace_map, assignment_map, writable_root_map, saved_workspaces = load_workspace_map()
     sessions = []
     for path in SESSIONS_DIR.rglob("*.jsonl"):
-        session = extract_session(path, title_info, workspace_map, assignment_map)
+        session = extract_session(
+            path, title_info, workspace_map, assignment_map, writable_root_map
+        )
         if session and session["messages"]:
             sessions.append(session)
     sessions.sort(key=lambda item: (item["project"], iso_sort_value(item["updatedAt"]), item["id"]))
