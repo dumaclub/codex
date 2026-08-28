@@ -5,7 +5,7 @@
 - Workspace: `E:\Study\Codex`
 - Started: 2026-08-27T02:21:19.603Z
 - Updated: 2026-08-27T02:21:22.4874162Z
-- Messages exported: 19
+- Messages exported: 29
 
 > Export note: internal system/developer instructions, tool execution logs, and base64 image payloads are omitted. Only user/assistant messages are archived.
 
@@ -91,3 +91,53 @@ There are many legacy numbered tool transcript blocks in the current regenerated
 ### Assistant
 
 The exporter now strips numbered `tool ... call/result` transcript blocks before writing archive text. I’m regenerating and expecting the user/assistant message counts to stay close, with the raw tool-log content removed from message bodies.
+
+### Assistant
+
+Regeneration completed with 212 threads / 6,564 messages. The extra count is from this active archive run being captured under Codex; I’m running the safety scan again before staging.
+
+### Assistant
+
+The scan is clean now: no base64 image payloads, OAuth markers, credential-shaped JSON values, or numbered tool transcript markers in the generated archive. `git diff --check` only reports Windows LF-to-CRLF warnings, not whitespace errors. I’m doing one more targeted internal-instruction marker scan, then I’ll stage, commit, and push.
+
+### Assistant
+
+The internal marker scan only found older conversations discussing what the exporter excludes, not raw instruction records. I’m staging the archive, index, README, and the exporter hardening change now.
+
+### Assistant
+
+The archive files are staged. I’ll inspect the staged summary once, then commit and push to `origin/main`.
+
+### Assistant
+
+Committed as `3f23cea` with the refreshed archive and exporter hardening. I’m pushing it to `origin/main` now.
+
+### Assistant
+
+Push succeeded to `origin/main`. I’m checking the final repository state and then I’ll update the automation memory with this run’s outcome.
+
+### Assistant
+
+The repo is clean at `3f23cea` and aligned with `origin/main`. I’m writing the automation memory now with the counts, validations, and pushed commit.
+
+### Assistant
+
+The first memory patch was rejected because it tried to delete and add the same absolute file in one patch. I’ll update it in place instead.
+
+### Assistant
+
+Automation memory is updated. I’m doing one last quick readback and repo status check before closing.
+
+### Assistant
+
+Updated and pushed the Codex conversation archive.
+
+Export result:
+- 212 threads / 6,564 user-assistant messages
+- 8 projects total
+- Required projects present: Rasalas 65, Tetris 4, Astellia 87
+- Updated [README.md](E:/Study/Codex/README.md), [archive-index.json](E:/Study/Codex/archive-index.json), project archives, and hardened [export_codex_archive.py](E:/Study/Codex/export_codex_archive.py)
+
+Validation passed: no duplicate session IDs, no `data:image` payloads, no Google OAuth markers, no credential-shaped JSON values, and no numbered tool transcript markers remained. Committed and pushed `3f23cea` (`Update Codex conversation archives`) to `origin/main`; repo is clean.
+
+::inbox-item{title="Conversation archive pushed" summary="212 threads exported; safety scans passed"}

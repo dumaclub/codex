@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-08-27T02:25:36.173Z",
+  "exportedAt": "2026-08-28T00:02:32.413Z",
   "source": {
     "sessionIndex": "C:\\Users\\dumaclub\\.codex\\session_index.jsonl",
     "globalState": "C:\\Users\\dumaclub\\.codex\\.codex-global-state.json",
@@ -50,12 +50,17 @@
       "cwd": "E:\\SwordSpirit\\Dev",
       "project": "SwordSpirit",
       "labelSource": "local-projects"
+    },
+    {
+      "cwd": "E:\\Study\\Katago\\KataGo",
+      "project": "Katago",
+      "labelSource": "local-projects"
     }
   ],
   "totals": {
-    "projects": 8,
-    "threads": 212,
-    "messages": 6564
+    "projects": 9,
+    "threads": 245,
+    "messages": 7185
   },
   "projects": {
     "Zzz": [
@@ -193,6 +198,33 @@
         "updatedAt": "2026-08-19T06:28:35.6688904Z",
         "messages": 5,
         "file": "projects/Zzz/2026-08-19_0628_웹사이트 주간 초기화 방법 안내_01a018b4.md"
+      },
+      {
+        "id": "01a01d9c-2e9e-7113-93c4-acfbcebb83e7",
+        "title": "Codex 사용량 작업 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "startedAt": "2026-08-20T05:19:30.252Z",
+        "updatedAt": "2026-08-20T05:20:39.0109052Z",
+        "messages": 6,
+        "file": "projects/Zzz/2026-08-20_0520_Codex 사용량 작업 확인_01a01d9c.md"
+      },
+      {
+        "id": "01a023df-cd18-73f0-9f0f-2697e35c734e",
+        "title": "Easy Anti-Cheat 설치 방법",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "startedAt": "2026-08-21T10:31:04.746Z",
+        "updatedAt": "2026-08-21T10:31:10.2940351Z",
+        "messages": 2,
+        "file": "projects/Zzz/2026-08-21_1031_Easy Anti-Cheat 설치 방법_01a023df.md"
+      },
+      {
+        "id": "01a0376b-2f19-7422-b195-e654f7e2ca1b",
+        "title": "8급 바둑 실력 향상하기",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "startedAt": "2026-08-25T05:36:06.445Z",
+        "updatedAt": "2026-08-25T05:36:46.4798608Z",
+        "messages": 2,
+        "file": "projects/Zzz/2026-08-25_0536_8급 바둑 실력 향상하기_01a0376b.md"
       }
     ],
     "Tetris": [
@@ -1556,7 +1588,7 @@
         "cwd": "E:\\Rasalas\\Trunk\\qa",
         "startedAt": "2026-08-12T07:01:22.675Z",
         "updatedAt": "2026-08-12T07:01:31.9037973Z",
-        "messages": 78,
+        "messages": 126,
         "file": "projects/Rasalas/2026-08-12_0701_ClassMasteryData 중복 키 오류 확인_019ff4c6.md"
       },
       {
@@ -1603,6 +1635,15 @@
         "updatedAt": "2026-08-18T01:35:58.764Z",
         "messages": 30,
         "file": "projects/Rasalas/2026-08-18_0135_Untitled_01a00014.md"
+      },
+      {
+        "id": "01a03d44-7570-7083-9145-9567adf69bc4",
+        "title": "Untitled",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-08-26T08:51:31.835Z",
+        "updatedAt": "2026-08-26T10:11:22.987Z",
+        "messages": 38,
+        "file": "projects/Rasalas/2026-08-26_1011_Untitled_01a03d44.md"
       }
     ],
     "Codex": [
@@ -1711,8 +1752,17 @@
         "cwd": "E:\\Study\\Codex",
         "startedAt": "2026-08-27T02:21:19.603Z",
         "updatedAt": "2026-08-27T02:21:22.4874162Z",
-        "messages": 19,
+        "messages": 29,
         "file": "projects/Codex/2026-08-27_0221_Weekly Codex conversation archive_01a04105.md"
+      },
+      {
+        "id": "01a045ac-26d5-7850-83b8-efc84331ed85",
+        "title": "Weekly Codex conversation archive",
+        "cwd": "E:\\Study\\Codex",
+        "startedAt": "2026-08-28T00:01:45.758Z",
+        "updatedAt": "2026-08-28T00:01:47.606769Z",
+        "messages": 4,
+        "file": "projects/Codex/2026-08-28_0001_Weekly Codex conversation archive_01a045ac.md"
       }
     ],
     "W찾아줘": [
@@ -1812,8 +1862,17 @@
         "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
         "startedAt": "2026-08-19T06:38:05.637Z",
         "updatedAt": "2026-08-19T06:38:20.0920412Z",
-        "messages": 3,
+        "messages": 6,
         "file": "projects/W찾아줘/2026-08-19_0638_환율 하락 원인 찾기_01a018bd.md"
+      },
+      {
+        "id": "01a03c15-d460-77a3-8625-323cdd25c8d7",
+        "title": "코스피 방향 탐색 국면 분석",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
+        "startedAt": "2026-08-26T03:20:58.738Z",
+        "updatedAt": "2026-08-26T03:21:04.2491977Z",
+        "messages": 9,
+        "file": "projects/W찾아줘/2026-08-26_0321_코스피 방향 탐색 국면 분석_01a03c15.md"
       }
     ],
     "Astellia02": [
@@ -1933,6 +1992,240 @@
         "updatedAt": "2026-08-18T08:08:27.6836752Z",
         "messages": 16,
         "file": "projects/Astellia02/2026-08-18_0808_길드 미가입자 보스 정보 제한 확인_01a013ea.md"
+      },
+      {
+        "id": "01a01dc0-8f0a-7741-9a2a-1f240316b0d8",
+        "title": "특권 변수 사용처 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-20T05:59:14.236Z",
+        "updatedAt": "2026-08-20T05:59:19.5173706Z",
+        "messages": 44,
+        "file": "projects/Astellia02/2026-08-20_0559_특권 변수 사용처 확인_01a01dc0.md"
+      },
+      {
+        "id": "01a02221-5d79-78b1-b621-9a4a20b57d6d",
+        "title": "유효하지 않은 상품 오류 원인 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-21T02:23:27.146Z",
+        "updatedAt": "2026-08-21T02:23:34.3033554Z",
+        "messages": 13,
+        "file": "projects/Astellia02/2026-08-21_0223_유효하지 않은 상품 오류 원인 확인_01a02221.md"
+      },
+      {
+        "id": "01a022f1-2846-7652-a4b7-965127426df3",
+        "title": "Locate initial membership reward",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-21T06:10:24.983Z",
+        "updatedAt": "2026-08-21T06:13:27.1640033Z",
+        "messages": 8,
+        "file": "projects/Astellia02/2026-08-21_0613_Locate initial membership reward_01a022f1.md"
+      },
+      {
+        "id": "01a02355-eaf0-71d3-9d4c-80a5892c07bc",
+        "title": "로그인 접속 유지 이벤트 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-21T08:00:28.422Z",
+        "updatedAt": "2026-08-21T08:00:33.2334565Z",
+        "messages": 7,
+        "file": "projects/Astellia02/2026-08-21_0800_로그인 접속 유지 이벤트 확인_01a02355.md"
+      },
+      {
+        "id": "01a02356-d349-7c33-98bb-a83c08af4b1d",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-21T08:01:27.904Z",
+        "updatedAt": "2026-08-21T08:01:33.827Z",
+        "messages": 2,
+        "file": "projects/Astellia02/2026-08-21_0801_Untitled_01a02356.md"
+      },
+      {
+        "id": "01a038c5-2f6e-7651-9c30-abc932f0c0c7",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-25T11:54:01.991Z",
+        "updatedAt": "2026-08-21T10:23:08.282Z",
+        "messages": 4,
+        "file": "projects/Astellia02/2026-08-21_1023_Untitled_01a038c5.md"
+      },
+      {
+        "id": "01a031c8-d98f-7bd1-abf3-a837c0d5d08f",
+        "title": "재료상자 서버렉 원인 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-24T03:20:41.633Z",
+        "updatedAt": "2026-08-24T03:20:47.2395334Z",
+        "messages": 86,
+        "file": "projects/Astellia02/2026-08-24_0320_재료상자 서버렉 원인 확인_01a031c8.md"
+      },
+      {
+        "id": "01a031c9-cb56-7241-989c-59fe43e7a921",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-24T03:21:43.533Z",
+        "updatedAt": "2026-08-24T03:34:53.674Z",
+        "messages": 6,
+        "file": "projects/Astellia02/2026-08-24_0334_Untitled_01a031c9.md"
+      },
+      {
+        "id": "01a032a7-89f1-7740-8303-0cec1863bb25",
+        "title": "TutorialData Id 저장 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-24T07:23:55.784Z",
+        "updatedAt": "2026-08-24T07:24:01.1742233Z",
+        "messages": 10,
+        "file": "projects/Astellia02/2026-08-24_0724_TutorialData Id 저장 확인_01a032a7.md"
+      },
+      {
+        "id": "01a032a8-532b-7391-a150-14c4737bdc68",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-24T07:24:47.300Z",
+        "updatedAt": "2026-08-24T07:32:11.328Z",
+        "messages": 58,
+        "file": "projects/Astellia02/2026-08-24_0732_Untitled_01a032a8.md"
+      },
+      {
+        "id": "01a032b6-ef06-73e3-b76f-a716f14306ff",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-24T07:40:44.834Z",
+        "updatedAt": "2026-08-24T07:45:40.302Z",
+        "messages": 22,
+        "file": "projects/Astellia02/2026-08-24_0745_Untitled_01a032b6.md"
+      },
+      {
+        "id": "01a0323d-8045-79b2-a69d-879301e5ae95",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-24T05:28:06.488Z",
+        "updatedAt": "2026-08-24T09:38:31.673Z",
+        "messages": 24,
+        "file": "projects/Astellia02/2026-08-24_0938_Untitled_01a0323d.md"
+      },
+      {
+        "id": "01a037b6-cc61-79b1-a21c-ce641cc4fddf",
+        "title": "구매횟수 초기화 치트키 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-25T06:58:41.921Z",
+        "updatedAt": "2026-08-25T06:58:49.9046588Z",
+        "messages": 5,
+        "file": "projects/Astellia02/2026-08-25_0658_구매횟수 초기화 치트키 확인_01a037b6.md"
+      },
+      {
+        "id": "01a038ad-6cc3-7112-a8c6-d4502c2acd99",
+        "title": "보스 쟁탈전 퇴장 오류 원인 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-25T11:28:04.830Z",
+        "updatedAt": "2026-08-25T11:28:10.6793156Z",
+        "messages": 33,
+        "file": "projects/Astellia02/2026-08-25_1128_보스 쟁탈전 퇴장 오류 원인 확인_01a038ad.md"
+      },
+      {
+        "id": "01a038ae-4c4e-7f10-a857-d5dba7b6094a",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-25T11:29:02.058Z",
+        "updatedAt": "2026-08-25T11:29:07.222Z",
+        "messages": 2,
+        "file": "projects/Astellia02/2026-08-25_1129_Untitled_01a038ae.md"
+      },
+      {
+        "id": "01a03c2a-cd30-7243-8cd9-7abd5a965d43",
+        "title": "아발론 던전 표시 문제 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-26T03:43:53.158Z",
+        "updatedAt": "2026-08-26T03:43:59.2495052Z",
+        "messages": 25,
+        "file": "projects/Astellia02/2026-08-26_0343_아발론 던전 표시 문제 확인_01a03c2a.md"
+      },
+      {
+        "id": "01a03c2b-846c-7b00-86cc-3ad8d522bcb0",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-26T03:44:40.067Z",
+        "updatedAt": "2026-08-26T03:44:46.282Z",
+        "messages": 2,
+        "file": "projects/Astellia02/2026-08-26_0344_Untitled_01a03c2b.md"
+      },
+      {
+        "id": "01a03c7b-d0a2-7012-8b04-9d7c60c72c8f",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-26T05:12:22.457Z",
+        "updatedAt": "2026-08-26T05:12:28.903Z",
+        "messages": 2,
+        "file": "projects/Astellia02/2026-08-26_0512_Untitled_01a03c7b.md"
+      },
+      {
+        "id": "01a040a8-7193-7181-aeaf-9608200992f2",
+        "title": "봉헌 대기시간 서버 코드 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-27T00:39:36.434Z",
+        "updatedAt": "2026-08-27T00:39:42.1321387Z",
+        "messages": 9,
+        "file": "projects/Astellia02/2026-08-27_0039_봉헌 대기시간 서버 코드 확인_01a040a8.md"
+      },
+      {
+        "id": "01a040ab-77fd-7df1-aaae-362cc0c8420d",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-27T00:42:59.456Z",
+        "updatedAt": "2026-08-27T00:49:55.544Z",
+        "messages": 4,
+        "file": "projects/Astellia02/2026-08-27_0049_Untitled_01a040ab.md"
+      },
+      {
+        "id": "01a04131-a94e-7432-a898-0591c88c4142",
+        "title": "월드던전 보스 중복 생성 원인 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-27T03:09:29.098Z",
+        "updatedAt": "2026-08-27T03:09:34.1114878Z",
+        "messages": 41,
+        "file": "projects/Astellia02/2026-08-27_0309_월드던전 보스 중복 생성 원인 확인_01a04131.md"
+      },
+      {
+        "id": "01a0418f-da18-7af3-ae14-8e0c75304e61",
+        "title": "Investigate zone update delays",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-27T04:52:22.001Z",
+        "updatedAt": "2026-08-27T04:52:34.2857289Z",
+        "messages": 8,
+        "file": "projects/Astellia02/2026-08-27_0452_Investigate zone update delays_01a0418f.md"
+      },
+      {
+        "id": "01a041b5-67ab-7190-8354-af8d9d7866a4",
+        "title": "questId 0 입력 원인 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-27T05:33:23.059Z",
+        "updatedAt": "2026-08-27T05:33:29.5777599Z",
+        "messages": 4,
+        "file": "projects/Astellia02/2026-08-27_0533_questId 0 입력 원인 확인_01a041b5.md"
+      },
+      {
+        "id": "01a041b7-e177-7470-a7b3-65255bf7284e",
+        "title": "보스 시간표 스폰 상태 확인",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-27T05:36:05.783Z",
+        "updatedAt": "2026-08-27T05:36:27.5878091Z",
+        "messages": 33,
+        "file": "projects/Astellia02/2026-08-27_0536_보스 시간표 스폰 상태 확인_01a041b7.md"
+      },
+      {
+        "id": "01a04211-639a-7b83-baaa-232c38633836",
+        "title": "Fix NetMQ port conflict",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-27T07:13:51.338Z",
+        "updatedAt": "2026-08-27T07:14:43.4785296Z",
+        "messages": 5,
+        "file": "projects/Astellia02/2026-08-27_0714_Fix NetMQ port conflict_01a04211.md"
+      },
+      {
+        "id": "01a04213-492d-7c60-b984-3fd87db1d892",
+        "title": "Fix missing ResourceBundles path",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-27T07:15:55.592Z",
+        "updatedAt": "2026-08-27T07:16:43.0432638Z",
+        "messages": 32,
+        "file": "projects/Astellia02/2026-08-27_0716_Fix missing ResourceBundles path_01a04213.md"
       }
     ],
     "SwordSpirit": [
@@ -1980,6 +2273,17 @@
         "updatedAt": "2026-08-14T01:34:24.990Z",
         "messages": 2,
         "file": "projects/SwordSpirit/2026-08-14_0134_Untitled_019ffde7.md"
+      }
+    ],
+    "Katago": [
+      {
+        "id": "01a03784-0efb-7de2-b8d6-031ac11f06d0",
+        "title": "카타고 빌드 IDE 선택",
+        "cwd": "E:\\Study\\Katago\\KataGo",
+        "startedAt": "2026-08-25T06:03:16.626Z",
+        "updatedAt": "2026-08-25T06:03:32.6876394Z",
+        "messages": 10,
+        "file": "projects/Katago/2026-08-25_0603_카타고 빌드 IDE 선택_01a03784.md"
       }
     ]
   }
