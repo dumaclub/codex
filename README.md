@@ -1,21 +1,21 @@
 # Codex Conversation Archive
 
-Exported: 2026-08-28T00:02:32.413Z
+Exported: 2026-09-04T00:02:10.627Z
 
 This repository stores project conversation archives from Codex as Markdown files. It does not include source projects or the raw `.codex` folder.
 
 ## Scope
 
-- Zzz: 18 threads, 123 user/assistant messages
+- Zzz: 21 threads, 161 user/assistant messages
 - Tetris: 4 threads, 75 user/assistant messages
-- Astellia: 87 threads, 3387 user/assistant messages
-- Rasalas: 66 threads, 2358 user/assistant messages
-- Codex: 13 threads, 243 user/assistant messages
-- W찾아줘: 12 threads, 118 user/assistant messages
-- Astellia02: 39 threads, 705 user/assistant messages
+- Astellia: 88 threads, 3452 user/assistant messages
+- Rasalas: 69 threads, 2440 user/assistant messages
+- Codex: 14 threads, 261 user/assistant messages
+- W찾아줘: 12 threads, 125 user/assistant messages
+- Astellia02: 46 threads, 858 user/assistant messages
 - SwordSpirit: 5 threads, 166 user/assistant messages
-- Katago: 1 threads, 10 user/assistant messages
-- Total: 245 threads, 7185 user/assistant messages
+- Katago: 5 threads, 46 user/assistant messages
+- Total: 264 threads, 7584 user/assistant messages
 
 ## File Structure
 
@@ -59,6 +59,9 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-08-20 [Codex 사용량 작업 확인](projects/Zzz/2026-08-20_0520_Codex%20%EC%82%AC%EC%9A%A9%EB%9F%89%20%EC%9E%91%EC%97%85%20%ED%99%95%EC%9D%B8_01a01d9c.md)
 - 2026-08-21 [Easy Anti-Cheat 설치 방법](projects/Zzz/2026-08-21_1031_Easy%20Anti-Cheat%20%EC%84%A4%EC%B9%98%20%EB%B0%A9%EB%B2%95_01a023df.md)
 - 2026-08-25 [8급 바둑 실력 향상하기](projects/Zzz/2026-08-25_0536_8%EA%B8%89%20%EB%B0%94%EB%91%91%20%EC%8B%A4%EB%A0%A5%20%ED%96%A5%EC%83%81%ED%95%98%EA%B8%B0_01a0376b.md)
+- 2026-08-31 [화가 날 때 진정하는 방법](projects/Zzz/2026-08-31_0119_%ED%99%94%EA%B0%80%20%EB%82%A0%20%EB%95%8C%20%EC%A7%84%EC%A0%95%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95_01a05566.md)
+- 2026-09-01 [아스파라거스 수확량 계산](projects/Zzz/2026-09-01_0943_%EC%95%84%EC%8A%A4%ED%8C%8C%EB%9D%BC%EA%B1%B0%EC%8A%A4%20%EC%88%98%ED%99%95%EB%9F%89%20%EA%B3%84%EC%82%B0_01a05c59.md)
+- 2026-09-02 [EVO80 PP 보강판 스위치 추천](projects/Zzz/2026-09-02_0920_EVO80%20PP%20%EB%B3%B4%EA%B0%95%ED%8C%90%20%EC%8A%A4%EC%9C%84%EC%B9%98%20%EC%B6%94%EC%B2%9C_01a0616b.md)
 
 ### Tetris
 
@@ -156,6 +159,7 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-08-11 [Untitled](projects/Astellia/2026-08-11_0704_Untitled_019feb04.md)
 - 2026-08-12 [cashPurchase 치트키 동작 확인](projects/Astellia/2026-08-12_0706_cashPurchase%20%EC%B9%98%ED%8A%B8%ED%82%A4%20%EB%8F%99%EC%9E%91%20%ED%99%95%EC%9D%B8_019ff4ca.md)
 - 2026-08-12 [Untitled](projects/Astellia/2026-08-12_0732_Untitled_019ff4e1.md)
+- 2026-08-28 [Untitled](projects/Astellia/2026-08-28_0136_Untitled_01a045fe.md)
 
 ### Rasalas
 
@@ -225,6 +229,9 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-08-13 [C++ 버전 업그레이드로 서버 안정화](projects/Rasalas/2026-08-13_0134_C%2B%2B%20%EB%B2%84%EC%A0%84%20%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C%EB%A1%9C%20%EC%84%9C%EB%B2%84%20%EC%95%88%EC%A0%95%ED%99%94_019ff8bf.md)
 - 2026-08-18 [Untitled](projects/Rasalas/2026-08-18_0135_Untitled_01a00014.md)
 - 2026-08-26 [Untitled](projects/Rasalas/2026-08-26_1011_Untitled_01a03d44.md)
+- 2026-08-31 [Untitled](projects/Rasalas/2026-08-31_0952_Untitled_01a056ef.md)
+- 2026-09-02 [Untitled](projects/Rasalas/2026-09-02_0142_Untitled_01a05fc8.md)
+- 2026-09-03 [대만 환불 대상 데이터 추출](projects/Rasalas/2026-09-03_0201_%EB%8C%80%EB%A7%8C%20%ED%99%98%EB%B6%88%20%EB%8C%80%EC%83%81%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B6%94%EC%B6%9C_01a06500.md)
 
 ### Codex
 
@@ -241,6 +248,7 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-08-14 [Weekly Codex conversation archive](projects/Codex/2026-08-14_0001_Weekly%20Codex%20conversation%20archive_019ffd93.md)
 - 2026-08-27 [Weekly Codex conversation archive](projects/Codex/2026-08-27_0221_Weekly%20Codex%20conversation%20archive_01a04105.md)
 - 2026-08-28 [Weekly Codex conversation archive](projects/Codex/2026-08-28_0001_Weekly%20Codex%20conversation%20archive_01a045ac.md)
+- 2026-09-04 [Weekly Codex conversation archive](projects/Codex/2026-09-04_0001_Weekly%20Codex%20conversation%20archive_01a069b8.md)
 
 ### W찾아줘
 
@@ -298,6 +306,13 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 - 2026-08-27 [보스 시간표 스폰 상태 확인](projects/Astellia02/2026-08-27_0536_%EB%B3%B4%EC%8A%A4%20%EC%8B%9C%EA%B0%84%ED%91%9C%20%EC%8A%A4%ED%8F%B0%20%EC%83%81%ED%83%9C%20%ED%99%95%EC%9D%B8_01a041b7.md)
 - 2026-08-27 [Fix NetMQ port conflict](projects/Astellia02/2026-08-27_0714_Fix%20NetMQ%20port%20conflict_01a04211.md)
 - 2026-08-27 [Fix missing ResourceBundles path](projects/Astellia02/2026-08-27_0716_Fix%20missing%20ResourceBundles%20path_01a04213.md)
+- 2026-08-28 [특권 상품 즉시 다이아 지급 검토](projects/Astellia02/2026-08-28_0145_%ED%8A%B9%EA%B6%8C%20%EC%83%81%ED%92%88%20%EC%A6%89%EC%8B%9C%20%EB%8B%A4%EC%9D%B4%EC%95%84%20%EC%A7%80%EA%B8%89%20%EA%B2%80%ED%86%A0_01a0460a.md)
+- 2026-08-28 [메일 보상 발송 쿼리 생성](projects/Astellia02/2026-08-28_0156_%EB%A9%94%EC%9D%BC%20%EB%B3%B4%EC%83%81%20%EB%B0%9C%EC%86%A1%20%EC%BF%BC%EB%A6%AC%20%EC%83%9D%EC%84%B1_01a04615.md)
+- 2026-08-31 [delay_update_tick 원인 분석](projects/Astellia02/2026-08-31_0226_delay_update_tick%20%EC%9B%90%EC%9D%B8%20%EB%B6%84%EC%84%9D_01a055a4.md)
+- 2026-08-31 [던전 소탕권 함수 시간 측정](projects/Astellia02/2026-08-31_0427_%EB%8D%98%EC%A0%84%20%EC%86%8C%ED%83%95%EA%B6%8C%20%ED%95%A8%EC%88%98%20%EC%8B%9C%EA%B0%84%20%EC%B8%A1%EC%A0%95_01a05612.md)
+- 2026-08-31 [daily_update_tick 원인 분석](projects/Astellia02/2026-08-31_1135_daily_update_tick%20%EC%9B%90%EC%9D%B8%20%EB%B6%84%EC%84%9D_01a0579a.md)
+- 2026-09-03 [대만 사용자 식별 방법 찾기](projects/Astellia02/2026-09-03_0240_%EB%8C%80%EB%A7%8C%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%8B%9D%EB%B3%84%20%EB%B0%A9%EB%B2%95%20%EC%B0%BE%EA%B8%B0_01a06523.md)
+- 2026-09-03 [Untitled](projects/Astellia02/2026-09-03_0519_Untitled_01a065b0.md)
 
 ### SwordSpirit
 
@@ -310,3 +325,7 @@ Each Markdown file omits internal system/developer instructions, tool execution 
 ### Katago
 
 - 2026-08-25 [카타고 빌드 IDE 선택](projects/Katago/2026-08-25_0603_%EC%B9%B4%ED%83%80%EA%B3%A0%20%EB%B9%8C%EB%93%9C%20IDE%20%EC%84%A0%ED%83%9D_01a03784.md)
+- 2026-08-28 [3급 1급 향상 연습 찾기](projects/Katago/2026-08-28_0905_3%EA%B8%89%201%EA%B8%89%20%ED%96%A5%EC%83%81%20%EC%97%B0%EC%8A%B5%20%EC%B0%BE%EA%B8%B0_01a0479c.md)
+- 2026-08-28 [두 제품 가격차이 원인 분석](projects/Katago/2026-08-28_0929_%EB%91%90%20%EC%A0%9C%ED%92%88%20%EA%B0%80%EA%B2%A9%EC%B0%A8%EC%9D%B4%20%EC%9B%90%EC%9D%B8%20%EB%B6%84%EC%84%9D_01a047b4.md)
+- 2026-08-28 [Untitled](projects/Katago/2026-08-28_0930_Untitled_01a047b4.md)
+- 2026-09-02 [Untitled](projects/Katago/2026-09-02_0836_Untitled_01a0610a.md)

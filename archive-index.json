@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-08-28T00:02:32.413Z",
+  "exportedAt": "2026-09-04T00:02:10.627Z",
   "source": {
     "sessionIndex": "C:\\Users\\dumaclub\\.codex\\session_index.jsonl",
     "globalState": "C:\\Users\\dumaclub\\.codex\\.codex-global-state.json",
@@ -59,8 +59,8 @@
   ],
   "totals": {
     "projects": 9,
-    "threads": 245,
-    "messages": 7185
+    "threads": 264,
+    "messages": 7584
   },
   "projects": {
     "Zzz": [
@@ -225,6 +225,33 @@
         "updatedAt": "2026-08-25T05:36:46.4798608Z",
         "messages": 2,
         "file": "projects/Zzz/2026-08-25_0536_8급 바둑 실력 향상하기_01a0376b.md"
+      },
+      {
+        "id": "01a05566-b6d2-7520-a002-2c206dd94ebb",
+        "title": "화가 날 때 진정하는 방법",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "startedAt": "2026-08-31T01:19:50.320Z",
+        "updatedAt": "2026-08-31T01:19:55.7606174Z",
+        "messages": 8,
+        "file": "projects/Zzz/2026-08-31_0119_화가 날 때 진정하는 방법_01a05566.md"
+      },
+      {
+        "id": "01a05c59-aec9-7803-a0d7-e70b1f4c4dc5",
+        "title": "아스파라거스 수확량 계산",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "startedAt": "2026-09-01T09:42:56.699Z",
+        "updatedAt": "2026-09-01T09:43:20.5767793Z",
+        "messages": 10,
+        "file": "projects/Zzz/2026-09-01_0943_아스파라거스 수확량 계산_01a05c59.md"
+      },
+      {
+        "id": "01a0616b-48ff-74e1-9391-e193f976e4a9",
+        "title": "EVO80 PP 보강판 스위치 추천",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\New project",
+        "startedAt": "2026-09-02T09:20:16.436Z",
+        "updatedAt": "2026-09-02T09:20:46.4468839Z",
+        "messages": 20,
+        "file": "projects/Zzz/2026-09-02_0920_EVO80 PP 보강판 스위치 추천_01a0616b.md"
       }
     ],
     "Tetris": [
@@ -677,7 +704,7 @@
         "cwd": "E:\\ProjectA02\\Trunk\\Dev",
         "startedAt": "2026-07-01T09:03:35.982Z",
         "updatedAt": "2026-07-01T09:04:25.7318393Z",
-        "messages": 339,
+        "messages": 368,
         "file": "projects/Astellia/2026-07-01_0904_특권 Type14 다이아 지급 확인_019f1ceb.md"
       },
       {
@@ -722,7 +749,7 @@
         "cwd": "E:\\ProjectA02\\Trunk\\Dev",
         "startedAt": "2026-07-06T02:07:26.209Z",
         "updatedAt": "2026-07-06T02:07:31.3322022Z",
-        "messages": 143,
+        "messages": 161,
         "file": "projects/Astellia/2026-07-06_0207_확인 던전소탕권 서버 작업_019f352e.md"
       },
       {
@@ -1048,6 +1075,15 @@
         "updatedAt": "2026-08-12T07:32:24.384Z",
         "messages": 10,
         "file": "projects/Astellia/2026-08-12_0732_Untitled_019ff4e1.md"
+      },
+      {
+        "id": "01a045fe-469e-7bc0-8219-bea8eaa88fb2",
+        "title": "Untitled",
+        "cwd": "E:\\ProjectA02\\Trunk\\Dev",
+        "startedAt": "2026-08-28T01:31:27.264Z",
+        "updatedAt": "2026-08-28T01:36:59.431Z",
+        "messages": 18,
+        "file": "projects/Astellia/2026-08-28_0136_Untitled_01a045fe.md"
       }
     ],
     "Rasalas": [
@@ -1588,7 +1624,7 @@
         "cwd": "E:\\Rasalas\\Trunk\\qa",
         "startedAt": "2026-08-12T07:01:22.675Z",
         "updatedAt": "2026-08-12T07:01:31.9037973Z",
-        "messages": 126,
+        "messages": 175,
         "file": "projects/Rasalas/2026-08-12_0701_ClassMasteryData 중복 키 오류 확인_019ff4c6.md"
       },
       {
@@ -1644,6 +1680,33 @@
         "updatedAt": "2026-08-26T10:11:22.987Z",
         "messages": 38,
         "file": "projects/Rasalas/2026-08-26_1011_Untitled_01a03d44.md"
+      },
+      {
+        "id": "01a056ef-deed-7033-8814-7418d586732b",
+        "title": "Untitled",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-08-31T08:29:15.928Z",
+        "updatedAt": "2026-08-31T09:52:39.423Z",
+        "messages": 22,
+        "file": "projects/Rasalas/2026-08-31_0952_Untitled_01a056ef.md"
+      },
+      {
+        "id": "01a05fc8-2f36-7c32-b3d8-0f98f903108d",
+        "title": "Untitled",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-09-02T01:42:29.944Z",
+        "updatedAt": "2026-09-02T01:42:36.754Z",
+        "messages": 2,
+        "file": "projects/Rasalas/2026-09-02_0142_Untitled_01a05fc8.md"
+      },
+      {
+        "id": "01a06500-013f-7002-a9f3-fa545fa2f0c1",
+        "title": "대만 환불 대상 데이터 추출",
+        "cwd": "E:\\Rasalas\\Trunk\\qa",
+        "startedAt": "2026-09-03T02:01:34.272Z",
+        "updatedAt": "2026-09-03T02:01:40.55036Z",
+        "messages": 9,
+        "file": "projects/Rasalas/2026-09-03_0201_대만 환불 대상 데이터 추출_01a06500.md"
       }
     ],
     "Codex": [
@@ -1761,8 +1824,17 @@
         "cwd": "E:\\Study\\Codex",
         "startedAt": "2026-08-28T00:01:45.758Z",
         "updatedAt": "2026-08-28T00:01:47.606769Z",
-        "messages": 4,
+        "messages": 19,
         "file": "projects/Codex/2026-08-28_0001_Weekly Codex conversation archive_01a045ac.md"
+      },
+      {
+        "id": "01a069b8-719d-77b3-8c75-e3c1755a5c6f",
+        "title": "Weekly Codex conversation archive",
+        "cwd": "E:\\Study\\Codex",
+        "startedAt": "2026-09-04T00:01:31.088Z",
+        "updatedAt": "2026-09-04T00:01:31.9244548Z",
+        "messages": 3,
+        "file": "projects/Codex/2026-09-04_0001_Weekly Codex conversation archive_01a069b8.md"
       }
     ],
     "W찾아줘": [
@@ -1772,7 +1844,7 @@
         "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
         "startedAt": "2026-07-24T03:26:00.087Z",
         "updatedAt": "2026-07-24T03:29:46.8490154Z",
-        "messages": 59,
+        "messages": 63,
         "file": "projects/W찾아줘/2026-07-24_0329_오늘의 주식 시황_019f9228.md"
       },
       {
@@ -1862,7 +1934,7 @@
         "cwd": "C:\\Users\\dumaclub\\Documents\\W찾아줘",
         "startedAt": "2026-08-19T06:38:05.637Z",
         "updatedAt": "2026-08-19T06:38:20.0920412Z",
-        "messages": 6,
+        "messages": 9,
         "file": "projects/W찾아줘/2026-08-19_0638_환율 하락 원인 찾기_01a018bd.md"
       },
       {
@@ -2206,7 +2278,7 @@
         "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
         "startedAt": "2026-08-27T05:36:05.783Z",
         "updatedAt": "2026-08-27T05:36:27.5878091Z",
-        "messages": 33,
+        "messages": 64,
         "file": "projects/Astellia02/2026-08-27_0536_보스 시간표 스폰 상태 확인_01a041b7.md"
       },
       {
@@ -2226,6 +2298,69 @@
         "updatedAt": "2026-08-27T07:16:43.0432638Z",
         "messages": 32,
         "file": "projects/Astellia02/2026-08-27_0716_Fix missing ResourceBundles path_01a04213.md"
+      },
+      {
+        "id": "01a0460a-7f4c-74c0-996f-9447742152aa",
+        "title": "특권 상품 즉시 다이아 지급 검토",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-28T01:44:48.556Z",
+        "updatedAt": "2026-08-28T01:45:20.9333033Z",
+        "messages": 47,
+        "file": "projects/Astellia02/2026-08-28_0145_특권 상품 즉시 다이아 지급 검토_01a0460a.md"
+      },
+      {
+        "id": "01a04615-66be-7263-b1a6-670dd9893e5e",
+        "title": "메일 보상 발송 쿼리 생성",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-28T01:56:43.311Z",
+        "updatedAt": "2026-08-28T01:56:48.5907194Z",
+        "messages": 2,
+        "file": "projects/Astellia02/2026-08-28_0156_메일 보상 발송 쿼리 생성_01a04615.md"
+      },
+      {
+        "id": "01a055a4-08a3-7ec0-b6a9-ab2ad4e5b819",
+        "title": "delay_update_tick 원인 분석",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-31T02:26:48.934Z",
+        "updatedAt": "2026-08-31T02:26:55.3569723Z",
+        "messages": 15,
+        "file": "projects/Astellia02/2026-08-31_0226_delay_update_tick 원인 분석_01a055a4.md"
+      },
+      {
+        "id": "01a05612-6730-7f71-a507-b75dd2db6adb",
+        "title": "던전 소탕권 함수 시간 측정",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-31T04:27:22.137Z",
+        "updatedAt": "2026-08-31T04:27:26.7900292Z",
+        "messages": 32,
+        "file": "projects/Astellia02/2026-08-31_0427_던전 소탕권 함수 시간 측정_01a05612.md"
+      },
+      {
+        "id": "01a0579a-2320-7ec0-aa76-280b3bbca90b",
+        "title": "daily_update_tick 원인 분석",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-08-31T11:35:14.755Z",
+        "updatedAt": "2026-08-31T11:35:19.5917544Z",
+        "messages": 9,
+        "file": "projects/Astellia02/2026-08-31_1135_daily_update_tick 원인 분석_01a0579a.md"
+      },
+      {
+        "id": "01a06523-6aa1-7820-9533-4804f4b240ce",
+        "title": "대만 사용자 식별 방법 찾기",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-09-03T02:40:15.275Z",
+        "updatedAt": "2026-09-03T02:40:22.7759322Z",
+        "messages": 13,
+        "file": "projects/Astellia02/2026-09-03_0240_대만 사용자 식별 방법 찾기_01a06523.md"
+      },
+      {
+        "id": "01a065b0-5452-70f0-9b8a-7d7980b22d18",
+        "title": "Untitled",
+        "cwd": "C:\\Users\\dumaclub\\Documents\\ChatGPT\\Astellia02",
+        "startedAt": "2026-09-03T05:14:10.151Z",
+        "updatedAt": "2026-09-03T05:19:16.421Z",
+        "messages": 4,
+        "file": "projects/Astellia02/2026-09-03_0519_Untitled_01a065b0.md"
       }
     ],
     "SwordSpirit": [
@@ -2284,6 +2419,42 @@
         "updatedAt": "2026-08-25T06:03:32.6876394Z",
         "messages": 10,
         "file": "projects/Katago/2026-08-25_0603_카타고 빌드 IDE 선택_01a03784.md"
+      },
+      {
+        "id": "01a0479c-d834-7c82-9c77-26b05d96f79f",
+        "title": "3급 1급 향상 연습 찾기",
+        "cwd": "E:\\Study\\Katago\\KataGo",
+        "startedAt": "2026-08-28T09:04:16.730Z",
+        "updatedAt": "2026-08-28T09:05:56.6482718Z",
+        "messages": 2,
+        "file": "projects/Katago/2026-08-28_0905_3급 1급 향상 연습 찾기_01a0479c.md"
+      },
+      {
+        "id": "01a047b4-3a0c-77b0-8600-bf3cce894d6b",
+        "title": "두 제품 가격차이 원인 분석",
+        "cwd": "E:\\Study\\Katago\\KataGo",
+        "startedAt": "2026-08-28T09:29:49.128Z",
+        "updatedAt": "2026-08-28T09:29:55.3209996Z",
+        "messages": 20,
+        "file": "projects/Katago/2026-08-28_0929_두 제품 가격차이 원인 분석_01a047b4.md"
+      },
+      {
+        "id": "01a047b4-b604-7661-9e41-e4264fee67bb",
+        "title": "Untitled",
+        "cwd": "E:\\Study\\Katago\\KataGo",
+        "startedAt": "2026-08-28T09:30:20.862Z",
+        "updatedAt": "2026-08-28T09:30:26.367Z",
+        "messages": 2,
+        "file": "projects/Katago/2026-08-28_0930_Untitled_01a047b4.md"
+      },
+      {
+        "id": "01a0610a-8d05-7671-8c4e-05fdecbc6365",
+        "title": "Untitled",
+        "cwd": "E:\\Study\\Katago\\KataGo",
+        "startedAt": "2026-09-02T07:34:36.824Z",
+        "updatedAt": "2026-09-02T08:36:18.400Z",
+        "messages": 12,
+        "file": "projects/Katago/2026-09-02_0836_Untitled_01a0610a.md"
       }
     ]
   }

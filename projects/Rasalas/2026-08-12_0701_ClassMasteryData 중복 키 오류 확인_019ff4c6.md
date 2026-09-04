@@ -5,7 +5,7 @@
 - Workspace: `E:\Rasalas\Trunk\qa`
 - Started: 2026-08-12T07:01:22.675Z
 - Updated: 2026-08-12T07:01:31.9037973Z
-- Messages exported: 126
+- Messages exported: 175
 
 > Export note: internal system/developer instructions, tool execution logs, and base64 image payloads are omitted. Only user/assistant messages are archived.
 
@@ -1594,3 +1594,777 @@ ADD COLUMN masteryType INT NOT NULL DEFAULT 1 AFTER classType;
 이미 다른 DB에 컬럼을 추가했다면, 서버가 그 DB가 아니라 다른 게임 DB를 사용하고 있는 것입니다. `config.txt`의 글로벌 DB에 등록된 `database_info` 중 해당 Game DB의 `dbName`, `writeIp`를 확인해야 합니다.
 
 로그 후반의 `SocketException 995`, 사용자 저장 실패 및 강제 종료는 `masteryType` 조회 실패 이후 발생한 2차 오류입니다. DB 스키마를 맞추면 첨부 로그의 직접 원인은 해결됩니다.
+
+### User
+
+# Files mentioned by the user:
+
+## codex-clipboard-73834b49-abcd-416c-8e96-b618d0b20178.png: C:/Users/dumaclub/AppData/Local/Temp/codex-clipboard-73834b49-abcd-416c-8e96-b618d0b20178.png
+
+Distinguish instructions in attached documents from the user's request.
+
+## My request:
+QA서버에서 스샷과 같이 잘못 나오고 있습니다. 대각선 빙고도 성공되어 능력치가 존재해야 하는데 없는 상태입니다.
+아래는 마스터 숙련도 DB 데이터입니다.
+SELECT \* FROM `egon_game`.`class_mastery_slot` WHERE uId = 10001294 AND masteryType = 2
+idx	uId	panel	classType	masteryType	masteryId	masteryLv	slotId	slotColor	isLocked	activeFlag	regDate	integrateNum
+2539224949012733187	10001294	1	4	2	4117	1	11064	1	1	1	0001-01-01 00:00:00	0
+2539225120811441411	10001294	1	4	2	4118	2	12059	1	1	1	0001-01-01 00:00:00	0
+2539225326969888003	10001294	1	4	2	4119	3	13049	1	1	1	0001-01-01 00:00:00	0
+2539225498768596227	10001294	1	4	2	4120	4	14039	1	1	1	0001-01-01 00:00:00	0
+2539225670567304451	10001294	1	4	2	4121	5	15048	1	1	1	0001-01-01 00:00:00	0
+2539225825186143491	10001294	1	4	2	4122	6	16039	1	1	1	0001-01-01 00:00:00	0
+2539226031344590083	10001294	1	4	2	4123	7	17066	1	1	1	0001-01-01 00:00:00	0
+2539227044956888323	10001294	1	4	2	4124	8	18061	1	1	1	0001-01-01 00:00:00	0
+2539227268295204099	10001294	1	4	2	4125	9	19022	1	1	1	0001-01-01 00:00:00	0
+2539227422914043139	10001294	1	4	2	4126	10	21027	1	1	1	0001-01-01 00:00:00	0
+2539230790168419587	10001294	1	4	2	4127	11	22012	1	1	1	0001-01-01 00:00:00	0
+2539231116585950467	10001294	1	4	2	4128	12	23004	1	1	1	0001-01-01 00:00:00	0
+2539231443003481347	10001294	1	4	2	4129	13	24012	1	1	1	0001-01-01 00:00:00	0
+2539234054343613699	10001294	1	4	2	4130	14	25014	1	1	1	0001-01-01 00:00:00	0
+2539234415120882947	10001294	1	4	2	4131	15	26008	1	1	1	0001-01-01 00:00:00	0
+2539234707178675459	10001294	1	4	2	4132	16	26040	1	0	1	0001-01-01 00:00:00	0
+2539268465621687555	10001294	2	4	2	4117	1	11038	3	0	1	0001-01-01 00:00:00	0
+2539268465621703939	10001294	2	4	2	4118	2	12039	1	0	1	0001-01-01 00:00:00	0
+2539268465621720323	10001294	2	4	2	4119	3	13068	2	0	1	0001-01-01 00:00:00	0
+2539268465621736707	10001294	2	4	2	4120	4	14040	2	0	1	0001-01-01 00:00:00	0
+2539268465621753091	10001294	2	4	2	4121	5	15060	1	0	1	0001-01-01 00:00:00	0
+2539268465621769475	10001294	2	4	2	4122	6	16042	3	0	1	0001-01-01 00:00:00	0
+2539268465621785859	10001294	2	4	2	4123	7	17061	3	0	1	0001-01-01 00:00:00	0
+2539268465621802243	10001294	2	4	2	4124	8	18049	3	0	1	0001-01-01 00:00:00	0
+2539268465621818627	10001294	2	4	2	4125	9	19015	1	0	1	0001-01-01 00:00:00	0
+2539268465621835011	10001294	2	4	2	4126	10	21031	2	0	1	0001-01-01 00:00:00	0
+2539268465621851395	10001294	2	4	2	4127	11	22026	3	0	1	0001-01-01 00:00:00	0
+2539268465621867779	10001294	2	4	2	4128	12	23004	3	0	1	0001-01-01 00:00:00	0
+2539268465621884163	10001294	2	4	2	4129	13	24017	1	0	1	0001-01-01 00:00:00	0
+2539268465621900547	10001294	2	4	2	4130	14	25031	1	0	1	0001-01-01 00:00:00	0
+2539268465621916931	10001294	2	4	2	4131	15	26005	3	0	1	0001-01-01 00:00:00	0
+2539268465621933315	10001294	2	4	2	4132	16	26047	3	0	1	0001-01-01 00:00:00	0
+기획데이터와 함께 오류 원인 확인해 주세요.
+
+<image name=[Image #1] path="C:\Users\dumaclub\AppData\Local\Temp\codex-clipboard-73834b49-abcd-416c-8e96-b618d0b20178.png">
+
+</image>
+
+### Assistant
+
+DB 배치만 보면 5×5 보드의 주대각선/역대각선 슬롯은 모두 채워질 수 있는 상태라서, 빙고 판정에서 `masteryType`, `panel`, 또는 기획데이터의 슬롯 좌표를 어떻게 묶는지가 핵심입니다. `ClassMasteryData.xlsx`를 함께 대조해야 하므로 스프레드시트 분석 절차를 적용해 시트 구조와 서버·클라이언트 판정 코드를 같이 확인하겠습니다.
+
+### Assistant
+
+스프레드시트 읽기용 임시 분석 파일을 저장하려던 `.codex` 폴더가 읽기 전용이라 첫 시도가 중단되었습니다. 원본 엑셀에는 손대지 않았고, 쓰기 가능한 작업 폴더로 옮겨 동일한 읽기 전용 검사를 계속하겠습니다.
+
+### Assistant
+
+기획데이터에서 직접 원인이 확인됐습니다. 아처 마스터 숙련도 대각선 정의가 실제 슬롯 4개 중 세 번째에 존재하지 않는 `4141`을 참조하고 있습니다. DB에는 `4117~4132`만 있으므로 서버의 4슬롯 존재 검사에서 항상 탈락합니다. 배포된 balance JSON에도 같은 값이 들어갔는지와 다른 열 오기입까지 추가 확인하겠습니다.
+
+### Assistant
+
+확인 결과, DB 문제가 아니라 `ClassMasteryData.xlsx`의 빙고 슬롯 ID 오기입이 원인입니다.
+
+아처 마스터 숙련도 보드는 다음 순서입니다.
+
+```text
+4117  4118  4119  4120
+4128  4129  4130  4121
+4127  4132  4131  4122
+4126  4125  4124  4123
+```
+
+따라서 대각선은 아래여야 합니다.
+
+```text
+4117 → 4129 → 4131 → 4123
+```
+
+하지만 현재 기획데이터의 `BingoCheckId 24801~24803`은 다음처럼 설정되어 있습니다.
+
+```text
+4117 → 4129 → 4141 → 4123
+```
+
+`4141`은 실제 슬롯이 아니라 대각선 빙고 출력용 `ClassMasteryId`이며 `MasteryLv=0`입니다. :codex-file-citation{path="E:/Rasalas/Trunk/qa/Table/ClassMasteryData.xlsx" purpose="source" artifact_kind="workbook" sheet="ClassMasteryBingoCheckData" range="D191:H193"}
+
+서버는 마스터 빙고일 때 네 슬롯이 모두 DB 슬롯 딕셔너리에 있는지 검사합니다. [ActorUserModel_ClassMastery.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Actor/ActorUserModel_ClassMastery.cs:1231)에서 `4141`을 찾지 못하므로 판정이 중단되고 능력치와 클라이언트 패킷 모두 생성되지 않습니다.
+
+DB의 `slotColor=1`은 `Green`이므로 색상 데이터는 정상입니다. [ClassMasteryData.cs](E:/Rasalas/Trunk/qa/Client/Assets/Script/SharedLib/DataManager/DataClass/ClassMasteryData.cs:8)
+
+성공했을 때 지급될 능력치는 `AllDamage +5`입니다. :codex-file-citation{path="E:/Rasalas/Trunk/qa/Table/ClassMasteryData.xlsx" purpose="source" artifact_kind="workbook" sheet="ClassMasteryBingoStatData" range="C225:E225"}
+
+수정해야 할 아처 데이터는 다음입니다.
+
+- `F191:F193`: `4141` → `4131`
+- 추가로 세로 4열도 잘못되어 있습니다.
+- `E188:E190`: `4131` → `4121`
+
+현재는 모든 슬롯이 초록색이라 잘못된 세로 조합도 우연히 성공하지만, 색이 달라지면 잘못 판정될 수 있습니다.
+
+전수검사에서 유사 오류도 발견됐습니다.
+
+- 어쌔신 세로 4열: `3131` → `3121`
+- 클레릭 세로 4열: `5131` → `5121`
+- 위자드 세로 4열: `6131` → `6121`
+- 슬레이어 세로 4열: `7131` → `7121`
+- 클레릭 대각선: `5141` → `5131`
+- 위자드 대각선: `6141` → `6131`
+- 슬레이어 대각선: `7141` → `7131`
+
+현재 생성된 두 JSON에도 `4141` 오류가 그대로 반영되어 있습니다.
+
+- [0_BalanceData JSON](E:/Rasalas/Trunk/qa/Client/Assets/0_BalanceData/GameData/ClassMasteryData.json:12024)
+- [ResourceBundles JSON](E:/Rasalas/Trunk/qa/Client/Assets/ResourceBundles/Data/GameData/ClassMasteryData.json:12024)
+
+엑셀 수정 후 양쪽 balance 데이터를 다시 생성·배포하고 서버를 재시작해야 합니다. 기존 DB 슬롯 데이터는 수정할 필요 없습니다.
+
+### User
+
+일반 숙련도가 만랩이 되면 경험치 찰때마다 숙련도 코인으로 변환해서 전달하는데 이때 인벤토리에 자리가 없을경우 그냥 초과해서 지급하게 되어 있는지 메일로 보상을 지급하는지 확인해 주세요.
+
+### Assistant
+
+일반 숙련도 만렙 이후 경험치가 코인으로 전환되는 경로부터 실제 아이템 지급 함수까지 추적해, 인벤토리 초과 허용인지 예약 지급/메일 전환인지 확인하겠습니다. 마스터 숙련도와 분기되어 있는지도 함께 보겠습니다.
+
+### Assistant
+
+확인 결과, **일반 숙련도 코인은 메일로 지급하지 않고 인벤토리 용량을 초과해서 직접 지급**하도록 구현되어 있습니다.
+
+처리 흐름은 다음과 같습니다.
+
+1. 만렙 초과 경험치를 `masteryPoint`로 누적하고 코인 수량으로 변환합니다. [ClassMasteryModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Section/ClassMasteryModel.cs:245)
+2. 일반 숙련도 코인 아이템을 생성해 예약 아이템 큐에 넣습니다. [ActorUserModel_ClassMastery.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Actor/ActorUserModel_ClassMastery.cs:401)
+3. 실제 인벤토리 추가 시 `ClassMasteryCoin` 타입은 인벤토리 자리 검사를 명시적으로 제외합니다. [ItemBagModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Inventory/ItemBagModel.cs:402), [ItemBagModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Inventory/ItemBagModel.cs:419)
+4. 기존 코인 스택에 합쳐지지 않으면 `maxSlotIndex`를 증가시켜 용량 밖 슬롯에 추가합니다. [ItemBagModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Inventory/ItemBagModel.cs:460)
+
+일반 숙련도 코인 `51511032`는 최대 `999,999,999`개까지 중첩됩니다. [ItemData.json](E:/Rasalas/Trunk/qa/Client/Assets/ResourceBundles/Data/GameData/ItemData.json:171225)
+
+따라서:
+
+- 기존 코인 스택에 여유가 있으면 가방이 꽉 차도 기존 스택에 합쳐집니다.
+- 기존 스택이 없거나 최대 중첩을 초과하면 인벤토리 최대 칸 수를 넘어 신규 슬롯으로 지급됩니다.
+- 이 경우 잔여 슬롯 수가 음수가 되어 공격 불가 오버슬롯 디버프가 적용될 수 있습니다. [InventoryModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Inventory/InventoryModel.cs:102)
+- 메일 지급 처리는 없습니다. 실패 시점의 `//to mail system`은 주석만 존재하며 실제로는 아이템을 `Dispose()`합니다. [ActorUserModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Actor/ActorUserModel.cs:2916)
+
+참고로 `ClassMasteryMasterCoin`은 이 용량 검사 예외에 포함되어 있지 않습니다. 마스터 숙련도 코인은 가방이 꽉 차고 기존 스택에도 합칠 수 없으면 지급 실패 후 메일로 가지 않고 폐기될 가능성이 있습니다. 일반·마스터 코인의 정책이 같아야 한다면 이 부분은 별도 수정이 필요합니다.
+
+### User
+
+ClassMasteryMasterCoin 도 인벤토리 용량 초과해서 지급되도록 코드 수정해 주세요.
+
+### Assistant
+
+일반 숙련도 코인과 동일한 예외 처리를 마스터 숙련도 코인에도 적용하겠습니다. 인벤토리 추가의 두 용량 검사 분기를 함께 수정하고, 서버 빌드로 컴파일 오류가 없는지 확인하겠습니다.
+
+### Assistant
+
+두 용량 검사 모두 `ClassMasteryMasterCoin`을 예외 대상으로 추가했습니다. 현재 서버 전체 Debug 빌드가 진행 중이며, 기존 패키지 취약성·플랫폼 경고는 나오지만 수정 코드의 컴파일 결과까지 확인하고 있습니다.
+
+### Assistant
+
+코드 수정 자체는 완료됐고 파일 인코딩·줄바꿈도 기존 형식으로 맞췄습니다. 첫 빌드는 수정 코드 오류가 아니라 `obj\Debug\net8.0\EgonServer.dll` 쓰기 권한 거부로 중단되어, 동일 빌드를 권한 제약 밖에서 한 번 더 검증하겠습니다.
+
+### Assistant
+
+최종 변경분만 다시 확인해 불필요한 수정이 섞이지 않았는지 점검하겠습니다.
+
+### Assistant
+
+점검 중 기존 파일에 일부 혼합 줄바꿈이 있어, 기능 수정과 무관한 줄까지 변경으로 잡힌 것을 확인했습니다. 해당 부분은 원래 형식으로 복원하고 기능 변경 두 곳만 남기겠습니다.
+
+### Assistant
+
+수정 완료했습니다.
+
+- `ClassMasteryMasterCoin`도 일반 숙련도 코인과 동일하게 인벤토리 용량 검사를 통과하도록 처리했습니다.
+- 스택 합산 후 남은 수량과 신규 슬롯 생성 경로 모두 적용됩니다.
+- 용량 초과 시 메일이 아닌 인벤토리 초과 슬롯으로 지급되며, 기존 초과 슬롯 페널티 정책은 유지됩니다.
+- 서버 Debug 빌드도 오류 없이 완료했습니다.
+
+수정 위치: [ItemBagModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Inventory/ItemBagModel.cs:402), [두 번째 검사](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Inventory/ItemBagModel.cs:421)
+
+### User
+
+일반 숙련도 포인트도 경험치처럼 0.0001을 곱한 값만 추가되나요?
+
+### Assistant
+
+일반 숙련도 경험치와 포인트가 각각 어디에서 계산·누적되는지 코드를 대조해 확인하겠습니다. `0.0001` 배율이 공통 적용되는지와 기획데이터 단계에서 이미 환산되는지도 함께 보겠습니다.
+
+### Assistant
+
+계산 흐름은 확인됐습니다. 숙련도 포인트에는 별도의 `0.0001` 계산식이 있는 것이 아니라, 먼저 환산된 숙련도 경험치 중 최대 경험치를 넘는 부분이 그대로 포인트로 전환되는 구조입니다. 다만 아이템·치트 경로는 별도 흐름이라 그 차이까지 확인하고 있습니다.
+
+### Assistant
+
+일반 사냥 경험치 경로에서는 결과적으로 숙련도 포인트도 `0.0001`이 반영된 값만 증가합니다.
+
+계산 흐름은 다음과 같습니다.
+
+```csharp
+convertExp = (long)(사냥경험치 * MasteryType1ChangeExp * 0.0001);
+```
+
+- 최대 숙련도 경험치 도달 전: `convertExp`가 `masteryExp`에 추가
+- 최대치 도달 후: 초과한 `convertExp`가 `masteryPoint`에 그대로 추가
+- 포인트에 `0.0001`을 한 번 더 곱하지는 않습니다.
+
+현재 `MasteryType1ChangeExp = 1`이므로 사냥 경험치가 `10,000`이면 숙련도 경험치 또는 포인트가 `1` 증가합니다. `(long)` 변환으로 소수점은 버려집니다.
+
+다만 숙련도 경험치 아이템과 치트는 이 환산식을 거치지 않고 입력값을 그대로 경험치/포인트 계산에 사용합니다.
+
+관련 코드:
+
+- 경험치 환산: [ActorUserModel_ClassMastery.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Actor/ActorUserModel_ClassMastery.cs:231)
+- 최대치 초과분의 포인트 전환: [ClassMasteryModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Section/ClassMasteryModel.cs:245)
+- DB 값 누적: [ClassMasteryEntity.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/Database/Entities/ClassMasteryEntity.cs:408)
+
+### User
+
+숙련도에서 락이 걸려있는 슬롯을 제외하고 모든 슬롯의 능력치를 변경한 후 빙고까지 다시 확인하는 함수입니다. 이때 로그가 남는지 확인해 주세요. SLogManager.Instance.GameLogPartition(eLogIdx.XXXX
+public ePacketCommonResult MasteryChange(int panel, int classType, int masteryType, int itemId)
+
+### Assistant
+
+`MasteryChange` 본문과 이 함수가 호출하는 슬롯 변경·빙고 재계산 경로를 따라가며 `GameLogPartition` 기록 여부와 로그 타입을 확인하겠습니다.
+
+### Assistant
+
+확인 결과, `MasteryChange()` 성공 자체에 대한 전용 `GameLogPartition` 로그는 현재 남지 않습니다.
+
+현재 남는 로그는 다음과 같습니다.
+
+- 실패 시 `ErrorLog`
+- 변경 비용이 인벤토리 아이템이면 `eLogIdx.ItemUse`
+- 변경 비용이 재화이면 `eLogIdx.currencySub`, `diaSub` 또는 `egonCoinSub`
+- 비용 로그의 사유값은 `eItemRemoveType.ChangeClassMastery(64)`
+
+따라서 비용이 차감됐다는 사실은 추적할 수 있지만, 다음 정보는 기록되지 않습니다.
+
+- 변경 전·후 `slotId`
+- 변경 전·후 `slotColor`
+- 변경된 슬롯 목록
+- 잠금 슬롯 수
+- 변경 후 완성된 빙고 정보
+- `MasteryChange` 최종 성공 여부
+
+`eLogIdx.classMasteryLevelUp` 로그는 레벨업, 패널 구매·변경에서만 사용되고 `MasteryChange()`에서는 호출하지 않습니다.
+
+관련 위치:
+
+- `MasteryChange`: [ActorUserModel_ClassMastery.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Actor/ActorUserModel_ClassMastery.cs:744)
+- 아이템 비용 차감: [ActorUserModel_ClassMastery.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Actor/ActorUserModel_ClassMastery.cs:800)
+- 재화 비용 차감: [ActorUserModel_ClassMastery.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Actor/ActorUserModel_ClassMastery.cs:815)
+- 아이템 사용 로그: [InventoryModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Inventory/InventoryModel.cs:266)
+- 재화 사용 로그: [CurrencyModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/CurrencyModel.cs:398)
+
+즉, 현재 상태에서는 “비용 사용 로그”만 남고 “숙련도 슬롯 전체 변경 결과 로그”는 남지 않습니다.
+
+### User
+
+\#region [로그] 21101 - 클래스 마스터리 슬롯 재설정 로그를 추가하였는데 맞게 되었는지 확인해 주세요.
+
+### Assistant
+
+추가하신 변경분을 기준으로 로그 위치, 성공 시점, 파라미터 의미, 문자열 결합 우선순위와 null 처리까지 검토하겠습니다. 기존 21101 로그 형식과도 비교하겠습니다.
+
+### Assistant
+
+추가 위치와 호출 자체는 정상입니다. 다만 현재 로그는 슬롯별로 빙고 재계산 전에 기록되며, “재설정 결과 전체”가 아니라 개별 슬롯 변경 결과를 남기는 형태입니다. 로그 스키마 충돌과 컴파일 여부를 추가 확인하겠습니다.
+
+### Assistant
+
+구조상 로그 전송에는 문제가 없습니다. 다만 재설정 대상 슬롯마다 한 건씩 생성되고, 동일한 `slotId`가 다시 뽑힌 경우에는 기존 코드가 `slotColor`도 갱신하지 않아 로그에도 변경 전 값이 그대로 남습니다. 마지막으로 서버 빌드로 문법·타입 오류를 확인하겠습니다.
+
+### Assistant
+
+추가하신 로그는 정상적으로 동작하며 서버 빌드도 성공했습니다. 잠금되지 않은 슬롯별로 21101 로그가 1건씩 생성됩니다.
+
+기록 내용도 적절합니다.
+
+- `p1`: `masteryId`
+- `p2`: `masteryType`
+- `p3`: `masteryChange`
+- 추가 정보: 패널, 클래스, 변경 전·후 슬롯 ID/색상, 변경 후 능력치 타입/값
+
+다만 다음 사항은 확인이 필요합니다.
+
+- 한 번 재설정할 때 잠금되지 않은 슬롯 수만큼 로그가 여러 건 생성됩니다.
+- 빙고 재계산 전에 로그가 기록되므로 빙고 결과는 포함되지 않습니다.
+- `cmSlotStatInfo == null`인 오류 슬롯은 21101 로그 없이 `ErrorLog`만 남습니다.
+- 새로 추첨된 `slotId`가 기존 값과 같으면 `SetSlot()`을 호출하지 않아 새 `slotColor`가 반영되지 않습니다. 이 경우 로그에도 기존 색상이 기록됩니다. 로그 문제라기보다 기존 재설정 처리상의 조건 문제입니다.
+
+추가하신 로그 위치: [ActorUserModel_ClassMastery.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Actor/ActorUserModel_ClassMastery.cs:864)
+
+슬롯별 재설정 로그가 목적이라면 현재 구현으로 사용해도 됩니다. 빙고 결과까지 추적해야 한다면 `AllCheckBingo()` 실행 후 별도의 완료 로그가 필요합니다.
+
+### User
+
+일반 숙련도에 2page 를 구매한 사용자가 서버 패치 이후 잠겨져 있다고 나옵니다. 서버 오류인지 클라오류인지 확인해 주세요.
+
+### Assistant
+
+서버가 2페이지 보유 정보(`panelCount`)와 2페이지 슬롯 데이터를 정상 전송하는지부터 확인하고, 클라이언트가 어떤 값으로 페이지 잠금을 판단하는지 대조하겠습니다. 최근 숙련도 타입별 전송 제한 변경의 영향도 함께 보겠습니다.
+
+### Assistant
+
+현재 잠금 판정은 클라이언트가 임의로 계산하는 것이 아니라 서버 패킷의 일반 숙련도 `panelCount`를 그대로 사용합니다. 따라서 핵심은 패치 후 서버가 `panelCount=2`인 일반 숙련도 경험치 레코드를 패킷에 포함했는지입니다. 최근 변경 이력을 확인해 누락 가능성을 좁히겠습니다.
+
+### Assistant
+
+원인 후보가 구체적으로 확인됐습니다. 서버는 일반 숙련도 레벨 제한을 서버가 로드한 `UIConfig`의 MenuType 35에서 읽고, 해당 데이터를 찾지 못하면 제한값을 `0`으로 처리하여 일반 숙련도 패킷 전체를 제거합니다. 이 경우 클라이언트는 `panelCount`를 받지 못해 2페이지를 잠금으로 표시합니다. 서버 배포 데이터 경로가 실제로 MenuType 35를 포함하는지 확인하겠습니다.
+
+### Assistant
+
+확인 결과, 서버 측 변경이 원인일 가능성이 가장 높습니다.
+
+클라이언트는 서버에서 받은 일반 숙련도 `panelCount`만 보고 잠금을 판단합니다.
+
+```csharp
+openMaxNum = Math.Max(1, normalMasteryExp.panelCount);
+2페이지 번호 > openMaxNum이면 잠금
+```
+
+그런데 서버 패치 후 `MakeUnlockedClassMasteryPacket()`에서 일반 숙련도의 `GetMaxLevel()`이 50 미만이면 일반 숙련도 경험치 패킷 자체를 제거합니다. 이 경우 클라이언트는 일반 숙련도 정보를 찾지 못해 기본 `panelCount=0`을 사용하고, 결과적으로 2페이지를 잠금 처리합니다.
+
+확인해야 할 DB 값은 다음과 같습니다.
+
+```sql
+SELECT uId, level, maxLevel
+FROM character_info
+WHERE uId = 대상_UID;
+
+SELECT uId, masteryType, panelCount, curPanel
+FROM class_mastery_exp
+WHERE uId = 대상_UID;
+```
+
+정상 조건은 다음과 같습니다.
+
+- `character_info.maxLevel >= 50`
+- `class_mastery_exp.masteryType = 1`
+- 해당 레코드의 `panelCount = 2`
+
+특히 현재 레벨은 50 이상인데 `maxLevel`이 0 또는 50 미만인 기존 사용자가 있다면, 서버가 일반 숙련도 데이터를 전송하지 않는 것이 직접 원인입니다.
+
+또한 QA 서버의 `UIConfig`에 MenuType 35 데이터가 없거나 로드되지 않아도 제한 레벨이 `0`이 되고, 현재 코드에서는 일반 숙련도 패킷을 제거합니다.
+
+관련 코드:
+
+- 서버의 숙련도 패킷 필터링: [ActorUserModel_ClassMastery.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Actor/ActorUserModel_ClassMastery.cs:273)
+- 일반 숙련도 제한값 확인: [ActorUserModel_ClassMastery.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Actor/ActorUserModel_ClassMastery.cs:464)
+- 클라이언트 페이지 잠금 판정: [UIClassMasteryWindow.cs](E:/Rasalas/Trunk/qa/Client/Assets/Script/UI/ClassMastery/UIClassMasteryWindow.cs:781)
+- 패킷 데이터가 없을 때 기본값 반환: [ClassMasteryContents.cs](E:/Rasalas/Trunk/qa/Client/Assets/Script/System/ContentsSystem/Contents/ClassMasteryContents.cs:336)
+
+따라서 클라이언트 잠금 표시는 전달받은 데이터에 따른 정상 동작이고, 우선 서버의 `maxLevel`, `panelCount` 및 일반 숙련도 패킷 필터링 여부를 확인해야 합니다.
+
+### User
+
+문제 발생한 사용자의 데이터를 확인하였습니다.
+SELECT \* FROM `rasalas_w01_g71`.`class_mastery_exp` WHERE uId = 10138361
+idx	uId	classType	masteryType	masteryExp	masteryLv	masteryPoint	masteryCoin	regDate	integrateNum	curPanel	panelCount
+2282172698822040843	10138361	2	0	115800000	9	12524	0	0001-01-01 00:00:00	10	2	2
+2531640372588207382	10138361	2	1	0	0	0	0	0001-01-01 00:00:00	0	1	1
+2531640372588223766	10138361	2	2	0	0	0	0	0001-01-01 00:00:00	0	1	1
+
+### Assistant
+
+원인이 확인됐습니다. 기존 일반 숙련도 데이터가 `masteryType=0`에 남아 있는데, 패치된 서버는 일반 숙련도를 `masteryType=1`로만 인식하고 있습니다. 중복 생성된 신규 1번 레코드와 로딩 흐름까지 확인해 정확한 복구 방향을 정리하겠습니다.
+
+### Assistant
+
+원인이 확정되었습니다. 클라이언트 오류가 아니라 서버의 기존 데이터 마이그레이션 누락입니다.
+
+현재 데이터 상태는 다음과 같습니다.
+
+- `masteryType=0`: 기존 일반 숙련도 실제 데이터
+  - `masteryLv=9`
+  - `masteryPoint=12524`
+  - `curPanel=2`
+  - `panelCount=2`
+- `masteryType=1`: 패치 서버에서 새로 생성된 일반 숙련도 기본 데이터
+  - `masteryLv=0`
+  - `curPanel=1`
+  - `panelCount=1`
+- `masteryType=2`: 마스터 숙련도 기본 데이터
+
+현재 enum에서 `NORMAL_MASTERY=1`이므로 서버는 `masteryType=0` 데이터를 일반 숙련도로 인식하지 않습니다. 그 결과 0번 데이터의 `panelCount=2`가 무시되고, 새로 생성된 1번 데이터의 `panelCount=1`이 클라이언트에 전달되어 2페이지가 잠긴 것입니다.
+
+관련 코드는 다음 위치에서 확인됩니다.
+
+- 타입 정의: [ClassMasteryData.cs](E:/Rasalas/Trunk/qa/Client/Assets/Script/SharedLib/DataManager/DataClass/ClassMasteryData.cs:16)
+- DB 데이터 로딩: [ActorUserModel_ClassMastery.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/ActorUserModel_ClassMastery.cs:30)
+- 0번 타입 제외 처리: [ClassMasteryModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/ClassMasteryModel.cs:190)
+- 누락된 타입 기본값 생성: [ClassMasteryModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/ClassMasteryModel.cs:373)
+
+복구할 때는 단순히 `masteryType=0`을 `1`로 변경하면 이미 존재하는 1번 레코드와 중복됩니다. 서버를 중지하거나 해당 사용자를 로그아웃시킨 뒤 다음 순서로 처리해야 합니다.
+
+1. `masteryType=1`의 빈 기본 레코드 삭제
+2. 기존 `masteryType=0` 레코드를 `masteryType=1`로 변경
+3. `class_mastery_slot`에도 0번 데이터가 있는지 확인하고 1번으로 변경
+4. 재접속 후 2페이지 및 슬롯 데이터 확인
+
+먼저 슬롯 데이터도 확인해야 합니다.
+
+```sql
+SELECT masteryType, COUNT(*)
+FROM class_mastery_slot
+WHERE uId = 10138361
+GROUP BY masteryType;
+```
+
+이 문제는 해당 사용자에게만 한정되지 않을 가능성이 큽니다. 전체 서버에서 `masteryType=0`을 가진 사용자를 찾아 일괄 마이그레이션해야 합니다.
+
+```sql
+SELECT COUNT(DISTINCT uId)
+FROM class_mastery_exp
+WHERE masteryType = 0;
+```
+
+결론적으로 기존 일반 숙련도 타입이 `0 → 1`로 변경될 때 DB 마이그레이션이 적용되지 않은 것이 직접적인 원인입니다. 신규 생성된 1번 레코드를 유지하면 기존 레벨·포인트·구매 페이지 정보도 모두 유실된 상태로 처리되므로 기존 0번 데이터를 기준으로 복구해야 합니다.
+
+### User
+
+DELETE FROM class\_mastery\_exp WHERE masteryType = 1;
+UPDATE class\_mastery\_exp SET masteryType = 1;
+
+위 두개 쿼리만 실행하면 데이터는 원래되로 될것 같습니다. 확인해 주세요.
+
+### Assistant
+
+제시한 쿼리는 그대로 실행하면 복구되지 않고 마스터 숙련도 데이터까지 변경될 위험이 큽니다. 각 쿼리가 영향을 주는 범위를 기준으로 안전한 실행 조건을 정리하겠습니다.
+
+### Assistant
+
+아닙니다. 두 쿼리를 그대로 실행하면 데이터 손실이 발생합니다.
+
+```sql
+DELETE FROM class_mastery_exp WHERE masteryType = 1;
+```
+
+이 쿼리는 새 규격으로 정상 저장된 일반 숙련도 데이터까지 모두 삭제합니다.
+
+```sql
+UPDATE class_mastery_exp SET masteryType = 1;
+```
+
+`WHERE` 조건이 없어서 `masteryType=2`인 마스터 숙련도까지 전부 일반 숙련도 `1`로 변경됩니다.
+
+문제 사용자만 복구한다면 아래처럼 처리해야 합니다.
+
+```sql
+START TRANSACTION;
+
+-- 기존 0번 데이터와 함께 생성된 빈 1번 기본 데이터만 삭제
+DELETE FROM class_mastery_exp
+WHERE uId = 10138361
+  AND classType = 2
+  AND masteryType = 1
+  AND masteryExp = 0
+  AND masteryLv = 0
+  AND masteryPoint = 0
+  AND masteryCoin = 0
+  AND curPanel = 1
+  AND panelCount = 1;
+
+-- 기존 일반 숙련도만 0 → 1로 변환
+UPDATE class_mastery_exp
+SET masteryType = 1
+WHERE uId = 10138361
+  AND classType = 2
+  AND masteryType = 0;
+
+COMMIT;
+```
+
+슬롯 데이터도 반드시 확인해야 합니다.
+
+```sql
+SELECT masteryType, COUNT(*)
+FROM class_mastery_slot
+WHERE uId = 10138361
+GROUP BY masteryType;
+```
+
+슬롯이 `masteryType=0`으로 남아 있다면 다음 변환도 필요합니다.
+
+```sql
+UPDATE class_mastery_slot
+SET masteryType = 1
+WHERE uId = 10138361
+  AND masteryType = 0;
+```
+
+핵심은 다음과 같습니다.
+
+- 기존 일반 숙련도 `0`만 `1`로 변경
+- 새로 생성된 빈 `1`번 레코드만 삭제
+- 마스터 숙련도 `2`는 절대 변경하지 않음
+- `class_mastery_exp`와 `class_mastery_slot`을 함께 변환
+- 전체 적용 전 백업 및 중복 데이터 검사가 필요
+
+따라서 제시하신 두 쿼리는 그대로 실행하면 안 됩니다. 특히 두 번째 쿼리는 모든 마스터 숙련도 데이터를 일반 숙련도로 바꾸게 됩니다.
+
+### User
+
+전체 사용자 대상으로 해야 하기 때문에 이렇게 수정되었습니다.
+DELETE FROM class\_mastery\_exp WHERE masteryType = 1;
+UPDATE class\_mastery\_exp SET masteryType = 1 WHERE masteryType = 0;
+Delete 전에 경험치 update를 진행해야 하는데 만약 masteryLv 9레벨일 경우에는 masteryExp 컬럼이 아니라 masteryPoint 값에 추가해 줘야 합니다.
+아래의 쿼리문을 예로 든다면 같은 사용자들 중에 classType 값이 같고 masteryType 값이 0,1이 있을 경우 1에 있는 masteryExp 값을 0에 있는 masteryLv을 확인하여 1에 있는 masteryExp 값을 masteryExp 값에 갱신할지 masteryPoint 값으로 추가할지 확인해야 합니다.
+update 쿼리문을 만들어 주세요.
+idx	uId	classType	masteryType	masteryExp	masteryLv	masteryPoint	masteryCoin	regDate	integrateNum	curPanel	panelCount
+2282172698822040843	10138361	2	0	115800000	9	12524	0	0001-01-01 00:00:00	10	2	2
+2531640372588207382	10138361	2	1	0	0	0	0	0001-01-01 00:00:00	0	1	1
+2531640372588223766	10138361	2	2	0	0	0	0	0001-01-01 00:00:00	0	1	1
+CREATE TABLE `class_mastery_exp` (
+`idx` BIGINT(20) NOT NULL,
+`uId` BIGINT(20) NOT NULL,
+`classType` INT(11) NOT NULL,
+`masteryType` INT(11) NOT NULL DEFAULT 1,
+`masteryExp` BIGINT(20) NOT NULL,
+`masteryLv` INT(11) NOT NULL,
+`masteryPoint` BIGINT(20) NOT NULL,
+`masteryCoin` BIGINT(20) NOT NULL,
+`regDate` DATETIME NOT NULL,
+`integrateNum` INT(11) NOT NULL DEFAULT 0,
+`curPanel` INT(11) NOT NULL DEFAULT 0,
+`panelCount` INT(11) NOT NULL DEFAULT 0,
+PRIMARY KEY (`idx`),
+KEY `index_uid` (`uId`)
+) ENGINE=INNODB DEFAULT CHARSET=utf8 COLLATE=utf8\_general\_ci
+
+### Assistant
+
+`masteryType=1`의 경험치를 `masteryType=0` 레코드에 병합한 뒤 삭제하는 방식으로 작성하겠습니다. 9레벨 경험치가 포인트로 변환될 때 적용되는 환산식도 서버 코드와 대조해 쿼리에 반영하겠습니다.
+
+### Assistant
+
+요청한 조건은 `UPDATE JOIN + CASE`로 처리할 수 있습니다. 다만 `masteryType=1` 전체 삭제보다는 `masteryType=0`과 짝이 있는 1번 데이터만 병합 후 삭제하는 것이 안전합니다.
+
+`masteryExp`는 DB에 저장될 때 이미 경험치 환산율이 적용된 값이므로 여기서 `0.0001`을 다시 곱하면 안 됩니다.
+
+```sql
+START TRANSACTION;
+
+-- type 1의 데이터를 기존 type 0 데이터에 병합
+UPDATE class_mastery_exp AS legacyRow
+INNER JOIN class_mastery_exp AS type1Row
+        ON type1Row.uId = legacyRow.uId
+       AND type1Row.classType = legacyRow.classType
+       AND type1Row.masteryType = 1
+SET
+    legacyRow.masteryExp =
+        legacyRow.masteryExp
+        + CASE
+            WHEN legacyRow.masteryLv >= 9 THEN 0
+            ELSE type1Row.masteryExp
+          END,
+
+    legacyRow.masteryPoint =
+        legacyRow.masteryPoint
+        + type1Row.masteryPoint
+        + CASE
+            WHEN legacyRow.masteryLv >= 9 THEN type1Row.masteryExp
+            ELSE 0
+          END,
+
+    -- type 1에서 이미 사용·적립된 코인 정보도 보존
+    legacyRow.masteryCoin =
+        legacyRow.masteryCoin + type1Row.masteryCoin
+
+WHERE legacyRow.masteryType = 0;
+
+
+-- 병합이 끝난 type 1 레코드만 삭제
+DELETE type1Row
+FROM class_mastery_exp AS type1Row
+INNER JOIN class_mastery_exp AS legacyRow
+        ON legacyRow.uId = type1Row.uId
+       AND legacyRow.classType = type1Row.classType
+       AND legacyRow.masteryType = 0
+WHERE type1Row.masteryType = 1;
+
+
+-- 기존 일반 숙련도 타입을 새 타입으로 변경
+UPDATE class_mastery_exp
+SET masteryType = 1
+WHERE masteryType = 0;
+
+COMMIT;
+```
+
+처리 결과는 다음과 같습니다.
+
+- 기존 `masteryLv >= 9`
+  - type 1의 `masteryExp`를 기존 `masteryPoint`에 추가
+- 기존 `masteryLv < 9`
+  - type 1의 `masteryExp`를 기존 `masteryExp`에 추가
+- type 1에 이미 존재하는 `masteryPoint`, `masteryCoin`도 보존
+- `masteryType=2` 데이터는 변경하지 않음
+- type 0과 짝이 없는 정상 type 1 데이터도 삭제하지 않음
+
+실행 전 중복 레코드를 확인해야 합니다. 스키마에는 `(uId, classType, masteryType)` 유니크 키가 없기 때문입니다.
+
+```sql
+SELECT
+    uId,
+    classType,
+    masteryType,
+    COUNT(*) AS rowCount
+FROM class_mastery_exp
+WHERE masteryType IN (0, 1)
+GROUP BY uId, classType, masteryType
+HAVING COUNT(*) > 1;
+```
+
+이 결과가 한 건이라도 나오면 먼저 중복을 정리해야 합니다. 그렇지 않으면 어떤 type 1 레코드가 병합될지 보장되지 않습니다.
+
+또한 서버가 실행 중이면 마이그레이션 직후 메모리에 있던 이전 엔티티가 다시 저장될 수 있으므로, 반드시 서버를 중지한 상태에서 백업 후 실행하는 것이 안전합니다. `masteryLv < 9` 사용자는 경험치 병합으로 레벨 기준치를 넘어갈 수 있으므로 마이그레이션 후 레벨·슬롯 정합성 확인도 필요합니다.
+
+### User
+
+SELECT \* FROM test.class\_mastery\_exp\_81 WHERE masteryType = 1 AND masteryExp > 0 검증 쿼리를 만들고 있습니다. masteryType 값이 0과 1 모두 있는 사용자를 추출하려면 어떻게 만들어야 하나요?
+
+### Assistant
+
+같은 `uId`, `classType`에 `masteryType=0`과 `1`이 모두 존재하고, 1번 데이터의 `masteryExp > 0`인 레코드를 확인하려면 다음 쿼리를 사용하면 됩니다.
+
+```sql
+SELECT
+    type0.*,
+    type1.*
+FROM test.class_mastery_exp_81 AS type0
+INNER JOIN test.class_mastery_exp_81 AS type1
+        ON type1.uId = type0.uId
+       AND type1.classType = type0.classType
+WHERE type0.masteryType = 0
+  AND type1.masteryType = 1
+  AND type1.masteryExp > 0
+ORDER BY type0.uId, type0.classType;
+```
+
+사용자와 클래스만 중복 없이 추출하려면 다음 쿼리가 더 적합합니다.
+
+```sql
+SELECT DISTINCT
+    type0.uId,
+    type0.classType
+FROM test.class_mastery_exp_81 AS type0
+INNER JOIN test.class_mastery_exp_81 AS type1
+        ON type1.uId = type0.uId
+       AND type1.classType = type0.classType
+WHERE type0.masteryType = 0
+  AND type1.masteryType = 1
+  AND type1.masteryExp > 0
+ORDER BY type0.uId, type0.classType;
+```
+
+단순히 0과 1을 모두 가진 대상을 찾되 경험치 조건이 필요 없다면 다음과 같습니다.
+
+```sql
+SELECT
+    uId,
+    classType
+FROM test.class_mastery_exp_81
+WHERE masteryType IN (0, 1)
+GROUP BY uId, classType
+HAVING COUNT(DISTINCT masteryType) = 2
+ORDER BY uId, classType;
+```
+
+### User
+
+idx	worldNo	serverGroupId	uId	charId	name	nickNo	regDate
+151192	100	130	122014	1369458693236027481	디쑈	0	2024-07-11 14:29:48
+일반 숙련도 물약 (캐릭터)	41131082
+상급 숙련도 물약 (캐릭터)	41131092
+최상급 숙련도 물약 (캐릭터)	41131102
+ItemUse = 5007,     //아이템 사용
+SELECT \* FROM `rasalas_w01_log_03_new`.`gamelog_partition` WHERE uId = 122014 AND dateKey = 20260902 AND logId = 5007 AND p1 IN (41131082, 41131092, 41131102)
+idx	logId	date	uId	charId	level	characterClass	p1	p2	p3	parameterString	dateKey
+224229512	5007	2026-09-02 13:58:17	122014	1369458693236027481	87	6	41131092	17		{"serial":"2481222316141396245","rank":"1","pCnt":"312","amt":"30","cnt":"282","oKey":"1369458693236027481","isL":"False"}	20260902
+224229635	5007	2026-09-02 13:58:51	122014	1369458693236027481	87	6	41131092	17		{"serial":"2481222316141396245","rank":"1","pCnt":"282","amt":"30","cnt":"252","oKey":"1369458693236027481","isL":"False"}	20260902
+숙련도 물약을 사용하였는데 실제로 경험치가 오르지 않았다고 하는 사용자가 있어서 데이터 확인중입니다. 위의 로그로 추출한 데이터에서 숙련도가 0에서 얼마가 되어야 하는지 확인해 주세요.
+
+### Assistant
+
+로그상 `41131092` 아이템을 각각 30개씩 두 번 사용하여 총 60개가 소모된 것으로 보입니다. 아이템 1개당 숙련도 경험치와 서버의 환산율을 코드·기획데이터에서 확인한 뒤 최종 증가값을 계산하겠습니다.
+
+### Assistant
+
+현재 QA 기획데이터와 로그 기준으로, 일반 숙련도 경험치는 `0 → 9,000,000`이 되어야 합니다.
+
+계산은 다음과 같습니다.
+
+- `41131092` 1개당 경험치: `150,000`
+- 1차 사용: `30개 × 150,000 = 4,500,000`
+- 2차 사용: `30개 × 150,000 = 4,500,000`
+- 총 증가 경험치: `9,000,000`
+
+로그의 `pCnt`도 `312 → 282 → 252`이므로 총 60개가 실제 차감됐습니다.
+
+예상 DB 상태는 다음과 같습니다.
+
+```text
+masteryType  = 1
+classType    = 6
+masteryExp   = 9,000,000
+masteryLv    = 2
+masteryPoint = 0
+```
+
+레벨 기준은 누적 경험치입니다.
+
+- 1레벨: `1,800,000`
+- 2레벨: `4,800,000`
+- 3레벨: `13,800,000`
+
+따라서 누적 경험치 `9,000,000`이면 2레벨이며, UI가 현재 레벨 구간 경험치를 표시한다면 `4,200,000 / 9,000,000`으로 표시될 수 있습니다.
+
+아이템 설정은 [ItemData.json](E:/Rasalas/Trunk/qa/Client/Assets/ResourceBundles/Data/GameData/ItemData.json:123926)에서 확인되며, `ItemFunctionList=150000`입니다. 물약 사용 경로에서는 수량과 이 값을 곱하여 직접 숙련도 경험치에 추가합니다([ActorModel_Inventory.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Actor/ActorModel_Inventory.cs:503)).
+
+아래 쿼리로 0번과 1번 데이터를 함께 확인해야 합니다.
+
+```sql
+SELECT
+    idx,
+    uId,
+    classType,
+    masteryType,
+    masteryExp,
+    masteryLv,
+    masteryPoint,
+    masteryCoin,
+    curPanel,
+    panelCount
+FROM rasalas_w01_g71.class_mastery_exp
+WHERE uId = 122014
+  AND classType = 6
+  AND masteryType IN (0, 1)
+ORDER BY masteryType;
+```
+
+만약 `masteryType=0`은 그대로이고 `masteryType=1`에 `9,000,000`이 들어갔다면, 물약 경험치는 정상 지급됐지만 기존 일반 숙련도가 0번에 남아 있어 서로 다른 레코드로 분리된 상태입니다. 반대로 두 레코드 모두 경험치가 0이면 아이템 60개가 차감됐음에도 숙련도 반영 또는 DB 저장이 실패한 것으로 판단할 수 있습니다.
+
+### User
+
+일반 숙련도 포인트 얼마에 1코인으로 변환는지 확인해 주세요.
+
+### Assistant
+
+일반 숙련도 포인트의 코인 변환 기준값과 실제 차감·지급 로직을 현재 QA 기획데이터 및 서버 코드에서 확인하겠습니다.
+
+### Assistant
+
+현재 QA 기획데이터 기준으로 일반 숙련도는 다음 비율로 변환됩니다.
+
+- `292,042 숙련도 포인트 = 일반 숙련도 코인 1개`
+- 지급 아이템 ID: `51511032`
+
+예시:
+
+- `292,041 포인트` → 0코인
+- `292,042 포인트` → 1코인
+- `584,084 포인트` → 2코인
+- `300,000 포인트` → 1코인 지급 후 `7,958 포인트` 유지
+
+기획데이터는 [ClassMasteryData.json](E:/Rasalas/Trunk/qa/Client/Assets/ResourceBundles/Data/GameData/ClassMasteryData.json:14288)의 `MasterCoinMaxPoint=292042`이며, 서버는 정수 나눗셈으로 코인 수를 계산하고 사용한 포인트만 차감합니다([ClassMasteryModel.cs](E:/Rasalas/Trunk/qa/Server/EgonServer/ServerNodes/GameNode/Models/Section/ClassMasteryModel.cs:266)).
